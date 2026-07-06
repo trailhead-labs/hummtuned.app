@@ -49,7 +49,7 @@ if (animated.length) {
 const sciTabs = Array.from(document.querySelectorAll('.sci-tab'));
 
 if (sciTabs.length) {
-    const names = ['beats', 'evidence', 'carrier', 'programs', 'shape', 'citations'];
+    const names = ['beats', 'carrier', 'evidence', 'programs', 'shape', 'citations'];
     const panels = Array.from(document.querySelectorAll('.sci-panel'));
     const top = document.getElementById('sci-panels');
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;

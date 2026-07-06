@@ -102,42 +102,6 @@
         </div>
     </section>
 
-    {{-- Testimonials --}}
-    @php
-        // Placeholder testimonials and monogram avatars. Swap for real, attributed
-        // reviews (and photos, with consent) once TestFlight feedback lands;
-        // fabricated ones would undercut the honesty this brand is built on.
-        $testimonials = [
-            ['quote' => "Honestly bought it half-expecting the usual pseudoscience. Then I found the page where they grade each program and admit which ones are weak. That's when I actually started using it.", 'name' => 'Maya R.', 'context' => 'product designer', 'initials' => 'MR', 'tint' => 'bg-violet/15 text-violet-soft'],
-            ['quote' => "What got me is what isn't there. No streak counter, no 'come back' notification at 9pm, no account to make. I set a timer and it's just gone when it's done.", 'name' => 'Daniel K.', 'context' => 'backend dev', 'initials' => 'DK', 'tint' => 'bg-coral/15 text-coral'],
-            ['quote' => "I use the same two programs every day and somehow it never sounds the same twice. I kept waiting to get sick of it. Still haven't.", 'name' => 'Priya S.', 'context' => 'PhD student', 'initials' => 'PS', 'tint' => 'bg-violet/15 text-violet-soft'],
-            ['quote' => "Paid the one time about four months ago. Part of me is still waiting for the subscription email that never comes. Strange feeling, in a good way.", 'name' => 'Tom E.', 'context' => 'nurse', 'initials' => 'TE', 'tint' => 'bg-coral/15 text-coral'],
-            ['quote' => "I grab my phone first thing regardless, so now it's this on the walk to the kitchen instead of Instagram. Small change, but my mornings feel less frantic.", 'name' => 'Lena M.', 'context' => 'illustrator', 'initials' => 'LM', 'tint' => 'bg-violet/15 text-violet-soft'],
-            ['quote' => "I do this kind of research for a living, so I went in skeptical and read the whole science page. It's careful, it cites its sources, and it doesn't oversell. Rare.", 'name' => 'Arjun P.', 'context' => 'neuroscientist', 'initials' => 'AP', 'tint' => 'bg-coral/15 text-coral'],
-        ];
-    @endphp
-    <section class="border-t border-white/5 py-24">
-        <div class="mx-auto max-w-6xl px-6">
-            <p class="reveal mb-4 text-sm uppercase tracking-[0.2em] text-violet-soft/70">In their words</p>
-            <h2 class="reveal font-display text-4xl font-extralight text-cream sm:text-5xl">Trusted for what it doesn't do.</h2>
-
-            <div class="reveal mt-14 gap-4 sm:columns-2 lg:columns-3">
-                @foreach ($testimonials as $testimonial)
-                    <figure class="mb-4 break-inside-avoid rounded-2xl border border-white/8 bg-white/[0.02] p-6">
-                        <blockquote class="leading-relaxed text-cream/90">{{ $testimonial['quote'] }}</blockquote>
-                        <figcaption class="mt-5 flex items-center gap-3">
-                            <span class="grid h-9 w-9 shrink-0 place-items-center rounded-full font-display text-sm {{ $testimonial['tint'] }}">{{ $testimonial['initials'] }}</span>
-                            <span class="leading-tight">
-                                <span class="block text-sm text-cream">{{ $testimonial['name'] }}</span>
-                                <span class="block text-xs text-muted">{{ $testimonial['context'] }}</span>
-                            </span>
-                        </figcaption>
-                    </figure>
-                @endforeach
-            </div>
-        </div>
-    </section>
-
     {{-- 4. The engine --}}
     <section class="border-t border-white/5 py-24">
         <div class="mx-auto max-w-3xl px-6 text-center">
@@ -214,7 +178,43 @@
                 <div class="flex items-center gap-3 border-b border-white/5 py-3 text-cream/90"><span class="h-1.5 w-1.5 rounded-full bg-coral"></span> No streaks or notifications.</div>
                 <div class="flex items-center gap-3 border-b border-white/5 py-3 text-cream/90"><span class="h-1.5 w-1.5 rounded-full bg-coral"></span> Works offline, entirely on-device.</div>
             </div>
-            <p class="reveal mt-12 font-display text-2xl font-light text-violet-soft">Humm succeeds when you forget it's running.</p>
+            <p class="reveal mt-18 font-display text-2xl font-light text-violet-soft">Humm succeeds when you forget it's running.</p>
+        </div>
+    </section>
+
+    {{-- Testimonials (social proof, right before the price) --}}
+    @php
+        // Placeholder testimonials and monogram avatars. Swap for real, attributed
+        // reviews (and photos, with consent) once TestFlight feedback lands;
+        // fabricated ones would undercut the honesty this brand is built on.
+        $testimonials = [
+            ['quote' => "Honestly bought it half-expecting the usual pseudoscience. Then I found the page where they grade each program and admit which ones are weak. That's when I actually started using it.", 'name' => 'Maya R.', 'context' => 'product designer', 'initials' => 'MR', 'tint' => 'bg-violet/15 text-violet-soft'],
+            ['quote' => "What got me is what isn't there. No streak counter, no 'come back' notification at 9pm, no account to make. I set a timer and it's just gone when it's done.", 'name' => 'Daniel K.', 'context' => 'backend dev', 'initials' => 'DK', 'tint' => 'bg-coral/15 text-coral'],
+            ['quote' => "I use the same two programs every day and somehow it never sounds the same twice. I kept waiting to get sick of it. Still haven't.", 'name' => 'Priya S.', 'context' => 'PhD student', 'initials' => 'PS', 'tint' => 'bg-violet/15 text-violet-soft'],
+            ['quote' => "Paid the one time about four months ago. Part of me is still waiting for the subscription email that never comes. Strange feeling, in a good way.", 'name' => 'Tom E.', 'context' => 'nurse', 'initials' => 'TE', 'tint' => 'bg-coral/15 text-coral'],
+            ['quote' => "I grab my phone first thing regardless, so now it's this on the walk to the kitchen instead of Instagram. Small change, but my mornings feel less frantic.", 'name' => 'Lena M.', 'context' => 'illustrator', 'initials' => 'LM', 'tint' => 'bg-violet/15 text-violet-soft'],
+            ['quote' => "I do this kind of research for a living, so I went in skeptical and read the whole science page. It's careful, it cites its sources, and it doesn't oversell. Rare.", 'name' => 'Arjun P.', 'context' => 'neuroscientist', 'initials' => 'AP', 'tint' => 'bg-coral/15 text-coral'],
+        ];
+    @endphp
+    <section class="border-t border-white/5 py-24">
+        <div class="mx-auto max-w-6xl px-6">
+            <p class="reveal mb-4 text-sm uppercase tracking-[0.2em] text-violet-soft/70">In their words</p>
+            <h2 class="reveal font-display text-4xl font-extralight text-cream sm:text-5xl">Trusted for what it doesn't do.</h2>
+
+            <div class="reveal mt-14 gap-4 sm:columns-2 lg:columns-3">
+                @foreach ($testimonials as $testimonial)
+                    <figure class="mb-4 break-inside-avoid rounded-2xl border border-white/8 bg-white/[0.02] p-6">
+                        <blockquote class="leading-relaxed text-cream/90">{{ $testimonial['quote'] }}</blockquote>
+                        <figcaption class="mt-5 flex items-center gap-3">
+                            <span class="grid h-9 w-9 shrink-0 place-items-center rounded-full font-display text-sm {{ $testimonial['tint'] }}">{{ $testimonial['initials'] }}</span>
+                            <span class="leading-tight">
+                                <span class="block text-sm text-cream">{{ $testimonial['name'] }}</span>
+                                <span class="block text-xs text-muted">{{ $testimonial['context'] }}</span>
+                            </span>
+                        </figcaption>
+                    </figure>
+                @endforeach
+            </div>
         </div>
     </section>
 
@@ -232,7 +232,7 @@
                         <p class="mt-1 text-sm text-muted">Every program, full access.</p>
                     </div>
                 </div>
-                <div class="pt-6">
+                <div class="pt-6 border-b border-white/8 pb-6">
                     <p class="font-display text-xl text-cream">Then one price, once, per device</p>
                     <p class="mt-1 text-sm text-muted">Lifetime, all future programs included.</p>
                 </div>

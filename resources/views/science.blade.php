@@ -24,8 +24,8 @@
                 <nav id="sci-nav" role="tablist" aria-label="Science page sections"
                      class="flex gap-1 overflow-x-auto border-b border-white/8 pb-3 md:flex-col md:overflow-visible md:border-b-0 md:pb-0">
                     <button class="sci-tab" role="tab" data-tab="beats"><span class="idx">01</span> Binaural beats</button>
-                    <button class="sci-tab" role="tab" data-tab="evidence"><span class="idx">02</span> Measurable vs debated</button>
-                    <button class="sci-tab" role="tab" data-tab="carrier"><span class="idx">03</span> The carrier</button>
+                    <button class="sci-tab" role="tab" data-tab="carrier"><span class="idx">02</span> The carrier</button>
+                    <button class="sci-tab" role="tab" data-tab="evidence"><span class="idx">03</span> Measurable vs debated</button>
                     <button class="sci-tab" role="tab" data-tab="programs"><span class="idx">04</span> Program grounding</button>
                     <button class="sci-tab" role="tab" data-tab="shape"><span class="idx">05</span> Session shape</button>
                     <button class="sci-tab" role="tab" data-tab="citations"><span class="idx">06</span> Citations</button>
@@ -46,27 +46,13 @@
                     <x-science.binaural />
 
                     <div class="prose max-w-2xl text-[17px] leading-relaxed text-muted">
-                        <p>The idea the whole category rests on is called <strong>entrainment</strong>: the notion that if you present a rhythmic beat, the brain's own electrical rhythm will fall into step with it and shift your state along with it. That is the promise. The honest picture of how well it holds up is next.</p>
-                    </div>
-
-                    <x-science.next hash="evidence" label="Measurable vs debated" />
-                </div>
-
-                {{-- 02 Measurable vs debated --}}
-                <div class="sci-panel" id="panel-evidence" role="tabpanel" hidden>
-                    <h2 class="font-display text-3xl font-extralight text-cream">What is measurable, and what is still debated</h2>
-                    <div class="prose max-w-2xl text-[17px] leading-relaxed text-muted">
-                        <p>Two things are worth separating, because they are often blurred together and only one of them is solid.</p>
-                        <p><strong>The neural response is real and measurable.</strong> When you listen to a binaural beat, the brain produces a matching electrical response that can be recorded on EEG, the auditory steady-state response. The signal has been traced along the auditory pathway from the brainstem up to the cortex (eNeuro 2020). This is not in dispute. The brain registers the beat, and it does so specifically.</p>
-                        <p><strong>Whether that response reliably drives the outcome is still debated.</strong> The measurable response is one thing; whether it reliably produces the subjective or cognitive result you were after (sharper focus, deeper calm, easier sleep) is another, and the literature has not settled it. The best current synthesis, Ingendoh, Posny and Heine (2023, PLOS ONE, 14 EEG studies), found 5 studies supporting entrainment, 8 contradicting it, 1 mixed, and concluded the question "cannot be settled." No study demonstrated entrainment in the fast beta band, and every study that embedded the beat in noise found none. Effects, where they appear, are modest and vary a lot between individuals.</p>
-                        <p>So the picture is neither "this is proven" nor "this is nothing." It is specific. The one meta-analysis showing a real aggregate effect (Garcia-Argibay 2019, g ≈ 0.45) is driven mostly by anxiety and relaxation, the calmer theta and delta states, not by arousal or cognition. That is why the best-grounded programs in Humm are the calming and meditative ones, and why we are more cautious about the alertness and cognition programs. We picked, for each program, the least-unsupported band the research points to, and we tell you where on that spectrum each one sits.</p>
-                        <p>This is also why Humm never asks you to choose a frequency. The defaults are the research. The number is not a dial for you to turn; it is a conclusion we reached from the sources, and the program name is the only interface you need.</p>
+                        <p>The idea the whole category rests on is called <strong>entrainment</strong>: the notion that if you present a rhythmic beat, the brain's own electrical rhythm will fall into step with it and shift your state along with it. That is the promise, and we weigh how well it holds up shortly. First, the piece of the mechanism we have only named so far: the carrier those two tones straddle.</p>
                     </div>
 
                     <x-science.next hash="carrier" label="The carrier" />
                 </div>
 
-                {{-- 03 The carrier --}}
+                {{-- 02 The carrier --}}
                 <div class="sci-panel" id="panel-carrier" role="tabpanel" hidden>
                     <h2 class="font-display text-3xl font-extralight text-cream">The constant carrier and its variants</h2>
                     <div class="prose max-w-2xl text-[17px] leading-relaxed text-muted">
@@ -97,6 +83,20 @@
                         </div>
                     </div>
                     <p class="mt-6 max-w-2xl text-[17px] text-muted">In every case the rule is the same: fix the carrier, schedule only the beat.</p>
+
+                    <x-science.next hash="evidence" label="Measurable vs debated" />
+                </div>
+
+                {{-- 03 Measurable vs debated --}}
+                <div class="sci-panel" id="panel-evidence" role="tabpanel" hidden>
+                    <h2 class="font-display text-3xl font-extralight text-cream">What is measurable, and what is still debated</h2>
+                    <div class="prose max-w-2xl text-[17px] leading-relaxed text-muted">
+                        <p>Two things are worth separating, because they are often blurred together and only one of them is solid.</p>
+                        <p><strong>The neural response is real and measurable.</strong> When you listen to a binaural beat, the brain produces a matching electrical response that can be recorded on EEG, the auditory steady-state response. The signal has been traced along the auditory pathway from the brainstem up to the cortex (eNeuro 2020). This is not in dispute. The brain registers the beat, and it does so specifically.</p>
+                        <p><strong>Whether that response reliably drives the outcome is still debated.</strong> The measurable response is one thing; whether it reliably produces the subjective or cognitive result you were after (sharper focus, deeper calm, easier sleep) is another, and the literature has not settled it. The best current synthesis, Ingendoh, Posny and Heine (2023, PLOS ONE, 14 EEG studies), found 5 studies supporting entrainment, 8 contradicting it, 1 mixed, and concluded the question "cannot be settled." No study demonstrated entrainment in the fast beta band, and every study that embedded the beat in noise found none. Effects, where they appear, are modest and vary a lot between individuals.</p>
+                        <p>So the picture is neither "this is proven" nor "this is nothing." It is specific. The one meta-analysis showing a real aggregate effect (Garcia-Argibay 2019, g ≈ 0.45) is driven mostly by anxiety and relaxation, the calmer theta and delta states, not by arousal or cognition. That is why the best-grounded programs in Humm are the calming and meditative ones, and why we are more cautious about the alertness and cognition programs. We picked, for each program, the least-unsupported band the research points to, and we tell you where on that spectrum each one sits.</p>
+                        <p>This is also why Humm never asks you to choose a frequency. The defaults are the research. The number is not a dial for you to turn; it is a conclusion we reached from the sources, and the program name is the only interface you need.</p>
+                    </div>
 
                     <x-science.next hash="programs" label="Program grounding" />
                 </div>
