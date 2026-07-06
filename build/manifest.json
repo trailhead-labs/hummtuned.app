@@ -252,7 +252,7 @@
     "src": "_outfit-600-normal-CWJcPgd7.woff"
   },
   "resources/css/app.css": {
-    "file": "assets/app-CgcnAt_L.css",
+    "file": "assets/app-CXxZi40u.css",
     "name": "app",
     "names": [
       "app.css"
@@ -261,7 +261,7 @@
     "isEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app-E6inqgkX.js",
+    "file": "assets/app-k51hOQKl.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true
