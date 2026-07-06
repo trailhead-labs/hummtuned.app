@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Humm — Focus, sleep, wake, dream. One dial.</title>
+  <meta name="description" content="A soothing soundscape, mixed fresh every session, over binaural programs your brain measurably responds to. One dial. No ads, no tracking, one lifetime price." />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink:    '#0B0918',
+            panel:  '#141032',
+            violet: { DEFAULT: '#8B7CF0', bright: '#A99BFF', soft: '#B7ABF2' },
+            coral:  '#E08A5F',
+            cream:  '#EFE7D8',
+            muted:  '#8B84B0',
+          },
+          fontFamily: {
+            display: ['Outfit', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            body:    ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+
+  <style>
+    :root { color-scheme: dark; }
+    body { background-color: #0B0918; }
+
+    .bg-field {
+      background:
+        radial-gradient(120% 80% at 50% -10%, rgba(139,124,240,0.16), transparent 60%),
+        radial-gradient(100% 60% at 50% 110%, rgba(224,138,95,0.06), transparent 60%),
+        linear-gradient(180deg, #0C0A1E 0%, #0B0918 40%, #090713 100%);
+    }
+
+    /* Phone shell for the hero app screen */
+    .phone {
+      background: linear-gradient(180deg, #0E0B23, #0A0817);
+      box-shadow: 0 40px 120px -30px rgba(139,124,240,.35), inset 0 0 0 1px rgba(255,255,255,.05);
+    }
+
+    .reveal { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease; }
+    .reveal.in { opacity: 1; transform: none; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
+      html { scroll-behavior: auto; }
+    }
+
+    ::selection { background: rgba(139,124,240,.35); }
+  </style>
+</head>
+
+<body class="bg-field font-body text-cream/90 antialiased">
+
+  <!-- ── Top bar ─────────────────────────────────────────────────────── -->
+  <header class="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
+    <a href="#top" class="flex items-center gap-2.5">
+      <span class="grid h-7 w-7 place-items-center rounded-full" style="background:conic-gradient(from 180deg,#9B8CFF,#8B7CF0,#E08A5F,#9B8CFF);">
+        <span class="h-4 w-4 rounded-full bg-ink"></span>
+      </span>
+      <span class="font-display text-xl font-medium tracking-tight text-cream">Humm</span>
+    </a>
+    <nav class="flex items-center gap-6">
+      <a href="programs.html" class="hidden text-sm text-muted transition hover:text-cream sm:block">Programs</a>
+      <a href="#pricing" class="rounded-full border border-white/10 px-4 py-2 text-sm text-cream/80 transition hover:border-violet/50 hover:text-white">
+        Try free for a week
+      </a>
+    </nav>
+  </header>
+
+  <!-- ── 1. Hero ─────────────────────────────────────────────────────── -->
+  <section id="top" class="mx-auto grid max-w-6xl items-center gap-14 px-6 pb-24 pt-10 lg:grid-cols-2 lg:gap-8 lg:pb-32 lg:pt-16">
+    <div class="reveal">
+      <h1 class="font-display text-5xl font-extralight leading-[1.08] tracking-tight text-cream sm:text-6xl">
+        Focus, sleep,<br>wake, dream.<br>
+        <span class="font-light text-violet-soft">One dial.</span>
+      </h1>
+      <p class="mt-7 max-w-md text-lg leading-relaxed text-muted">
+        A soothing soundscape, mixed fresh every session, over binaural programs your brain measurably responds to.
+      </p>
+
+      <div class="mt-9 flex flex-col gap-4">
+        <a href="#pricing" class="inline-flex w-fit items-center justify-center rounded-full bg-violet px-7 py-3.5 font-medium text-white shadow-lg shadow-violet/30 transition hover:bg-violet-bright">
+          Try free for a week
+        </a>
+        <div class="flex flex-wrap items-center gap-3">
+          <a href="#" class="inline-flex items-center gap-2.5 rounded-xl border border-white/12 bg-white/[0.03] px-4 py-2.5 transition hover:border-white/25">
+            <svg viewBox="0 0 384 512" class="h-6 w-6 fill-cream/90"><path d="M318.7 268c-.3-37 16.4-65 50.1-85-18.8-27-47.2-42-84.7-45-35.5-3-74 21-88 21-14.7 0-49-20-76-20-56 1-115 44-115 132 0 26 5 53 15 81 13 37 60 128 109 126 25-1 43-18 76-18 32 0 48 18 76 18 49-1 92-83 105-120-67-32-63-93-63-96zM255 90c25-30 22-58 21-68-21 1-46 14-60 30-16 18-25 40-23 65 23 2 44-10 62-27z"/></svg>
+            <span class="text-left leading-tight"><span class="block text-[10px] uppercase tracking-wide text-muted">Download on the</span><span class="block text-sm font-semibold text-cream">App Store</span></span>
+          </a>
+          <a href="#" class="inline-flex items-center gap-2.5 rounded-xl border border-white/12 bg-white/[0.03] px-4 py-2.5 transition hover:border-white/25">
+            <svg viewBox="0 0 512 512" class="h-6 w-6"><path fill="#00d2ff" d="M48 59v394c0 8 4 14 10 17l229-214L58 42c-6 3-10 9-10 17z"/><path fill="#00e676" d="M58 42l229 214 63-59L86 28c-11-6-22-2-28 14z"/><path fill="#ffea00" d="M350 197l71 39c17 10 17 33 0 43l-71 39-66-80z"/><path fill="#ff3d00" d="M58 470l229-214 63 59L86 484c-11 6-22 2-28-14z"/></svg>
+            <span class="text-left leading-tight"><span class="block text-[10px] uppercase tracking-wide text-muted">Get it on</span><span class="block text-sm font-semibold text-cream">Google Play</span></span>
+          </a>
+        </div>
+        <p class="text-sm text-muted">No card required. Works offline.</p>
+      </div>
+    </div>
+
+    <!-- Real app screen: autoplay video, real screenshot poster until the mp4 lands -->
+    <div class="reveal flex justify-center lg:justify-end">
+      <div class="phone w-[300px] rounded-[2.75rem] p-2.5">
+        <video
+          class="aspect-[108/234] w-full rounded-[2.25rem] object-cover"
+          poster="/assets/hero-poster.png"
+          autoplay muted loop playsinline
+        >
+          <source src="/assets/hero-session.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 2. A day with Humm (lead emotional) ─────────────────────────── -->
+  <section class="border-t border-white/5 py-24">
+    <div class="mx-auto max-w-6xl px-6">
+      <p class="reveal mb-4 text-sm uppercase tracking-[0.2em] text-violet-soft/70">Not a sleep app. Not a focus app.</p>
+      <h2 class="reveal font-display text-4xl font-extralight text-cream sm:text-5xl">A state for the whole day.</h2>
+      <p class="reveal mt-6 max-w-xl text-lg leading-relaxed text-muted">
+        The phone is the first thing you reach for in the morning and the last thing you put down at night. Right now that reflex feeds you the feed. Humm gives it somewhere better to land.
+      </p>
+
+      <div class="mt-14 grid gap-px overflow-hidden rounded-2xl border border-white/8 bg-white/5 sm:grid-cols-5">
+        <div class="reveal bg-ink/60 p-6">
+          <p class="font-display text-lg text-cream"><span class="italic text-violet-soft">Humm</span> before your first coffee</p>
+          <p class="mt-2 text-sm text-muted">A nudge toward alert on the way to the kitchen.</p>
+        </div>
+        <div class="reveal bg-ink/60 p-6">
+          <p class="font-display text-lg text-cream"><span class="italic text-violet-soft">Humm</span> on the bus</p>
+          <p class="mt-2 text-sm text-muted">A calm buffer instead of the feed.</p>
+        </div>
+        <div class="reveal bg-ink/60 p-6">
+          <p class="font-display text-lg text-cream"><span class="italic text-violet-soft">Humm</span> through the deep work</p>
+          <p class="mt-2 text-sm text-muted">Set the state, then hold it.</p>
+        </div>
+        <div class="reveal bg-ink/60 p-6">
+          <p class="font-display text-lg text-cream"><span class="italic text-violet-soft">Humm</span> in meditation</p>
+          <p class="mt-2 text-sm text-muted">Drop in faster, stay longer.</p>
+        </div>
+        <div class="reveal bg-ink/60 p-6">
+          <p class="font-display text-lg text-cream"><span class="italic text-violet-soft">Humm</span> before sleep</p>
+          <p class="mt-2 text-sm text-muted">Wind the day down on purpose.</p>
+        </div>
+      </div>
+
+      <p class="reveal mt-10 max-w-2xl text-lg text-muted">
+        Don't doomscroll toward the day. <span class="text-cream">Humm your way to the coffee machine.</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ── 3. The three-step ritual ────────────────────────────────────── -->
+  <section class="border-t border-white/5 py-24">
+    <div class="mx-auto max-w-6xl px-6">
+      <p class="reveal mb-14 text-sm uppercase tracking-[0.2em] text-violet-soft/70">How a session works</p>
+      <div class="grid gap-10 sm:grid-cols-3">
+        <div class="reveal">
+          <div class="font-display text-sm text-muted/60">01</div>
+          <h3 class="mt-3 font-display text-2xl font-light text-cream">Pick</h3>
+          <p class="mt-2 text-muted">Choose a program. A short sheet says what it does and how long it wants.</p>
+        </div>
+        <div class="reveal">
+          <div class="font-display text-sm text-muted/60">02</div>
+          <h3 class="mt-3 font-display text-2xl font-light text-cream">Set</h3>
+          <p class="mt-2 text-muted">Turn the dial, or don't; it remembers your length.</p>
+        </div>
+        <div class="reveal">
+          <div class="font-display text-sm text-muted/60">03</div>
+          <h3 class="mt-3 font-display text-2xl font-light text-cream">Start</h3>
+          <p class="mt-2 text-muted">Headphones on. That's the whole interaction.</p>
+        </div>
+      </div>
+      <div class="reveal mt-16 border-t border-white/5 pt-8">
+        <p class="font-display text-2xl font-light text-cream">Humm tunes you. You don't tune Humm.</p>
+        <p class="mt-3 max-w-xl text-muted">Everything's here if you go looking: session pacing, the mix, the end chime. It just never asks you to touch any of it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 4. The engine ───────────────────────────────────────────────── -->
+  <section class="border-t border-white/5 py-24">
+    <div class="mx-auto max-w-3xl px-6 text-center">
+      <p class="reveal mb-6 text-sm uppercase tracking-[0.2em] text-violet-soft/70">Never the same twice</p>
+      <h2 class="reveal font-display text-4xl font-extralight leading-tight text-cream sm:text-5xl">
+        Every session is mixed fresh.<br>Familiarity never sets in.
+      </h2>
+      <p class="reveal mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-muted">
+        Most ambient audio is a fixed track. Play it enough and your ear learns it, and the moment it becomes familiar it stops working. Humm assembles a new soundscape every session from a deep pool of natural textures, melodies, and effects, and keeps shifting the mix as it plays. There's nothing to memorize and nothing to wear out.
+      </p>
+      <p class="reveal mt-6 font-display text-lg text-violet-soft">This is the part a playlist can't copy.</p>
+    </div>
+  </section>
+
+  <!-- ── 5. Programs (teaser; full detail on programs.html) ──────────── -->
+  <section class="border-t border-white/5 py-24">
+    <div class="mx-auto max-w-4xl px-6">
+      <p class="reveal mb-4 text-sm uppercase tracking-[0.2em] text-violet-soft/70">Seventeen programs, four purposes</p>
+      <h2 class="reveal font-display text-4xl font-extralight text-cream sm:text-5xl">Pick by what you need.</h2>
+      <p class="reveal mt-4 max-w-2xl text-muted">Each program is graded honestly, from strong evidence to traditional, in plain words. No overclaiming, no hidden woo.</p>
+
+      <div class="reveal mt-12 divide-y divide-white/8 border-y border-white/8">
+        <a href="programs.html" class="group flex items-baseline justify-between gap-6 py-5 transition hover:bg-white/[0.02]">
+          <div><span class="font-display text-xl text-cream">Focus &amp; Energy</span><span class="ml-3 text-sm text-muted">Six programs for work, learning, and drive.</span></div>
+          <span class="text-muted transition group-hover:text-violet-soft">→</span>
+        </a>
+        <a href="programs.html" class="group flex items-baseline justify-between gap-6 py-5 transition hover:bg-white/[0.02]">
+          <div><span class="font-display text-xl text-cream">Calm &amp; Meditation</span><span class="ml-3 text-sm text-muted">Three for winding down and turning inward.</span></div>
+          <span class="text-muted transition group-hover:text-violet-soft">→</span>
+        </a>
+        <a href="programs.html" class="group flex items-baseline justify-between gap-6 py-5 transition hover:bg-white/[0.02]">
+          <div><span class="font-display text-xl text-cream">Sleep &amp; Wake</span><span class="ml-3 text-sm text-muted">Four for naps, deep sleep, and gentle mornings.</span></div>
+          <span class="text-muted transition group-hover:text-violet-soft">→</span>
+        </a>
+        <a href="programs.html" class="group flex items-baseline justify-between gap-6 py-5 transition hover:bg-white/[0.02]">
+          <div><span class="font-display text-xl text-coral/90">Experiential</span><span class="ml-3 text-sm text-muted">Four rooted in tradition, offered for exploration.</span></div>
+          <span class="text-muted transition group-hover:text-coral">→</span>
+        </a>
+      </div>
+
+      <a href="programs.html" class="reveal mt-8 inline-flex items-center gap-2 font-medium text-violet-soft transition hover:text-violet-bright">
+        See all seventeen programs
+        <svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current stroke-2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ── 6. The science, briefly ─────────────────────────────────────── -->
+  <section class="border-t border-white/5 py-24">
+    <div class="mx-auto max-w-3xl px-6 text-center">
+      <p class="reveal mb-6 text-sm uppercase tracking-[0.2em] text-violet-soft/70">Backed by real research</p>
+      <h2 class="reveal font-display text-4xl font-extralight text-cream sm:text-5xl">The defaults are the research.</h2>
+      <p class="reveal mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-muted">
+        Play a slightly different tone in each ear and the brain responds to the difference, a response you can see on an EEG. Researchers have studied it for decades, and for programs like Deep Meditation the evidence is genuinely strong. We read all of it, picked the best-supported frequency for each program, and made it the default. Other apps hand you a frequency picker and a wall of presets, which quietly makes the science your problem. We did the opposite: the choice is already made, from the evidence, so nothing on the surface asks you to pick a frequency.
+      </p>
+      <a href="science.html" class="reveal mt-8 inline-flex items-center gap-2 font-medium text-violet-soft transition hover:text-violet-bright">
+        Read the research
+        <svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current stroke-2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ── 7. What Humm doesn't do ──────────────────────────────────────── -->
+  <section class="border-t border-white/5 py-24">
+    <div class="mx-auto max-w-4xl px-6 text-center">
+      <h2 class="reveal mx-auto max-w-2xl font-display text-3xl font-extralight leading-snug text-cream sm:text-4xl">
+        An app for your attention shouldn't be designed to consume it.
+      </h2>
+      <div class="reveal mx-auto mt-12 grid max-w-2xl gap-x-10 gap-y-4 text-left sm:grid-cols-2">
+        <div class="flex items-center gap-3 border-b border-white/5 py-3 text-cream/90"><span class="h-1.5 w-1.5 rounded-full bg-coral"></span> No ads. Ever.</div>
+        <div class="flex items-center gap-3 border-b border-white/5 py-3 text-cream/90"><span class="h-1.5 w-1.5 rounded-full bg-coral"></span> No tracking. Nothing to harvest.</div>
+        <div class="flex items-center gap-3 border-b border-white/5 py-3 text-cream/90"><span class="h-1.5 w-1.5 rounded-full bg-coral"></span> No subscription.</div>
+        <div class="flex items-center gap-3 border-b border-white/5 py-3 text-cream/90"><span class="h-1.5 w-1.5 rounded-full bg-coral"></span> No account required.</div>
+        <div class="flex items-center gap-3 border-b border-white/5 py-3 text-cream/90"><span class="h-1.5 w-1.5 rounded-full bg-coral"></span> No streaks or notifications.</div>
+        <div class="flex items-center gap-3 border-b border-white/5 py-3 text-cream/90"><span class="h-1.5 w-1.5 rounded-full bg-coral"></span> Works offline, entirely on-device.</div>
+      </div>
+      <p class="reveal mt-12 font-display text-2xl font-light text-violet-soft">Humm succeeds when you forget it's running.</p>
+    </div>
+  </section>
+
+  <!-- ── 8. Pricing ──────────────────────────────────────────────────── -->
+  <section id="pricing" class="border-t border-white/5 py-24">
+    <div class="mx-auto max-w-xl px-6 text-center">
+      <h2 class="reveal font-display text-4xl font-extralight text-cream sm:text-5xl">Buy it once. Own it for life.</h2>
+
+      <div class="reveal mt-12 rounded-3xl border border-white/10 bg-white/[0.03] p-8 text-left">
+        <div class="flex items-start justify-between border-b border-white/8 pb-6">
+          <div>
+            <p class="font-display text-xl text-cream">Free for a week</p>
+            <p class="mt-1 text-sm text-muted">Every program, full access, no card required.</p>
+          </div>
+        </div>
+        <div class="pt-6">
+          <p class="font-display text-xl text-cream">Then one price, once, per device</p>
+          <p class="mt-1 text-sm text-muted">Lifetime, all future programs included.</p>
+        </div>
+        <a href="#" class="mt-8 flex w-full items-center justify-center rounded-full bg-violet px-7 py-3.5 font-medium text-white shadow-lg shadow-violet/30 transition hover:bg-violet-bright">
+          Try free for a week
+        </a>
+        <div class="mt-5 flex items-center justify-center gap-3">
+          <a href="#" class="inline-flex items-center gap-2 rounded-lg border border-white/12 bg-white/[0.03] px-3 py-2 text-sm text-cream/80 transition hover:border-white/25">
+            <svg viewBox="0 0 384 512" class="h-5 w-5 fill-cream/90"><path d="M318.7 268c-.3-37 16.4-65 50.1-85-18.8-27-47.2-42-84.7-45-35.5-3-74 21-88 21-14.7 0-49-20-76-20-56 1-115 44-115 132 0 26 5 53 15 81 13 37 60 128 109 126 25-1 43-18 76-18 32 0 48 18 76 18 49-1 92-83 105-120-67-32-63-93-63-96zM255 90c25-30 22-58 21-68-21 1-46 14-60 30-16 18-25 40-23 65 23 2 44-10 62-27z"/></svg>
+            App Store
+          </a>
+          <a href="#" class="inline-flex items-center gap-2 rounded-lg border border-white/12 bg-white/[0.03] px-3 py-2 text-sm text-cream/80 transition hover:border-white/25">
+            <svg viewBox="0 0 512 512" class="h-5 w-5"><path fill="#00d2ff" d="M48 59v394c0 8 4 14 10 17l229-214L58 42c-6 3-10 9-10 17z"/><path fill="#00e676" d="M58 42l229 214 63-59L86 28c-11-6-22-2-28 14z"/><path fill="#ffea00" d="M350 197l71 39c17 10 17 33 0 43l-71 39-66-80z"/><path fill="#ff3d00" d="M58 470l229-214 63 59L86 484c-11 6-22 2-28-14z"/></svg>
+            Google Play
+          </a>
+        </div>
+      </div>
+
+      <p class="reveal mt-8 text-muted">Most soundscape apps cost <span class="text-cream">$60–70 per year</span>, forever. Humm is one price, once.</p>
+      <p class="reveal mt-3 text-sm text-muted/70">The license is per device, plain and up front, so there are no surprises later.</p>
+    </div>
+  </section>
+
+  <!-- ── 9. FAQ ──────────────────────────────────────────────────────── -->
+  <section class="border-t border-white/5 py-24">
+    <div class="mx-auto max-w-3xl px-6">
+      <h2 class="reveal mb-12 font-display text-4xl font-extralight text-cream sm:text-5xl">Questions.</h2>
+      <div class="divide-y divide-white/8">
+        <details class="reveal group py-5" open>
+          <summary class="flex cursor-pointer list-none items-center justify-between font-display text-lg text-cream">Do I need headphones?<span class="text-muted transition group-open:rotate-45">+</span></summary>
+          <p class="mt-3 text-muted">Yes. Binaural beats need each ear to hear its own tone, so stereo headphones are required.</p>
+        </details>
+        <details class="reveal group py-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between font-display text-lg text-cream">What does "research-grounded" mean here?<span class="text-muted transition group-open:rotate-45">+</span></summary>
+          <p class="mt-3 text-muted">Each core program's frequency is chosen from published research and graded honestly, from strong support down to traditional, stated plainly per program. We never claim more than the evidence does.</p>
+        </details>
+        <details class="reveal group py-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between font-display text-lg text-cream">Core versus experiential programs?<span class="text-muted transition group-open:rotate-45">+</span></summary>
+          <p class="mt-3 text-muted">Core programs are set from the research. Experiential ones come from tradition and subjective reports, offered for exploration, not presented as science.</p>
+        </details>
+        <details class="reveal group py-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between font-display text-lg text-cream">Which devices does it run on?<span class="text-muted transition group-open:rotate-45">+</span></summary>
+          <p class="mt-3 text-muted">iPhone and Android phones. Download from the App Store or Google Play.</p>
+        </details>
+        <details class="reveal group py-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between font-display text-lg text-cream">Why no subscription?<span class="text-muted transition group-open:rotate-45">+</span></summary>
+          <p class="mt-3 text-muted">Because an app whose job is protecting your attention shouldn't hold it hostage to a monthly fee. Buy it once, own it.</p>
+        </details>
+        <details class="reveal group py-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between font-display text-lg text-cream">Does it work offline?<span class="text-muted transition group-open:rotate-45">+</span></summary>
+          <p class="mt-3 text-muted">Yes. Everything runs on your device. Nothing is sent anywhere.</p>
+        </details>
+        <details class="reveal group py-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between font-display text-lg text-cream">Is this a medical device?<span class="text-muted transition group-open:rotate-45">+</span></summary>
+          <p class="mt-3 text-muted">No. Humm supports focus, rest, and relaxation. It does not diagnose or treat any condition.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 10. Closing CTA ─────────────────────────────────────────────── -->
+  <section class="border-t border-white/5 py-28">
+    <div class="mx-auto max-w-2xl px-6 text-center">
+      <h2 class="reveal font-display text-4xl font-extralight leading-tight text-cream sm:text-5xl">Focus, sleep, wake, dream.<br><span class="text-violet-soft">One dial.</span></h2>
+      <a href="#" class="reveal mt-9 inline-flex items-center justify-center rounded-full bg-violet px-8 py-4 font-medium text-white shadow-lg shadow-violet/30 transition hover:bg-violet-bright">
+        Try free for a week
+      </a>
+      <p class="reveal mt-4 text-sm text-muted">No card required. Works offline.</p>
+    </div>
+  </section>
+
+  <!-- ── Footer ──────────────────────────────────────────────────────── -->
+  <footer class="border-t border-white/5 py-14">
+    <div class="mx-auto max-w-6xl px-6">
+      <div class="flex flex-col gap-8 sm:flex-row sm:items-center sm:justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="grid h-6 w-6 place-items-center rounded-full" style="background:conic-gradient(from 180deg,#9B8CFF,#8B7CF0,#E08A5F,#9B8CFF);"><span class="h-3.5 w-3.5 rounded-full bg-ink"></span></span>
+          <span class="font-display text-lg text-cream">Humm</span>
+        </div>
+        <nav class="flex flex-wrap gap-x-8 gap-y-2 text-sm text-muted">
+          <a href="programs.html" class="transition hover:text-cream">Programs</a>
+          <a href="science.html" class="transition hover:text-cream">Science</a>
+          <a href="#" class="transition hover:text-cream">Privacy</a>
+          <a href="#" class="transition hover:text-cream">Support</a>
+          <a href="#" class="transition hover:text-cream">App Store</a>
+          <a href="#" class="transition hover:text-cream">Google Play</a>
+        </nav>
+      </div>
+      <a href="https://trailheadlabs.co" target="_blank" rel="noopener" class="-ml-2 mt-10 inline-flex items-center gap-2.5 text-sm text-muted transition hover:text-cream">
+        <svg viewBox="0 0 1633 963" class="w-10 h-auto fill-current" aria-hidden="true"><path d="M1453 831 939 158 710 454l-126-92-361 471h159l228-295 125 93 130-170-58-43 232-115-38 259-80-64-172 225-129-94-155 204Z"/></svg>
+        A Trailhead Labs product
+      </a>
+      <div class="mt-8 space-y-2 text-xs leading-relaxed text-muted/60">
+        <p>Humm supports focus, rest, and relaxation. It does not diagnose or treat any condition.</p>
+        <p>This site measures nothing about you. No cookies, no analytics, no tracking.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver((entries) => {
+      for (const e of entries) {
+        if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+      }
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+  </script>
+</body>
+</html>

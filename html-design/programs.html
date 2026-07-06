@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Programs — Humm</title>
+  <meta name="description" content="Seventeen programs across four purposes, each graded honestly for how strong the evidence is." />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: '#0B0918', panel: '#141032',
+            violet: { DEFAULT: '#8B7CF0', bright: '#A99BFF', soft: '#B7ABF2' },
+            coral: '#E08A5F', cream: '#EFE7D8', muted: '#8B84B0',
+          },
+          fontFamily: {
+            display: ['Outfit', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            body: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+
+  <style>
+    :root { color-scheme: dark; }
+    body { background-color: #0B0918; }
+    .bg-field {
+      background:
+        radial-gradient(120% 60% at 50% -10%, rgba(139,124,240,0.14), transparent 60%),
+        linear-gradient(180deg, #0C0A1E 0%, #0B0918 40%, #090713 100%);
+    }
+    ::selection { background: rgba(139,124,240,.35); }
+  </style>
+</head>
+
+<body class="bg-field font-body text-cream/90 antialiased">
+
+  <!-- ── Top bar ─────────────────────────────────────────────────────── -->
+  <header class="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
+    <a href="index.html" class="flex items-center gap-2.5">
+      <span class="grid h-7 w-7 place-items-center rounded-full" style="background:conic-gradient(from 180deg,#9B8CFF,#8B7CF0,#E08A5F,#9B8CFF);">
+        <span class="h-4 w-4 rounded-full bg-ink"></span>
+      </span>
+      <span class="font-display text-xl font-medium tracking-tight text-cream">Humm</span>
+    </a>
+    <a href="index.html" class="text-sm text-muted transition hover:text-cream">← Back</a>
+  </header>
+
+  <!-- ── Intro ───────────────────────────────────────────────────────── -->
+  <section class="mx-auto max-w-4xl px-6 pb-8 pt-10 lg:pt-16">
+    <p class="mb-4 text-sm uppercase tracking-[0.2em] text-violet-soft/70">Seventeen programs, four purposes</p>
+    <h1 class="font-display text-5xl font-extralight text-cream sm:text-6xl">The full catalogue.</h1>
+    <p class="mt-6 max-w-2xl text-lg leading-relaxed text-muted">
+      Pick by what you need. Each program is graded honestly for how strong the evidence is, and the tag on each names the state it settles into. The detail and the citations live on the science page.
+    </p>
+  </section>
+
+  <!-- ── Programs ────────────────────────────────────────────────────── -->
+  <section class="mx-auto max-w-6xl px-6 pb-24">
+    <div class="mt-8 space-y-16">
+
+      <div>
+        <h2 class="mb-6 font-display text-sm uppercase tracking-[0.15em] text-muted">Focus &amp; Energy</h2>
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <article class="rounded-2xl border border-white/8 bg-white/[0.02] p-5"><h3 class="font-display text-lg text-cream">Focus &amp; Concentration</h3><p class="mt-1 text-sm text-muted">Settle into steady, undistracted work.</p><div class="mt-4 flex items-center gap-1.5 text-[13px] text-violet-soft/80"><svg width="12" height="12" viewBox="0 0 12 12" class="fill-current"><circle cx="6" cy="6" r="5" fill="none" stroke="currentColor" stroke-width="1"/><path d="M6 1a5 5 0 010 10z"/></svg>Steady · Beta</div></article>
+          <article class="rounded-2xl border border-white/8 bg-white/[0.02] p-5"><h3 class="font-display text-lg text-cream">Increased Attention</h3><p class="mt-1 text-sm text-muted">Sharpen for tasks that need vigilance.</p><div class="mt-4 flex items-center gap-1.5 text-[13px] text-violet-soft/80"><svg width="12" height="12" viewBox="0 0 12 12" class="fill-current"><circle cx="6" cy="6" r="5" fill="none" stroke="currentColor" stroke-width="1"/><path d="M6 1a5 5 0 010 10z"/></svg>Steady · Gamma</div></article>
+          <article class="rounded-2xl border border-white/8 bg-white/[0.02] p-5"><h3 class="font-display text-lg text-cream">Learn &amp; Memorize</h3><p class="mt-1 text-sm text-muted">A state tuned for taking things in.</p><div class="mt-4 flex items-center gap-1.5 text-[13px] text-violet-soft/80"><svg width="12" height="12" viewBox="0 0 12 12" class="fill-current"><circle cx="6" cy="6" r="5" fill="none" stroke="currentColor" stroke-width="1"/><path d="M6 1a5 5 0 010 10z"/></svg>Steady · Beta</div></article>
+          <article class="rounded-2xl border border-white/8 bg-white/[0.02] p-5"><h3 class="font-display text-lg text-cream">Creativity</h3><p class="mt-1 text-sm text-muted">Loosen up for divergent, idea-first thinking.</p><div class="mt-4 flex items-center gap-1.5 text-[13px] text-violet-soft/80"><svg width="12" height="12" viewBox="0 0 12 12" class="fill-current"><circle cx="6" cy="6" r="5" fill="none" stroke="currentColor" stroke-width="1"/><path d="M6 1a5 5 0 010 10z"/></svg>Steady · Alpha</div></article>
+          <article class="rounded-2xl border border-white/8 bg-white/[0.02] p-5"><h3 class="font-display text-lg text-cream">Conscious Thinking</h3><p class="mt-1 text-sm text-muted">Relaxed alertness for turning something over.</p><div class="mt-4 flex items-center gap-1.5 text-[13px] text-violet-soft/80"><svg width="12" height="12" viewBox="0 0 12 12" class="fill-current"><circle cx="6" cy="6" r="5" fill="none" stroke="currentColor" stroke-width="1"/><path d="M6 1a5 5 0 010 10z"/></svg>Steady · Alpha</div></article>
+          <article class="rounded-2xl border border-white/8 bg-white/[0.02] p-5"><h3 class="font-display text-lg text-cream">Energize</h3><p class="mt-1 text-sm text-muted">Alertness support when focus is flagging.</p><div class="mt-4 flex items-center gap-1.5 text-[13px] text-violet-soft/80"><svg width="12" height="12" viewBox="0 0 12 12" class="fill-current"><circle cx="6" cy="6" r="5" fill="none" stroke="currentColor" stroke-width="1"/><path d="M6 1a5 5 0 010 10z"/></svg>Steady · Beta</div></article>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="mb-6 font-display text-sm uppercase tracking-[0.15em] text-muted">Calm &amp; Meditation</h2>
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <article class="rounded-2xl border border-white/8 bg-white/[0.02] p-5"><h3 class="font-display text-lg text-cream">Relaxation</h3><p class="mt-1 text-sm text-muted">Let the body's stress response ease off.</p><div class="mt-4 flex items-center gap-1.5 text-[13px] text-violet-soft/80"><svg width="12" height="12" viewBox="0 0 12 12" class="fill-current"><circle cx="6" cy="6" r="5" fill="none" stroke="currentColor" stroke-width="1"/><path d="M6 1a5 5 0 010 10z"/></svg>Settles into Theta</div></article>
+          <article class="rounded-2xl border border-white/8 bg-white/[0.02] p-5"><h3 class="font-display text-lg text-cream">Deep Meditation</h3><p class="mt-1 text-sm text-muted">Sink into a settled, quiet state.</p><div class="mt-4 flex items-center gap-1.5 text-[13px] text-violet-soft/80"><svg width="12" height="12" viewBox="0 0 12 12" class="fill-current"><circle cx="6" cy="6" r="5" fill="none" stroke="currentColor" stroke-width="1"/><path d="M6 1a5 5 0 010 10z"/></svg>Settles into Theta</div></article>
+          <article class="rounded-2xl border border-white/8 bg-white/[0.02] p-5"><h3 class="font-display text-lg text-cream">Intuition</h3><p class="mt-1 text-sm text-muted">A contemplative, inward-facing state.</p><div class="mt-4 flex items-center gap-1.5 text-[13px] text-violet-soft/80"><svg width="12" height="12" viewBox="0 0 12 12" class="fill-current"><circle cx="6" cy="6" r="5" fill="none" stroke="currentColor" stroke-width="1"/><path d="M6 1a5 5 0 010 10z"/></svg>Steady · Alpha</div></article>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="mb-6 font-display text-sm uppercase tracking-[0.15em] text-muted">Sleep &amp; Wake</h2>
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <article class="rounded-2xl border border-white/8 bg-white/[0.02] p-5"><h3 class="font-display text-lg text-cream">Lucid Dreaming</h3><p class="mt-1 text-sm text-muted">Set the stage for dream awareness.</p><div class="mt-4 flex items-center gap-1.5 text-[13px] text-violet-soft/80"><svg width="12" height="12" viewBox="0 0 12 12" class="fill-current"><circle cx="6" cy="6" r="5" fill="none" stroke="currentColor" stroke-width="1"/><path d="M6 1a5 5 0 010 10z"/></svg>Settles into Theta</div></article>
+          <article class="rounded-2xl border border-white/8 bg-white/[0.02] p-5"><h3 class="font-display text-lg text-cream">Power Nap</h3><p class="mt-1 text-sm text-muted">Stay light, wake clean. Best at 10–20 minutes.</p><div class="mt-4 flex items-center gap-1.5 text-[13px] text-violet-soft/80"><svg width="12" height="12" viewBox="0 0 12 12" class="fill-current"><circle cx="6" cy="6" r="5" fill="none" stroke="currentColor" stroke-width="1"/><path d="M6 1a5 5 0 010 10z"/></svg>Settles into Theta</div></article>
+          <article class="rounded-2xl border border-white/8 bg-white/[0.02] p-5"><h3 class="font-display text-lg text-cream">Restorative Sleep</h3><p class="mt-1 text-sm text-muted">Drift down toward deep, restful sleep.</p><div class="mt-4 flex items-center gap-1.5 text-[13px] text-violet-soft/80"><svg width="12" height="12" viewBox="0 0 12 12" class="fill-current"><circle cx="6" cy="6" r="5" fill="none" stroke="currentColor" stroke-width="1"/><path d="M6 1a5 5 0 010 10z"/></svg>Sinks to Delta</div></article>
+          <article class="rounded-2xl border border-white/8 bg-white/[0.02] p-5"><h3 class="font-display text-lg text-cream">Wake Up</h3><p class="mt-1 text-sm text-muted">Climb gently from asleep toward alert.</p><div class="mt-4 flex items-center gap-1.5 text-[13px] text-violet-soft/80"><svg width="12" height="12" viewBox="0 0 12 12" class="fill-current"><circle cx="6" cy="6" r="5" fill="none" stroke="currentColor" stroke-width="1"/><path d="M6 1a5 5 0 010 10z"/></svg>Eases into Alpha</div></article>
+        </div>
+      </div>
+
+      <div>
+        <div class="mb-6 flex items-center gap-3">
+          <h2 class="font-display text-sm uppercase tracking-[0.15em] text-coral/80">Experiential</h2>
+          <span class="h-px flex-1 bg-gradient-to-r from-coral/30 to-transparent"></span>
+        </div>
+        <p class="mb-6 max-w-2xl text-sm text-muted">Rooted in decades of subjective reports and contemplative tradition. Offered for exploration. Effects are subjective and not scientifically established, and we say so in the app.</p>
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <article class="rounded-2xl border border-coral/15 bg-coral/[0.03] p-5"><h3 class="font-display text-lg text-cream">Astral Projection</h3><p class="mt-1 text-sm text-muted">The tradition's canonical state.</p><div class="mt-4 flex items-center gap-1.5 text-[13px] text-coral/80"><svg width="12" height="12" viewBox="0 0 12 12" class="fill-current"><circle cx="6" cy="6" r="5" fill="none" stroke="currentColor" stroke-width="1"/><path d="M6 1a5 5 0 010 10z"/></svg>Settles into Theta</div></article>
+          <article class="rounded-2xl border border-coral/15 bg-coral/[0.03] p-5"><h3 class="font-display text-lg text-cream">Out-of-Body Experience</h3><p class="mt-1 text-sm text-muted">The deeper threshold below it.</p><div class="mt-4 flex items-center gap-1.5 text-[13px] text-coral/80"><svg width="12" height="12" viewBox="0 0 12 12" class="fill-current"><circle cx="6" cy="6" r="5" fill="none" stroke="currentColor" stroke-width="1"/><path d="M6 1a5 5 0 010 10z"/></svg>Settles into Theta</div></article>
+          <article class="rounded-2xl border border-coral/15 bg-coral/[0.03] p-5"><h3 class="font-display text-lg text-cream">Deep Trance</h3><p class="mt-1 text-sm text-muted">The edge of deep subconscious work.</p><div class="mt-4 flex items-center gap-1.5 text-[13px] text-coral/80"><svg width="12" height="12" viewBox="0 0 12 12" class="fill-current"><circle cx="6" cy="6" r="5" fill="none" stroke="currentColor" stroke-width="1"/><path d="M6 1a5 5 0 010 10z"/></svg>Settles into Theta</div></article>
+          <article class="rounded-2xl border border-coral/15 bg-coral/[0.03] p-5"><h3 class="font-display text-lg text-cream">Schumann Resonance</h3><p class="mt-1 text-sm text-muted">Earth's own low-frequency hum.</p><div class="mt-4 flex items-center gap-1.5 text-[13px] text-coral/80"><svg width="12" height="12" viewBox="0 0 12 12" class="fill-current"><circle cx="6" cy="6" r="5" fill="none" stroke="currentColor" stroke-width="1"/><path d="M6 1a5 5 0 010 10z"/></svg>Steady · Theta</div></article>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="mt-16 border-t border-white/8 pt-10 text-center">
+      <a href="#" class="inline-flex items-center justify-center rounded-full bg-violet px-7 py-3.5 font-medium text-white shadow-lg shadow-violet/30 transition hover:bg-violet-bright">
+        Try free for a week
+      </a>
+      <p class="mt-4 text-sm text-muted">Every program, full access, no card required.</p>
+    </div>
+  </section>
+
+  <footer class="border-t border-white/5 py-10">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-6">
+      <span class="font-display text-lg text-cream">Humm</span>
+      <a href="https://trailheadlabs.co" target="_blank" rel="noopener" class="inline-flex items-center gap-2.5 text-sm text-muted transition hover:text-cream">
+        <svg viewBox="0 0 1633 963" class="h-4 w-auto fill-current" aria-hidden="true"><path d="M1453 831 939 158 710 454l-126-92-361 471h159l228-295 125 93 130-170-58-43 232-115-38 259-80-64-172 225-129-94-155 204Z"/></svg>
+        A Trailhead Labs product
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>
