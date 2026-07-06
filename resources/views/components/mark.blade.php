@@ -1,12 +1,16 @@
 @props(['size' => 'md'])
 
 @php
-    // The conic dot reads at two sizes: the larger header mark and the smaller
-    // footer mark. Both keep the same violet-to-coral sweep around an ink core.
+    // The mark is the dial in miniature: a cool-to-warm ring, violet at the top
+    // and coral at the bottom, turning slowly so the warm point travels like the
+    // dial's leading head. It reads at a header size and a smaller footer size.
     $outer = $size === 'sm' ? 'h-6 w-6' : 'h-7 w-7';
-    $inner = $size === 'sm' ? 'h-4 w-4' : 'h-5 w-5';
+    $inner = $size === 'sm' ? 'h-[18px] w-[18px]' : 'h-[21px] w-[21px]';
 @endphp
 
-<span class="grid {{ $outer }} place-items-center rounded-full animate-[spin_3s_ease-in-out_infinite]" style="background:conic-gradient(from 180deg,#9B8CFF,#8B7CF0,#E08A5F,#9B8CFF);">
+<span
+    class="grid {{ $outer }} place-items-center rounded-full animate-[spin_9s_linear_infinite] motion-reduce:animate-none"
+    style="background: conic-gradient(from 0deg, #A99BFF 0deg, #B0A6F0 70deg, #D89C86 135deg, #E5906A 180deg, #D89C86 225deg, #B0A6F0 290deg, #A99BFF 360deg);"
+>
     <span class="{{ $inner }} rounded-full bg-ink"></span>
 </span>

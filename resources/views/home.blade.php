@@ -17,18 +17,19 @@
 
             <div class="mt-9 flex flex-col gap-4">
                 <x-store-badges size="hero" />
-                <p class="text-sm text-muted">No card required. Works offline.</p>
+                <p class="text-sm text-muted">No account required. Works offline.</p>
             </div>
         </div>
 
-        {{-- Real app screen: autoplay video, real screenshot poster until the mp4 lands. --}}
+        {{-- Real app screen: autoplay emulator recording, real screenshot poster. --}}
         <div class="reveal flex justify-center lg:justify-end">
             <div class="phone w-[300px] rounded-[2.75rem] p-2.5">
                 <video
                     class="aspect-[108/234] w-full rounded-[2.25rem] object-cover"
-                    poster="{{ asset('assets/hero-poster.png') }}"
+                    poster="{{ asset('assets/hero-poster.webp') }}"
                     autoplay muted loop playsinline
                 >
+                    <source src="{{ asset('assets/hero-session.webm') }}" type="video/webm" />
                     <source src="{{ asset('assets/hero-session.mp4') }}" type="video/mp4" />
                 </video>
             </div>
@@ -192,18 +193,18 @@
                 <div class="flex items-start justify-between border-b border-white/8 pb-6">
                     <div>
                         <p class="font-display text-xl text-cream">Free for a week</p>
-                        <p class="mt-1 text-sm text-muted">Every program, full access, no card required.</p>
+                        <p class="mt-1 text-sm text-muted">Every program, full access.</p>
                     </div>
                 </div>
                 <div class="pt-6">
                     <p class="font-display text-xl text-cream">Then one price, once, per device</p>
                     <p class="mt-1 text-sm text-muted">Lifetime, all future programs included.</p>
                 </div>
-                <x-cta href="#" :block="true" class="mt-8">Try free for a week</x-cta>
-                <x-store-badges size="compact" class="mt-5" />
+                <p class="mt-8 text-center text-sm text-muted">Start your free week on</p>
+                <x-store-badges size="compact" class="mt-3" />
             </div>
 
-            <p class="reveal mt-8 text-muted">Most soundscape apps cost <span class="text-cream">$60–70 per year</span>, forever. Humm is one price, once.</p>
+            <p class="reveal mt-8 text-muted">Comparable apps charge <span class="text-cream">$40 to $100 a year</span>, every year. Humm is one price, once.</p>
             <p class="reveal mt-3 text-sm text-muted/70">The license is per device, plain and up front, so there are no surprises later.</p>
         </div>
     </section>
@@ -277,8 +278,8 @@
     <section class="border-t border-white/5 py-28">
         <div class="mx-auto max-w-2xl px-6 text-center">
             <h2 class="reveal font-display text-4xl font-extralight leading-tight text-cream sm:text-5xl">Focus, sleep, wake, dream.<br><span class="text-violet-soft">One dial.</span></h2>
-            <x-cta href="#" size="lg" class="reveal mt-9">Try free for a week</x-cta>
-            <p class="reveal mt-4 text-sm text-muted">No card required. Works offline.</p>
+            <x-cta href="#pricing" size="lg" class="reveal mt-9">Try free for a week</x-cta>
+            <p class="reveal mt-4 text-sm text-muted">No account required. Works offline.</p>
         </div>
     </section>
 

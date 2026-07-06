@@ -2,7 +2,7 @@
     title="The science behind Humm"
     description="What binaural beats are, what the research can show, what is still debated, and exactly how each Humm program is grounded, with every claim traced to a source."
 >
-    <x-header back width="max-w-5xl" />
+    <x-header back />
 
     {{-- Header lede + tabbed area (one aligned grid) --}}
     <div id="sci-top" class="sci-top mx-auto max-w-5xl px-6 pb-24 pt-6 lg:pt-10">
@@ -41,8 +41,15 @@
                     <div class="prose max-w-2xl text-[17px] leading-relaxed text-muted">
                         <p>Play a steady tone at one frequency into your left ear and a slightly different one into your right, and your brain does not hear two tones. It hears a single tone that seems to pulse at the difference between them. Feed 247.5 Hz to one ear and 252.5 Hz to the other, and you perceive a 5 Hz throb that is not present in either signal. That throb is the binaural beat. It is created inside the auditory system, not in the air, which is why binaural beats need stereo headphones: each ear has to receive its own tone.</p>
                         <p>The two tones sit close together around a shared center called the carrier. In Humm the split is symmetric: the left channel plays the carrier minus half the beat, the right channel plays the carrier plus half the beat. The two average back to the carrier, so the pitch you perceive stays put while the beat rides underneath it.</p>
-                        <p>The idea the whole category rests on is called entrainment: the notion that if you present a rhythmic beat, the brain's own electrical rhythm will fall into step with it and shift your state along with it. That is the promise. The honest picture of how well it holds up is next.</p>
                     </div>
+
+                    <x-science.binaural />
+
+                    <div class="prose max-w-2xl text-[17px] leading-relaxed text-muted">
+                        <p>The idea the whole category rests on is called <strong>entrainment</strong>: the notion that if you present a rhythmic beat, the brain's own electrical rhythm will fall into step with it and shift your state along with it. That is the promise. The honest picture of how well it holds up is next.</p>
+                    </div>
+
+                    <x-science.next hash="evidence" label="Measurable vs debated" />
                 </div>
 
                 {{-- 02 Measurable vs debated --}}
@@ -55,6 +62,8 @@
                         <p>So the picture is neither "this is proven" nor "this is nothing." It is specific. The one meta-analysis showing a real aggregate effect (Garcia-Argibay 2019, g ≈ 0.45) is driven mostly by anxiety and relaxation, the calmer theta and delta states, not by arousal or cognition. That is why the best-grounded programs in Humm are the calming and meditative ones, and why we are more cautious about the alertness and cognition programs. We picked, for each program, the least-unsupported band the research points to, and we tell you where on that spectrum each one sits.</p>
                         <p>This is also why Humm never asks you to choose a frequency. The defaults are the research. The number is not a dial for you to turn; it is a conclusion we reached from the sources, and the program name is the only interface you need.</p>
                     </div>
+
+                    <x-science.next hash="carrier" label="The carrier" />
                 </div>
 
                 {{-- 03 The carrier --}}
@@ -88,6 +97,8 @@
                         </div>
                     </div>
                     <p class="mt-6 max-w-2xl text-[17px] text-muted">In every case the rule is the same: fix the carrier, schedule only the beat.</p>
+
+                    <x-science.next hash="programs" label="Program grounding" />
                 </div>
 
                 {{-- 04 Program grounding --}}
@@ -119,19 +130,29 @@
                             @endforeach
                         </div>
                     @endforeach
+
+                    <x-science.next hash="shape" label="Session shape" />
                 </div>
 
                 {{-- 05 The session shape --}}
                 <div class="sci-panel" id="panel-shape" role="tabpanel" hidden>
                     <h2 class="font-display text-3xl font-extralight text-cream">The session shape</h2>
                     <div class="prose max-w-2xl text-[17px] leading-relaxed text-muted">
-                        <p>Most programs do not just hold one frequency. They follow a shape: a short doorway, a glide, a long dwell at the target, and on the deeper programs a gentle rise before the end. It is worth being clear about which parts of that shape are evidenced and which are design convention, because only one part is grounded in research.</p>
+                        <p>Most programs do not just hold one frequency. They follow a shape: a short doorway, a glide, a long dwell at the target, and an ending that rises, sinks, or simply holds, depending on where the program is taking you. It is worth being clear about which parts of that shape are evidenced and which are design convention, because only one part is grounded in research.</p>
+                    </div>
+
+                    <x-science.session-shape />
+
+                    <div class="prose max-w-2xl text-[17px] leading-relaxed text-muted">
                         <p><strong>Enter and glide.</strong> No study compares ramping in against starting fixed. Entrainment takes minutes to establish, but that is how long you have to hold the target, not evidence that gliding toward it helps. The entry doorway (often 8 Hz) is ritual and comfort, not mechanism. So Humm keeps the glide short and does not market it as "locking on."</p>
                         <p><strong>Dwell. This is the one empirically grounded part.</strong> Jirakittayakorn (2017) found 6 Hz theta established within 10 minutes, with frontal-midline theta peaking around 10 to 15 minutes, and several methods converge on a 7–10 minute plateau. So the real number in the whole shape is a dwell floor of about 10 minutes for theta and deeper targets, and roughly 5 minutes for lighter alpha. When you make a session longer, it is the dwell that absorbs the extra time; the glide and the rise stay short and near-constant.</p>
-                        <p><strong>End rise.</strong> There is no binaural evidence for it. It is borrowed from sleep-inertia research, where easing gradually out of deep states reduces grogginess. So Humm keeps a short rise only on the deeper theta and delta programs and omits it on the light ones, where you are already near the surface.</p>
-                        <p><strong>Carrier sweep: rejected.</strong> As above, the carrier stays fixed and only the beat is scheduled. Sweeping the carrier would add an audible pitch slide for no entrainment gain.</p>
+                        <p><strong>End rise, when there is one.</strong> A session meant to return you to your day rises back toward waking at the finish: Relaxation lifts from 5 Hz theta to 10 Hz alpha, Deep Meditation eases back to 8 Hz, a gentle re-orientation borrowed from sleep-inertia research, with no direct binaural evidence of its own. A session meant to keep you under does the opposite: Restorative Sleep sinks to 3 Hz delta and stays there, fading out in silence, while the naps and the experiential trances hold at their target rather than lift you out. Wake Up runs the shape in reverse, starting near sleep and climbing to alert. So the end is not always a rise; it can sink, hold, or never come back up, depending on the program.</p>
+                        <p><strong>The pitch holds still.</strong> Only the beat is scheduled; the carrier it rides on never moves. A 2024 carrier comparison found the outcome follows the beat band, not the carrier, so sweeping the pitch would add an audible slide for no entrainment gain.</p>
+                        <p><strong>Yours to tune.</strong> The lengths are mostly a matter of preference, so Humm lets you set them: lengthen the dwell, shorten the glide, drop the end rise. The frequencies are the one thing you cannot move; those come from the research, so the dial only ever changes how long you spend, never the beat.</p>
                         <p>The short version: the dwell is the science, the rest is careful design, and we would rather tell you that than dress up the ritual as mechanism.</p>
                     </div>
+
+                    <x-science.next hash="citations" label="Citations" />
                 </div>
 
                 {{-- 06 Citations --}}
@@ -186,8 +207,16 @@
                         <div>
                             <h3 class="mb-3 font-display text-sm uppercase tracking-[0.15em] text-violet-soft/70">Lucid dreaming</h3>
                             <ul class="space-y-2 text-muted">
+                                <li><a class="text-cream/90 underline decoration-white/20 underline-offset-4 transition hover:decoration-violet" href="https://journals.sagepub.com/doi/10.2466/pms.1981.52.3.727" target="_blank" rel="noopener">LaBerge et al. (1981), lucid dreaming verified by volitional communication during REM sleep, Perceptual &amp; Motor Skills</a></li>
+                                <li><a class="text-cream/90 underline decoration-white/20 underline-offset-4 transition hover:decoration-violet" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8162929/" target="_blank" rel="noopener">Konkoly et al. (2021), real-time dialogue with dreamers during REM sleep, Current Biology</a></li>
                                 <li><a class="text-cream/90 underline decoration-white/20 underline-offset-4 transition hover:decoration-violet" href="https://www.nature.com/articles/nn.3719" target="_blank" rel="noopener">Voss et al. (2014), frontal gamma stimulation and lucid dreams, Nature Neuroscience</a></li>
                                 <li><a class="text-cream/90 underline decoration-white/20 underline-offset-4 transition hover:decoration-violet" href="https://www.sciencedirect.com/science/article/abs/pii/S1053810019305070" target="_blank" rel="noopener">Failed replication of the above (2020)</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="mb-3 font-display text-sm uppercase tracking-[0.15em] text-violet-soft/70">Out-of-body experience</h3>
+                            <ul class="space-y-2 text-muted">
+                                <li><a class="text-cream/90 underline decoration-white/20 underline-offset-4 transition hover:decoration-violet" href="https://www.nature.com/articles/419269a" target="_blank" rel="noopener">Blanke et al. (2002), inducing out-of-body experiences by stimulating the temporoparietal junction, Nature</a></li>
                             </ul>
                         </div>
                         <div>
@@ -210,5 +239,5 @@
         </div>
     </div>
 
-    <x-footer minimal width="max-w-5xl" />
+    <x-footer minimal />
 </x-layout>

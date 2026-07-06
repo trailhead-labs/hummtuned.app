@@ -23,6 +23,26 @@ if (revealables.length) {
     revealables.forEach((el) => observer.observe(el));
 }
 
+// SVG graphics that draw and ping only once they scroll well into view, so the
+// animation never plays off screen. Reduced motion skips the whole thing in CSS.
+const animated = document.querySelectorAll('.anim-when-visible');
+
+if (animated.length) {
+    const io = new IntersectionObserver(
+        (entries) => {
+            for (const entry of entries) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in-view');
+                    io.unobserve(entry.target);
+                }
+            }
+        },
+        { threshold: 0.6 },
+    );
+
+    animated.forEach((el) => io.observe(el));
+}
+
 // Science tabs: show one section at a time, keep the hash in sync so panels are
 // deep-linkable, and scroll the panels into view only on a real user click. The
 // whole block is skipped on pages that carry no tabs.

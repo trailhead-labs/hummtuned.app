@@ -117,6 +117,74 @@ body {
     }
 }
 
+/* The session-shape line draws itself when its panel is shown, and its nodes and
+   labels fade in behind it. Both stay fully rendered under reduced motion, which
+   never opts in to the animation below. */
+.shape-path {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 0;
+}
+
+/* The centre beat breathes: a slow, subtle vertical swell of the wave itself,
+   scaled about its own midline. Held still under reduced motion. */
+.beat-wave {
+    transform-box: fill-box;
+    transform-origin: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    /* Marked graphics hold hidden until they scroll well into view, then draw and
+       fade in; the binaural wave breathes gently once it has formed. */
+    .anim-when-visible .shape-path {
+        stroke-dashoffset: 1;
+    }
+
+    .anim-when-visible .shape-fade {
+        opacity: 0;
+    }
+
+    .anim-when-visible.in-view .shape-path {
+        animation: shape-draw 1.8s ease forwards;
+    }
+
+    .anim-when-visible.in-view .shape-fade {
+        animation: shape-fade-in 0.55s ease 1.4s forwards;
+    }
+
+    .anim-when-visible.in-view .beat-wave {
+        animation: beat-breathe 2.6s ease-in-out 1.8s infinite;
+    }
+}
+
+@keyframes shape-draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes shape-fade-in {
+    to {
+        opacity: 1;
+    }
+}
+
+/* A slow breath: the wave swells and relaxes about its midline, from rest, so it
+   never pops. Keeps the beat feeling alive without any flicker. */
+@keyframes beat-breathe {
+    0%,
+    100% {
+        transform: scaleY(1);
+    }
+
+    25% {
+        transform: scaleY(1.07);
+    }
+
+    75% {
+        transform: scaleY(0.93);
+    }
+}
+
 /* FAQ accordion: each answer stays collapsed via the grid-rows trick and slides
    open when its item gains .is-open. Without JS every answer is expanded, so the
    copy is never trapped behind a button that cannot toggle. */

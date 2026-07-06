@@ -32,7 +32,7 @@
                             <h2 class="font-display text-sm uppercase tracking-[0.15em] text-coral/80">{{ $group['name'] }}</h2>
                             <span class="h-px flex-1 bg-gradient-to-r from-coral/30 to-transparent"></span>
                         </div>
-                        <p class="mb-6 max-w-2xl text-sm text-muted">Rooted in decades of subjective reports and contemplative tradition. Offered for exploration. Effects are subjective and not scientifically established, and we say so in the app.</p>
+                        <p class="mb-6 max-w-2xl text-sm text-muted">Rooted in decades of subjective reports and contemplative tradition. Offered for exploration. These are real experiences; how much the beat contributes is subjective and not scientifically established, and we say so in the app.</p>
                     @else
                         <h2 class="mb-6 font-display text-sm uppercase tracking-[0.15em] text-muted">{{ $group['name'] }}</h2>
                     @endif
@@ -52,8 +52,8 @@
         </div>
 
         <div class="mt-16 border-t border-white/8 pt-10 text-center">
-            <x-cta href="#">Try free for a week</x-cta>
-            <p class="mt-4 text-sm text-muted">Every program, full access, no card required.</p>
+            <x-cta href="{{ route('home') }}#pricing">Try free for a week</x-cta>
+            <p class="mt-4 text-sm text-muted">Every program, full access.</p>
         </div>
     </section>
 
