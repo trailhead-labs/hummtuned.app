@@ -18,8 +18,10 @@
                 <nav class="flex flex-wrap gap-x-8 gap-y-2 text-sm text-muted">
                     <a href="{{ route('programs') }}" class="transition hover:text-cream">Programs</a>
                     <a href="{{ route('science') }}" class="transition hover:text-cream">Science</a>
-                    <a href="#" class="transition hover:text-cream">Privacy</a>
+                    <a href="{{ route('privacy') }}" class="transition hover:text-cream">Privacy</a>
+                    {{--
                     <a href="#" class="transition hover:text-cream">Support</a>
+                    --}}
                     <a href="#" class="transition hover:text-cream">App Store</a>
                     <a href="#" class="transition hover:text-cream">Google Play</a>
                 </nav>
@@ -27,7 +29,7 @@
             <x-trailhead icon-class="w-8 h-auto" class="-ml-1 mt-8" />
             <div class="mt-8 space-y-2 text-xs leading-relaxed text-muted/60">
                 <p>Humm supports focus, rest, and relaxation. It does not diagnose or treat any condition.</p>
-                <p>This site measures nothing about you. No cookies, no analytics, no tracking.</p>
+                <p>This site uses privacy-respecting, cookieless analytics: aggregate visits only, no cookies, no cross-site tracking.</p>
             </div>
         </div>
     </footer>
