@@ -285,8 +285,11 @@
     <section class="border-t border-white/5 py-20 sm:py-28">
         <div class="mx-auto max-w-2xl px-6 text-center">
             <h2 class="reveal font-display text-4xl font-extralight leading-tight text-cream sm:text-5xl">Focus, sleep, wake, dream.<br><span class="text-violet-soft">One dial.</span></h2>
+            <x-cta href="#pricing" size="lg" class="reveal mt-9">Coming soon!</x-cta>
+            {{-- TODO: Restore at launch
             <x-cta href="#pricing" size="lg" class="reveal mt-9">Try free for a week</x-cta>
             <p class="reveal mt-4 text-sm text-muted">No account required. Works offline.</p>
+            --}}
         </div>
     </section>
 

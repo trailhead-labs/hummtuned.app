@@ -12,7 +12,10 @@
         <nav class="flex items-center gap-6">
             <a href="{{ route('programs') }}" class="hidden text-sm text-muted transition hover:text-cream sm:block">Programs</a>
             <a href="{{ route('science') }}" class="hidden text-sm text-muted transition hover:text-cream sm:block">Science</a>
+            {{-- TODO: Restore at launch
             <x-cta variant="outline" href="#pricing">Try free for a week</x-cta>
+            --}}
+            <x-cta variant="outline" href="#pricing">Coming soon!</x-cta>
         </nav>
     @endif
 </header>
