@@ -23,7 +23,7 @@
 
         {{-- Real app screen: autoplay emulator recording, real screenshot poster. --}}
         <div class="reveal flex justify-center lg:justify-end">
-            <div class="phone w-[300px] rounded-[2.75rem] p-2.5">
+            <div class="mt-14 lg:mt-0 phone w-[300px] rounded-[2.75rem] p-2.5">
                 <video
                     class="aspect-[108/234] w-full rounded-[2.25rem] object-cover"
                     poster="{{ asset('assets/hero-poster.webp') }}"
