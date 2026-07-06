@@ -1,58 +1,62 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Humm marketing site
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+The marketing site for **Humm**, a mobile app that plays research-grounded binaural programs inside a soundscape that is mixed fresh every session. A [Trailhead Labs](https://trailheadlabs.co) product.
 
-## About Laravel
+The app ships on the App Store and Google Play; this repo is just the site that markets it.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Pages
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Three pages, all server-rendered Blade, one dark design system.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **`/` (home)** the landing page: hero, "a day with Humm", the three-step ritual, the generative engine, a programs teaser, the science in brief, the values, pricing, FAQ, and the closing call to action.
+- **`/programs`** the full catalogue of the seventeen programs across four purposes, each with an honest evidence tag.
+- **`/science`** the long-form research page, a tabbed reference covering what binaural beats are, what is measurable versus debated, the constant carrier and its variants, how each program is grounded, the session shape, and the full citations. Two custom SVG illustrations live here: an animated binaural-beat diagram and a session-shape line.
 
-## Learning Laravel
+## Stack
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- PHP 8.4, Laravel 13
+- Tailwind CSS v4 (configured in CSS via `@theme`, no JS config), bundled with Vite
+- Outfit + Inter fonts served locally through the `laravel-vite-plugin` Bunny helper (no CDN)
+- Pest for tests, Pint for formatting
+- [Laravel Boost](https://laravel.com/docs/ai) for AI-assisted development (`.mcp.json`)
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Local development
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
-
-## Agentic Development
-
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+Served by [Laravel Herd](https://herd.laravel.com) at `http://humm-site.test`. Build the front-end assets before viewing:
 
 ```bash
-composer require laravel/boost --dev
-
-php artisan boost:install
+composer install
+npm install
+npm run dev      # or: npm run build
 ```
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+If a page throws a Vite manifest error, the assets have not been built yet; run one of the commands above.
 
-## Contributing
+## How it is put together
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- **Routes** (`routes/web.php`) map `/`, `/programs`, and `/science` to their views with `Route::view`, named `home`, `programs`, and `science`. Internal links use `route()`.
+- **Program data** lives once in `app/Support/ProgramCatalog.php` and feeds both the programs page and the science page. The group order differs per page, so the class exposes `forProgramsPage()` and `forSciencePage()`.
+- **Components** (`resources/views/components/`): `layout`, `header`, `footer`, `mark`, `cta`, `store-badges`, `band-tag`, `program-card`, `trailhead`, plus a `science/` set (`program`, `next`, `session-shape`, `binaural`).
+- **Styles** in `resources/css/app.css`: the Tailwind theme (palette and fonts) plus the custom classes for the background field, the hero phone, scroll reveals, the science tabs, the FAQ accordion, and the SVG draw and beat animations.
+- **Scripts** in `resources/js/app.js`: scroll reveal, the science-page tabs (deep-linkable by hash), the FAQ accordion (progressive enhancement, answers stay open without JS), and the in-view trigger that plays the SVG graphics only once they scroll into view. All motion respects `prefers-reduced-motion`.
+- **Assets** in `public/`: the hero poster (`assets/hero-poster.png`, awaiting a `hero-session.mp4`), the app icon (`icon.png`, 1024x1024 per the NativePHP spec), and the favicon set, all generated from the dial mark.
 
-## Code of Conduct
+## Design system
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Dark and nocturnal by design (the product is a nighttime app, so there is no light mode). Near-black indigo ground, a violet accent, warm coral for the experiential and the beat, and thin cream display type. The recurring motif is the app's timer dial: it is the logo mark, the favicon and app icon, and the color language (violet to coral) that runs through the SVG illustrations.
 
-## Security Vulnerabilities
+## Reference docs
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+The reasoning behind the copy, the research, and the design is preserved and should not be deleted.
 
-## License
+- `docs/laravel-migration-handoff.md` the handoff written when the static design moved into Laravel.
+- `html-design/` the approved static build plus the source docs: `brand-and-marketing.md`, `frequency-research-synthesis.md`, `landing-page-structure.md` (the reconciled structure and copy), `science-page-content.md`, and `design/` (screenshots, the hero-dial reference, and the program-tag mapping).
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The science content is grounded in the app's own source; every frequency, carrier, and grade was verified against it, and every scientific claim traces to a cited source.
+
+## Testing and formatting
+
+```bash
+php artisan test --compact
+vendor/bin/pint --dirty --format agent
+```
