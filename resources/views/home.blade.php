@@ -76,6 +76,7 @@
     </section>
 
     {{-- 3. The three-step ritual --}}
+    {{--
     <section class="border-t border-white/5 py-16 sm:py-24">
         <div class="mx-auto max-w-6xl px-6">
             <p class="reveal mb-14 text-sm uppercase tracking-[0.2em] text-violet-soft/70">How a session works</p>
@@ -98,6 +99,7 @@
             </div>
         </div>
     </section>
+    --}}
 
     {{-- 5. Programs (teaser; full detail on the programs page) --}}
     <section class="border-t border-white/5 py-16 sm:py-24">
