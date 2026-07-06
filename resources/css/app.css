@@ -203,6 +203,16 @@ body {
     grid-template-rows: 1fr;
 }
 
+/* Mobile card sliders swipe horizontally; hide the scrollbar since the peeking
+   next card is the affordance. The track still scrolls with touch and wheel. */
+.no-scrollbar {
+    scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
 ::selection {
     background: rgba(139, 124, 240, 0.35);
 }

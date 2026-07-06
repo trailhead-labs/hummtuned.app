@@ -37,7 +37,7 @@
     </section>
 
     {{-- 2. A day with Humm (lead emotional) --}}
-    <section class="border-t border-white/5 py-24">
+    <section class="border-t border-white/5 py-16 sm:py-24">
         <div class="mx-auto max-w-6xl px-6">
             <p class="reveal mb-4 text-sm uppercase tracking-[0.2em] text-violet-soft/70">Not a sleep app. Not a focus app.</p>
             <h2 class="reveal font-display text-4xl font-extralight text-cream sm:text-5xl">A state for the whole day.</h2>
@@ -45,24 +45,25 @@
                 The phone is the first thing you reach for in the morning and the last thing you put down at night. Right now that reflex feeds you the feed. Humm gives it somewhere better to land.
             </p>
 
-            <div class="mt-14 grid gap-px overflow-hidden rounded-2xl border border-white/8 bg-white/5 sm:grid-cols-5">
-                <div class="reveal bg-ink/60 p-6">
+            {{-- Mobile: a single-line swipe slider. sm+: the connected hairline grid. --}}
+            <div class="no-scrollbar mt-14 -mx-6 flex snap-x snap-mandatory gap-4 overflow-x-auto px-6 pb-4 sm:mx-0 sm:grid sm:snap-none sm:grid-cols-5 sm:gap-px sm:overflow-hidden sm:rounded-2xl sm:border sm:border-white/8 sm:bg-white/5 sm:px-0 sm:pb-0">
+                <div class="reveal w-[76%] shrink-0 snap-start rounded-2xl border border-white/8 bg-ink/60 p-6 sm:w-auto sm:shrink sm:rounded-none sm:border-0">
                     <p class="font-display text-lg text-cream"><span class="italic text-violet-soft">Humm</span> before your first coffee</p>
                     <p class="mt-2 text-sm text-muted">A nudge toward alert on the way to the kitchen.</p>
                 </div>
-                <div class="reveal bg-ink/60 p-6">
+                <div class="reveal w-[76%] shrink-0 snap-start rounded-2xl border border-white/8 bg-ink/60 p-6 sm:w-auto sm:shrink sm:rounded-none sm:border-0">
                     <p class="font-display text-lg text-cream"><span class="italic text-violet-soft">Humm</span> on the bus</p>
                     <p class="mt-2 text-sm text-muted">A calm buffer instead of the feed.</p>
                 </div>
-                <div class="reveal bg-ink/60 p-6">
+                <div class="reveal w-[76%] shrink-0 snap-start rounded-2xl border border-white/8 bg-ink/60 p-6 sm:w-auto sm:shrink sm:rounded-none sm:border-0">
                     <p class="font-display text-lg text-cream"><span class="italic text-violet-soft">Humm</span> through the deep work</p>
                     <p class="mt-2 text-sm text-muted">Set the state, then hold it.</p>
                 </div>
-                <div class="reveal bg-ink/60 p-6">
+                <div class="reveal w-[76%] shrink-0 snap-start rounded-2xl border border-white/8 bg-ink/60 p-6 sm:w-auto sm:shrink sm:rounded-none sm:border-0">
                     <p class="font-display text-lg text-cream"><span class="italic text-violet-soft">Humm</span> in meditation</p>
                     <p class="mt-2 text-sm text-muted">Drop in faster, stay longer.</p>
                 </div>
-                <div class="reveal bg-ink/60 p-6">
+                <div class="reveal w-[76%] shrink-0 snap-start rounded-2xl border border-white/8 bg-ink/60 p-6 sm:w-auto sm:shrink sm:rounded-none sm:border-0">
                     <p class="font-display text-lg text-cream"><span class="italic text-violet-soft">Humm</span> before sleep</p>
                     <p class="mt-2 text-sm text-muted">Wind the day down on purpose.</p>
                 </div>
@@ -75,7 +76,7 @@
     </section>
 
     {{-- 3. The three-step ritual --}}
-    <section class="border-t border-white/5 py-24">
+    <section class="border-t border-white/5 py-16 sm:py-24">
         <div class="mx-auto max-w-6xl px-6">
             <p class="reveal mb-14 text-sm uppercase tracking-[0.2em] text-violet-soft/70">How a session works</p>
             <div class="grid gap-10 sm:grid-cols-3">
@@ -103,7 +104,7 @@
     </section>
 
     {{-- 4. The engine --}}
-    <section class="border-t border-white/5 py-24">
+    <section class="border-t border-white/5 py-16 sm:py-24">
         <div class="mx-auto max-w-3xl px-6 text-center">
             <p class="reveal mb-6 text-sm uppercase tracking-[0.2em] text-violet-soft/70">Never the same twice</p>
             <h2 class="reveal font-display text-4xl font-extralight leading-tight text-cream sm:text-5xl">
@@ -117,7 +118,7 @@
     </section>
 
     {{-- 5. Programs (teaser; full detail on the programs page) --}}
-    <section class="border-t border-white/5 py-24">
+    <section class="border-t border-white/5 py-16 sm:py-24">
         <div class="mx-auto max-w-4xl px-6">
             <p class="reveal mb-4 text-sm uppercase tracking-[0.2em] text-violet-soft/70">Seventeen programs, four purposes</p>
             <h2 class="reveal font-display text-4xl font-extralight text-cream sm:text-5xl">Pick by what you need.</h2>
@@ -150,7 +151,7 @@
     </section>
 
     {{-- 6. The science, briefly --}}
-    <section class="border-t border-white/5 py-24">
+    <section class="border-t border-white/5 py-16 sm:py-24">
         <div class="mx-auto max-w-3xl px-6 text-center">
             <p class="reveal mb-6 text-sm uppercase tracking-[0.2em] text-violet-soft/70">Backed by real research</p>
             <h2 class="reveal font-display text-4xl font-extralight text-cream sm:text-5xl">The defaults are the research.</h2>
@@ -165,7 +166,7 @@
     </section>
 
     {{-- 7. What Humm doesn't do --}}
-    <section class="border-t border-white/5 py-24">
+    <section class="border-t border-white/5 py-16 sm:py-24">
         <div class="mx-auto max-w-4xl px-6 text-center">
             <h2 class="reveal mx-auto max-w-2xl font-display text-3xl font-extralight leading-snug text-cream sm:text-4xl">
                 An app for your attention shouldn't be designed to consume it.
@@ -196,14 +197,15 @@
             ['quote' => "I do this kind of research for a living, so I went in skeptical and read the whole science page. It's careful, it cites its sources, and it doesn't oversell. Rare.", 'name' => 'Arjun P.', 'context' => 'neuroscientist', 'initials' => 'AP', 'tint' => 'bg-coral/15 text-coral'],
         ];
     @endphp
-    <section class="border-t border-white/5 py-24">
+    <section class="border-t border-white/5 py-16 sm:py-24">
         <div class="mx-auto max-w-6xl px-6">
             <p class="reveal mb-4 text-sm uppercase tracking-[0.2em] text-violet-soft/70">In their words</p>
             <h2 class="reveal font-display text-4xl font-extralight text-cream sm:text-5xl">Trusted for what it doesn't do.</h2>
 
-            <div class="reveal mt-14 gap-4 sm:columns-2 lg:columns-3">
+            {{-- Mobile: a single-line swipe slider. sm+: a masonry column layout. --}}
+            <div class="no-scrollbar reveal mt-14 -mx-6 flex snap-x snap-mandatory gap-4 overflow-x-auto px-6 pb-4 sm:mx-0 sm:block sm:snap-none sm:columns-2 sm:overflow-visible sm:px-0 sm:pb-0 lg:columns-3">
                 @foreach ($testimonials as $testimonial)
-                    <figure class="mb-4 break-inside-avoid rounded-2xl border border-white/8 bg-white/[0.02] p-6">
+                    <figure class="w-[80%] shrink-0 snap-start rounded-2xl border border-white/8 bg-white/[0.02] p-6 sm:mb-4 sm:w-auto sm:shrink sm:break-inside-avoid">
                         <blockquote class="leading-relaxed text-cream/90">{{ $testimonial['quote'] }}</blockquote>
                         <figcaption class="mt-5 flex items-center gap-3">
                             <span class="grid h-9 w-9 shrink-0 place-items-center rounded-full font-display text-sm {{ $testimonial['tint'] }}">{{ $testimonial['initials'] }}</span>
@@ -219,13 +221,13 @@
     </section>
 
     {{-- 8. Pricing --}}
-    <section id="pricing" class="border-t border-white/5 py-24">
+    <section id="pricing" class="border-t border-white/5 py-16 sm:py-24">
 
         <h2 class="reveal font-display text-4xl text-center font-extralight text-cream sm:text-5xl">Buy it once. Own it for life.</h2>
 
         <div class="mx-auto max-w-xl px-6 text-center">
 
-            <div class="reveal mt-12 rounded-3xl border border-white/10 bg-white/[0.03] p-8 text-left">
+            <div class="reveal mt-12 rounded-3xl border border-white/10 bg-white/[0.03] p-6 text-left sm:p-8">
                 <div class="flex items-start justify-between border-b border-white/8 pb-6">
                     <div>
                         <p class="font-display text-xl text-cream">Free for a week</p>
@@ -246,7 +248,7 @@
     </section>
 
     {{-- 9. FAQ --}}
-    <section class="border-t border-white/5 py-24">
+    <section class="border-t border-white/5 py-16 sm:py-24">
         <div class="mx-auto max-w-3xl px-6">
             <h2 class="reveal mb-12 font-display text-4xl font-extralight text-cream sm:text-5xl">Questions.</h2>
             <div class="divide-y divide-white/8">
@@ -311,7 +313,7 @@
     </section>
 
     {{-- 10. Closing CTA --}}
-    <section class="border-t border-white/5 py-28">
+    <section class="border-t border-white/5 py-20 sm:py-28">
         <div class="mx-auto max-w-2xl px-6 text-center">
             <h2 class="reveal font-display text-4xl font-extralight leading-tight text-cream sm:text-5xl">Focus, sleep, wake, dream.<br><span class="text-violet-soft">One dial.</span></h2>
             <x-cta href="#pricing" size="lg" class="reveal mt-9">Try free for a week</x-cta>
