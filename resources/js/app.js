@@ -98,3 +98,58 @@ document.querySelectorAll('.faq').forEach((faq) => {
         button.setAttribute('aria-expanded', open ? 'true' : 'false');
     });
 });
+
+// Horizontal card sliders: touch and trackpad scroll natively; on a mouse the
+// whole strip is grab-and-drag. Snap is suspended mid-drag so the motion tracks
+// the cursor, then restored so it settles onto a card. A drag never fires the
+// click underneath it.
+document.querySelectorAll('[data-slider]').forEach((slider) => {
+    let dragging = false;
+    let startX = 0;
+    let startLeft = 0;
+    let moved = 0;
+
+    slider.addEventListener('pointerdown', (event) => {
+        if (event.pointerType !== 'mouse') {
+            return;
+        }
+
+        dragging = true;
+        moved = 0;
+        startX = event.clientX;
+        startLeft = slider.scrollLeft;
+        slider.style.scrollSnapType = 'none';
+        slider.style.cursor = 'grabbing';
+        slider.setPointerCapture(event.pointerId);
+    });
+
+    slider.addEventListener('pointermove', (event) => {
+        if (! dragging) {
+            return;
+        }
+
+        const dx = event.clientX - startX;
+        moved = Math.max(moved, Math.abs(dx));
+        slider.scrollLeft = startLeft - dx;
+    });
+
+    const release = () => {
+        if (! dragging) {
+            return;
+        }
+
+        dragging = false;
+        slider.style.scrollSnapType = '';
+        slider.style.cursor = '';
+    };
+
+    slider.addEventListener('pointerup', release);
+    slider.addEventListener('pointercancel', release);
+
+    slider.addEventListener('click', (event) => {
+        if (moved > 6) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+    }, true);
+});

@@ -40,7 +40,7 @@
                             </p>
                             <p class="mt-5 font-display text-lg text-violet-soft">This is the part a playlist can't copy.</p>
                         </div>
-                        <div class="hidden md:block"><x-why-stage tone="fresh" /></div>
+                        <div class="mx-auto w-full max-w-xs sm:max-w-sm md:mx-0 md:max-w-none"><x-why-stage tone="fresh" /></div>
                     </div>
                 </div>
 
@@ -61,7 +61,7 @@
                                 <svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current stroke-2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
                             </a>
                         </div>
-                        <div class="hidden md:block"><x-why-stage tone="research" /></div>
+                        <div class="mx-auto w-full max-w-xs sm:max-w-sm md:mx-0 md:max-w-none"><x-why-stage tone="research" /></div>
                     </div>
                 </div>
 
@@ -78,7 +78,7 @@
                                 Your last length and pacing carry over on their own, so the next session is already set the way you left it.
                             </p>
                         </div>
-                        <div class="hidden md:block"><x-why-stage tone="config" /></div>
+                        <div class="mx-auto w-full max-w-xs sm:max-w-sm md:mx-0 md:max-w-none"><x-why-stage tone="config" /></div>
                     </div>
                 </div>
 

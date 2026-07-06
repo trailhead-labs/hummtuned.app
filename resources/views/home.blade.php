@@ -46,25 +46,29 @@
             </p>
 
             {{-- Mobile: a single-line swipe slider. sm+: the connected hairline grid. --}}
-            <div class="no-scrollbar mt-14 -mx-6 flex snap-x snap-mandatory gap-4 overflow-x-auto px-6 pb-4 sm:mx-0 sm:grid sm:snap-none sm:grid-cols-5 sm:gap-px sm:overflow-hidden sm:rounded-2xl sm:border sm:border-white/8 sm:bg-white/5 sm:px-0 sm:pb-0">
+            <div class="no-scrollbar mt-14 -mx-6 flex snap-x snap-mandatory gap-4 overflow-x-auto px-6 pb-4 sm:mx-0 xl:-mx-13 sm:grid sm:snap-none sm:grid-cols-5 sm:gap-px sm:overflow-hidden sm:rounded-2xl sm:border sm:border-white/8 sm:bg-white/5 sm:px-0 sm:pb-0">
                 <div class="reveal w-[76%] shrink-0 snap-start rounded-2xl border border-white/8 bg-ink/60 p-6 sm:w-auto sm:shrink sm:rounded-none sm:border-0">
-                    <p class="font-display text-lg text-cream"><span class="italic text-violet-soft">Humm</span> before your first coffee</p>
+                    <p class="font-display text-lg text-cream h-auto lg:h-16"><span class="italic text-violet-soft">Humm</span> before breakfast</p>
                     <p class="mt-2 text-sm text-muted">A nudge toward alert on the way to the kitchen.</p>
                 </div>
+
                 <div class="reveal w-[76%] shrink-0 snap-start rounded-2xl border border-white/8 bg-ink/60 p-6 sm:w-auto sm:shrink sm:rounded-none sm:border-0">
-                    <p class="font-display text-lg text-cream"><span class="italic text-violet-soft">Humm</span> on the bus</p>
+                    <p class="font-display text-lg text-cream h-auto lg:h-16"><span class="italic text-violet-soft">Humm</span> on the bus</p>
                     <p class="mt-2 text-sm text-muted">A calm buffer instead of the feed.</p>
                 </div>
+
                 <div class="reveal w-[76%] shrink-0 snap-start rounded-2xl border border-white/8 bg-ink/60 p-6 sm:w-auto sm:shrink sm:rounded-none sm:border-0">
-                    <p class="font-display text-lg text-cream"><span class="italic text-violet-soft">Humm</span> through the deep work</p>
+                    <p class="font-display text-lg text-cream h-auto lg:h-16"><span class="italic text-violet-soft">Humm</span> through the deep work</p>
                     <p class="mt-2 text-sm text-muted">Set the state, then hold it.</p>
                 </div>
+
                 <div class="reveal w-[76%] shrink-0 snap-start rounded-2xl border border-white/8 bg-ink/60 p-6 sm:w-auto sm:shrink sm:rounded-none sm:border-0">
-                    <p class="font-display text-lg text-cream"><span class="italic text-violet-soft">Humm</span> in meditation</p>
+                    <p class="font-display text-lg text-cream h-auto lg:h-16"><span class="italic text-violet-soft">Humm</span> in meditation</p>
                     <p class="mt-2 text-sm text-muted">Drop in faster, stay longer.</p>
                 </div>
+
                 <div class="reveal w-[76%] shrink-0 snap-start rounded-2xl border border-white/8 bg-ink/60 p-6 sm:w-auto sm:shrink sm:rounded-none sm:border-0">
-                    <p class="font-display text-lg text-cream"><span class="italic text-violet-soft">Humm</span> before sleep</p>
+                    <p class="font-display text-lg text-cream h-auto lg:h-16"><span class="italic text-violet-soft">Humm</span> before sleep</p>
                     <p class="mt-2 text-sm text-muted">Wind the day down on purpose.</p>
                 </div>
             </div>
@@ -160,13 +164,19 @@
         <div class="mx-auto max-w-6xl px-6">
             <p class="reveal mb-4 text-sm uppercase tracking-[0.2em] text-violet-soft/70">In their words</p>
             <h2 class="reveal font-display text-4xl font-extralight text-cream sm:text-5xl">Trusted for what it doesn't do.</h2>
+        </div>
 
-            {{-- Mobile: a single-line swipe slider. sm+: a masonry column layout. --}}
-            <div class="no-scrollbar reveal mt-14 -mx-6 flex snap-x snap-mandatory gap-4 overflow-x-auto px-6 pb-4 sm:mx-0 sm:block sm:snap-none sm:columns-2 sm:overflow-visible sm:px-0 sm:pb-0 lg:columns-3">
+        {{-- A slider a little wider than the page container: drag or swipe to move,
+             its sides masked so cards ease off the edges. The max-width lives on the
+             wrapper so the calc padding stays relative to it and never overshoots. --}}
+        <div class="reveal mx-auto mt-14 max-w-7xl">
+            <div data-slider
+                 class="no-scrollbar flex cursor-grab select-none snap-x snap-mandatory gap-5 overflow-x-auto px-[max(1.5rem,calc((100%-72rem)/2))] pb-4"
+                 style="-webkit-mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent); mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);">
                 @foreach ($testimonials as $testimonial)
-                    <figure class="w-[80%] shrink-0 snap-start rounded-2xl border border-white/8 bg-white/[0.02] p-6 sm:mb-4 sm:w-auto sm:shrink sm:break-inside-avoid">
+                    <figure class="flex w-[78%] shrink-0 snap-start flex-col rounded-2xl border border-white/8 bg-white/[0.02] p-6 sm:w-[44%] md:w-[36%] lg:w-[29%] xl:w-[24%]">
                         <blockquote class="leading-relaxed text-cream/90">{{ $testimonial['quote'] }}</blockquote>
-                        <figcaption class="mt-5 flex items-center gap-3">
+                        <figcaption class="mt-auto flex items-center gap-3 pt-5">
                             <span class="grid h-9 w-9 shrink-0 place-items-center rounded-full font-display text-sm {{ $testimonial['tint'] }}">{{ $testimonial['initials'] }}</span>
                             <span class="leading-tight">
                                 <span class="block text-sm text-cream">{{ $testimonial['name'] }}</span>
@@ -196,14 +206,14 @@
                 <div class="pt-6 border-b border-white/8 pb-6">
                     <p class="font-display text-xl text-cream">Then one price, once, per device</p>
                     <p class="mt-1 text-sm text-muted">Lifetime, all future programs included.</p>
+                    <p class="mt-1 text-sm text-muted">The license is per device, plain and up front.</p>
                 </div>
                 <p class="mt-8 text-center text-sm text-muted">Start your free week on</p>
                 <x-store-badges size="compact" class="mt-3" />
             </div>
 
-            <p class="reveal mt-8 text-muted">Comparable apps charge <span class="text-cream">$40 to $100 a year</span>, every year. Humm is one price, once.</p>
-            <p class="reveal mt-3 text-sm text-muted/70">The license is per device, plain and up front, so there are no surprises later.</p>
         </div>
+        <p class="reveal mt-8 text-muted text-center px-4">Comparable apps charge <span class="text-cream">$40 to $100 a year</span>, every year. You the math.</p>
     </section>
 
     {{-- 9. FAQ --}}
