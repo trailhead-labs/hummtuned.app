@@ -185,6 +185,32 @@ body {
     }
 }
 
+/* Tab soundwave: each bar grows from its midline in a quick left-to-right sweep
+   when its tab is shown, the stagger set inline per bar. Held full and still
+   under reduced motion, which never opts into the animation below. */
+.wave-bar {
+    transform-box: fill-box;
+    transform-origin: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .anim-when-visible .wave-bar {
+        transform: scaleY(0.06);
+        opacity: 0;
+    }
+
+    .anim-when-visible.in-view .wave-bar {
+        animation: wave-grow 0.5s cubic-bezier(0.2, 0.8, 0.3, 1) forwards;
+    }
+}
+
+@keyframes wave-grow {
+    to {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+}
+
 /* FAQ accordion: each answer stays collapsed via the grid-rows trick and slides
    open when its item gains .is-open. Without JS every answer is expanded, so the
    copy is never trapped behind a button that cannot toggle. */

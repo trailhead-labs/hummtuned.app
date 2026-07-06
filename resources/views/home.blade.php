@@ -96,51 +96,38 @@
                     <p class="mt-2 text-muted">Headphones on. That's the whole interaction.</p>
                 </div>
             </div>
-            <div class="reveal mt-16 border-t border-white/5 pt-8">
-                <p class="font-display text-2xl font-light text-cream">Humm tunes you. You don't tune Humm.</p>
-                <p class="mt-3 max-w-xl text-muted">Everything's here if you go looking: session pacing, the mix, the end chime. It just never asks you to touch any of it.</p>
-            </div>
-        </div>
-    </section>
-
-    {{-- 4. The engine --}}
-    <section class="border-t border-white/5 py-16 sm:py-24">
-        <div class="mx-auto max-w-3xl px-6 text-center">
-            <p class="reveal mb-6 text-sm uppercase tracking-[0.2em] text-violet-soft/70">Never the same twice</p>
-            <h2 class="reveal font-display text-4xl font-extralight leading-tight text-cream sm:text-5xl">
-                Every session is mixed fresh.<br>Familiarity never sets in.
-            </h2>
-            <p class="reveal mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-muted">
-                Most ambient audio is a fixed track. Play it enough and your ear learns it, and the moment it becomes familiar it stops working. Humm assembles a new soundscape every session from a deep pool of natural textures, melodies, and effects, and keeps shifting the mix as it plays. There's nothing to memorize and nothing to wear out.
-            </p>
-            <p class="reveal mt-6 font-display text-lg text-violet-soft">This is the part a playlist can't copy.</p>
         </div>
     </section>
 
     {{-- 5. Programs (teaser; full detail on the programs page) --}}
     <section class="border-t border-white/5 py-16 sm:py-24">
-        <div class="mx-auto max-w-4xl px-6">
-            <p class="reveal mb-4 text-sm uppercase tracking-[0.2em] text-violet-soft/70">Seventeen programs, four purposes</p>
-            <h2 class="reveal font-display text-4xl font-extralight text-cream sm:text-5xl">Pick by what you need.</h2>
-            <p class="reveal mt-4 max-w-2xl text-muted">Each program is graded honestly, from strong evidence to traditional, in plain words. No overclaiming, no hidden woo.</p>
+        <div class="mx-auto max-w-6xl px-6">
 
-            <div class="reveal mt-12 divide-y divide-white/8 border-y border-white/8">
-                <a href="{{ route('programs') }}" class="group flex items-baseline justify-between gap-6 py-5 transition hover:bg-white/[0.02]">
-                    <div><span class="font-display text-xl text-cream">Focus &amp; Energy</span><span class="ml-3 text-sm text-muted">Six programs for work, learning, and drive.</span></div>
-                    <span class="text-muted transition group-hover:text-violet-soft">→</span>
-                </a>
-                <a href="{{ route('programs') }}" class="group flex items-baseline justify-between gap-6 py-5 transition hover:bg-white/[0.02]">
-                    <div><span class="font-display text-xl text-cream">Calm &amp; Meditation</span><span class="ml-3 text-sm text-muted">Three for winding down and turning inward.</span></div>
-                    <span class="text-muted transition group-hover:text-violet-soft">→</span>
-                </a>
-                <a href="{{ route('programs') }}" class="group flex items-baseline justify-between gap-6 py-5 transition hover:bg-white/[0.02]">
-                    <div><span class="font-display text-xl text-cream">Sleep &amp; Wake</span><span class="ml-3 text-sm text-muted">Four for naps, deep sleep, and gentle mornings.</span></div>
-                    <span class="text-muted transition group-hover:text-violet-soft">→</span>
-                </a>
-                <a href="{{ route('programs') }}" class="group flex items-baseline justify-between gap-6 py-5 transition hover:bg-white/[0.02]">
-                    <div><span class="font-display text-xl text-coral/90">Experiential</span><span class="ml-3 text-sm text-muted">Four rooted in tradition, offered for exploration.</span></div>
-                    <span class="text-muted transition group-hover:text-coral">→</span>
-                </a>
+            <div class="max-w-4xl">
+
+                <p class="reveal mb-4 text-sm uppercase tracking-[0.2em] text-violet-soft/70">Seventeen programs, four purposes</p>
+                <h2 class="reveal font-display text-4xl font-extralight text-cream sm:text-5xl">Pick by what you need.</h2>
+                <p class="reveal mt-4 max-w-2xl text-muted">Each program is graded honestly, from strong evidence to traditional, in plain words. No overclaiming, no hidden woo.</p>
+
+                <div class="reveal mt-12 divide-y divide-white/8">
+                    <a href="{{ route('programs') }}" class="group flex items-baseline justify-between gap-6 py-5 px-5 -mx-5 transition border-t border-white/8 hover:bg-white/[0.02]">
+                        <div><span class="font-display text-xl text-cream">Focus &amp; Energy</span><span class="ml-3 text-sm text-muted">Six programs for work, learning, and drive.</span></div>
+                        <span class="text-muted transition group-hover:text-violet-soft">→</span>
+                    </a>
+                    <a href="{{ route('programs') }}" class="group flex items-baseline justify-between gap-6 py-5 px-5 -mx-5 transition hover:bg-white/[0.02]">
+                        <div><span class="font-display text-xl text-cream">Calm &amp; Meditation</span><span class="ml-3 text-sm text-muted">Three for winding down and turning inward.</span></div>
+                        <span class="text-muted transition group-hover:text-violet-soft">→</span>
+                    </a>
+                    <a href="{{ route('programs') }}" class="group flex items-baseline justify-between gap-6 py-5 px-5 -mx-5 transition hover:bg-white/[0.02]">
+                        <div><span class="font-display text-xl text-cream">Sleep &amp; Wake</span><span class="ml-3 text-sm text-muted">Four for naps, deep sleep, and gentle mornings.</span></div>
+                        <span class="text-muted transition group-hover:text-violet-soft">→</span>
+                    </a>
+                    <a href="{{ route('programs') }}" class="group flex items-baseline justify-between gap-6 py-5 px-5 -mx-5 transition border-b border-white/8 hover:bg-white/[0.02]">
+                        <div><span class="font-display text-xl text-coral/90">Experiential</span><span class="ml-3 text-sm text-muted">Four rooted in tradition, offered for exploration.</span></div>
+                        <span class="text-muted transition group-hover:text-coral">→</span>
+                    </a>
+                </div>
+
             </div>
 
             <a href="{{ route('programs') }}" class="reveal mt-8 inline-flex items-center gap-2 font-medium text-violet-soft transition hover:text-violet-bright">
@@ -150,38 +137,8 @@
         </div>
     </section>
 
-    {{-- 6. The science, briefly --}}
-    <section class="border-t border-white/5 py-16 sm:py-24">
-        <div class="mx-auto max-w-3xl px-6 text-center">
-            <p class="reveal mb-6 text-sm uppercase tracking-[0.2em] text-violet-soft/70">Backed by real research</p>
-            <h2 class="reveal font-display text-4xl font-extralight text-cream sm:text-5xl">The defaults are the research.</h2>
-            <p class="reveal mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-muted">
-                Play a slightly different tone in each ear and the brain responds to the difference, a response you can see on an EEG. Researchers have studied it for decades, and for programs like Deep Meditation the evidence is genuinely strong. We read all of it, picked the best-supported frequency for each program, and made it the default. Other apps hand you a frequency picker and a wall of presets, which quietly makes the science your problem. We did the opposite: the choice is already made, from the evidence, so nothing on the surface asks you to pick a frequency.
-            </p>
-            <a href="{{ route('science') }}" class="reveal mt-8 inline-flex items-center gap-2 font-medium text-violet-soft transition hover:text-violet-bright">
-                Read the research
-                <svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current stroke-2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
-        </div>
-    </section>
-
-    {{-- 7. What Humm doesn't do --}}
-    <section class="border-t border-white/5 py-16 sm:py-24">
-        <div class="mx-auto max-w-4xl px-6 text-center">
-            <h2 class="reveal mx-auto max-w-2xl font-display text-3xl font-extralight leading-snug text-cream sm:text-4xl">
-                An app for your attention shouldn't be designed to consume it.
-            </h2>
-            <div class="reveal mx-auto mt-12 grid max-w-2xl gap-x-10 gap-y-4 text-left sm:grid-cols-2">
-                <div class="flex items-center gap-3 border-b border-white/5 py-3 text-cream/90"><span class="h-1.5 w-1.5 rounded-full bg-coral"></span> No ads. Ever.</div>
-                <div class="flex items-center gap-3 border-b border-white/5 py-3 text-cream/90"><span class="h-1.5 w-1.5 rounded-full bg-coral"></span> No tracking. Nothing to harvest.</div>
-                <div class="flex items-center gap-3 border-b border-white/5 py-3 text-cream/90"><span class="h-1.5 w-1.5 rounded-full bg-coral"></span> No subscription.</div>
-                <div class="flex items-center gap-3 border-b border-white/5 py-3 text-cream/90"><span class="h-1.5 w-1.5 rounded-full bg-coral"></span> No account required.</div>
-                <div class="flex items-center gap-3 border-b border-white/5 py-3 text-cream/90"><span class="h-1.5 w-1.5 rounded-full bg-coral"></span> No streaks or notifications.</div>
-                <div class="flex items-center gap-3 border-b border-white/5 py-3 text-cream/90"><span class="h-1.5 w-1.5 rounded-full bg-coral"></span> Works offline, entirely on-device.</div>
-            </div>
-            <p class="reveal mt-18 font-display text-2xl font-light text-violet-soft">Humm succeeds when you forget it's running.</p>
-        </div>
-    </section>
+    {{-- 6. Why Humm is different (tabbed: the engine, the science, no-config, what it doesn't do) --}}
+    <x-why-different />
 
     {{-- Testimonials (social proof, right before the price) --}}
     @php
