@@ -164,6 +164,7 @@
         <div class="mx-auto max-w-6xl px-6">
             <p class="reveal mb-4 text-sm uppercase tracking-[0.2em] text-violet-soft/70">In their words</p>
             <h2 class="reveal font-display text-4xl font-extralight text-cream sm:text-5xl">Trusted for what it doesn't do.</h2>
+            <p class="-mx-2 reveal mt-4 text-sm tracking-[0.2em] text-violet-soft/70"><sup>*</sup> Placeholder reviews now. These will be real people after launch, promise.</p>
         </div>
 
         {{-- A slider a little wider than the page container: drag or swipe to move,
