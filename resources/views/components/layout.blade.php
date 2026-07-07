@@ -6,6 +6,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    {{-- Flag JS synchronously, before first paint, so collapsibles start closed
+         with no open-to-closed flash. Without JS the class never lands and the
+         CSS keeps every panel expanded (accessible fallback). --}}
+    <script>document.documentElement.classList.add('js')</script>
+
     <title>{{ $title }}</title>
     @if ($description)
         <meta name="description" content="{{ $description }}" />

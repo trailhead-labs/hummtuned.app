@@ -37,6 +37,7 @@
 
                 {{-- 01 What binaural beats are --}}
                 <div class="sci-panel" id="panel-beats" role="tabpanel">
+
                     <h2 class="font-display text-3xl font-extralight text-cream">What binaural beats actually are</h2>
                     <div class="prose max-w-2xl text-[17px] leading-relaxed text-muted">
                         <p>Play a steady tone at one frequency into your left ear and a slightly different one into your right, and your brain does not hear two tones. It hears a single tone that seems to pulse at the difference between them. Feed 247.5 Hz to one ear and 252.5 Hz to the other, and you perceive a 5 Hz throb that is not present in either signal. That throb is the binaural beat. It is created inside the auditory system, not in the air, which is why binaural beats need stereo headphones: each ear has to receive its own tone.</p>

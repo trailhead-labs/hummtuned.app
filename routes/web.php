@@ -7,3 +7,4 @@ Route::view('/', 'home')->name('home');
 Route::view('/programs', 'programs', ['groups' => ProgramCatalog::forProgramsPage()])->name('programs');
 Route::view('/science', 'science', ['groups' => ProgramCatalog::forSciencePage()])->name('science');
 Route::view('/privacy', 'privacy')->name('privacy');
+Route::view('/credits', 'credits')->name('credits');

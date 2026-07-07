@@ -247,6 +247,18 @@
                     </div>
                 </div>
                 <div class="faq reveal group">
+                    <button type="button" aria-expanded="false" aria-controls="faq-answer-sounds" class="flex w-full cursor-pointer items-center justify-between gap-4 py-5 text-left font-display text-lg text-cream">Where do the sounds come from?<span class="shrink-0 text-muted transition group-[.is-open]:rotate-45">+</span></button>
+                    <div id="faq-answer-sounds" class="faq-answer">
+                        <div>
+                            <p class="text-muted">From a curated library of studio-quality recordings: rain, wind, fire, ocean, bells, bowls, flutes, chants, and more. They start as high-resolution masters and are transparently compressed with a modern codec, so they stay high fidelity at a fraction of the size, and each one is leveled so the generative mix always sits right. The whole library is bundled in the app, so nothing is ever streamed and everything works offline. The recordings are license-free and cleared for a paid app: just over half are public domain, and the rest ask only for a credit. No royalties ride on your session.</p>
+                            <a href="{{ route('credits') }}" class="mb-5 mt-4 inline-flex items-center gap-2 font-medium text-violet-soft transition hover:text-violet-bright">
+                                See the sound credits
+                                <svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current stroke-2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq reveal group">
                     <button type="button" aria-expanded="false" aria-controls="faq-answer-4" class="flex w-full cursor-pointer items-center justify-between gap-4 py-5 text-left font-display text-lg text-cream">Which devices does it run on?<span class="shrink-0 text-muted transition group-[.is-open]:rotate-45">+</span></button>
                     <div id="faq-answer-4" class="faq-answer">
                         <div>
