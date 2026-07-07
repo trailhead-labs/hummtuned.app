@@ -1,6 +1,6 @@
 # Sound Credits
 
-Humm's ambient sounds are sourced from [Freesound.org](https://freesound.org) under Creative Commons licenses. The library uses 224 sounds. The 123 released under CC0 (public domain) require no attribution; the sounds below are credited per their license terms.
+Humm's ambient sounds are sourced from [Freesound.org](https://freesound.org) under Creative Commons licenses. The library uses 222 sounds. The 121 released under CC0 (public domain) require no attribution; the sounds below are credited per their license terms.
 
 
 ## Attribution — Creative Commons Attribution (CC BY)  ·  95 sounds
@@ -110,7 +110,7 @@ Humm's ambient sounds are sourced from [Freesound.org](https://freesound.org) un
 - "FIRE.wav" by samsmyname — Sampling Plus 1.0 — https://freesound.org/people/samsmyname/sounds/51364/
 - "bowl_struck.wav" by suburban grilla — Sampling Plus 1.0 — https://freesound.org/people/suburban%20grilla/sounds/2166/
 
-## Public Domain (CC0)  ·  123 sounds
+## Public Domain (CC0)  ·  121 sounds
 
 Released under CC0 1.0 — no attribution required. We thank the contributors nonetheless. Full list available in the project manifest.
 
