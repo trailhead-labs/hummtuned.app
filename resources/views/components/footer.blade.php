@@ -19,7 +19,7 @@
                     <a href="{{ route('programs') }}" class="transition hover:text-cream">Programs</a>
                     <a href="{{ route('science') }}" class="transition hover:text-cream">Science</a>
                     <a href="{{ route('privacy') }}" class="transition hover:text-cream">Privacy</a>
-                    <a href="{{ route('credits') }}" class="transition hover:text-cream">Credits</a>
+                    <a href="{{ route('terms') }}" class="transition hover:text-cream">Terms</a>
                     {{--
                     <a href="#" class="transition hover:text-cream">Support</a>
                     --}}

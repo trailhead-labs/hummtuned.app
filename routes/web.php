@@ -8,3 +8,4 @@ Route::view('/programs', 'programs', ['groups' => ProgramCatalog::forProgramsPag
 Route::view('/science', 'science', ['groups' => ProgramCatalog::forSciencePage()])->name('science');
 Route::view('/privacy', 'privacy')->name('privacy');
 Route::view('/credits', 'credits')->name('credits');
+Route::view('/terms', 'terms')->name('terms');

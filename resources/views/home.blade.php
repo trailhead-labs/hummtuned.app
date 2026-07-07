@@ -211,10 +211,11 @@
                 </div>
                 <p class="mt-8 text-center text-sm text-muted">Start your free week on</p>
                 <x-store-badges size="compact" class="mt-3" />
+                <p class="mt-6 text-center text-xs leading-relaxed text-muted/70">By downloading, you agree to our <a href="{{ route('terms') }}" class="text-muted underline decoration-white/20 underline-offset-2 transition hover:text-cream">Terms</a> and <a href="{{ route('privacy') }}" class="text-muted underline decoration-white/20 underline-offset-2 transition hover:text-cream">Privacy Policy</a>.</p>
             </div>
 
         </div>
-        <p class="reveal mt-8 text-muted text-center px-4">Comparable apps charge <span class="text-cream">$40 to $100 a year</span>, every year. You the math.</p>
+        <p class="reveal mt-8 text-muted text-center px-4">Comparable apps charge <span class="text-cream">$40 to $100 a year</span>, every year. You do the math.</p>
     </section>
 
     {{-- 9. FAQ --}}
@@ -287,6 +288,14 @@
                     <div id="faq-answer-7" class="faq-answer">
                         <div>
                             <p class="pb-5 text-muted">No. Humm supports focus, rest, and relaxation. It does not diagnose or treat any condition.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq reveal group">
+                    <button type="button" aria-expanded="false" aria-controls="faq-answer-safety" class="flex w-full cursor-pointer items-center justify-between gap-4 py-5 text-left font-display text-lg text-cream">Is it safe to use?<span class="shrink-0 text-muted transition group-[.is-open]:rotate-45">+</span></button>
+                    <div id="faq-answer-safety" class="faq-answer">
+                        <div>
+                            <p class="pb-5 text-muted">Humm supports focus, rest, and relaxation. It is not a medical device, and nothing here is medical advice. A few sensible cautions: keep the volume at a comfortable, moderate level to protect your hearing, and never run a relaxation or sleep program while driving or operating machinery. If you have epilepsy or a seizure disorder, a heart condition, or are pregnant, talk to a doctor before using brainwave entrainment. If anything feels uncomfortable, stop and take the headphones off.</p>
                         </div>
                     </div>
                 </div>
