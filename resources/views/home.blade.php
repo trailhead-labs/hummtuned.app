@@ -228,6 +228,7 @@
                     <div id="faq-answer-1" class="faq-answer">
                         <div>
                             <p class="pb-5 text-muted">Yes. Binaural beats need each ear to hear its own tone, so stereo headphones are required.</p>
+                            <p class="pb-5 text-muted">But if you'd like to use Humm over the speaker you are free to do so, the binaurals wont have any effect. But the mix is a soothing base for group meditations too.</p>
                         </div>
                     </div>
                 </div>

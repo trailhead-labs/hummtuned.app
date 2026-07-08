@@ -185,6 +185,22 @@ body {
     }
 }
 
+/* The dial mark drifts round non-linearly: a gentle sine laid over a steady turn,
+   so it eases and quickens twice per revolution and the leading point breathes as
+   it travels rather than marching. Continuous across the loop (the speed at 100%
+   matches 0%); disabled by motion-reduce on the element itself. */
+@keyframes drift {
+    0% { transform: rotate(0deg); }
+    12.5% { transform: rotate(40.8deg); }
+    25% { transform: rotate(84deg); }
+    37.5% { transform: rotate(130.8deg); }
+    50% { transform: rotate(180deg); }
+    62.5% { transform: rotate(229.2deg); }
+    75% { transform: rotate(276deg); }
+    87.5% { transform: rotate(319.2deg); }
+    100% { transform: rotate(360deg); }
+}
+
 /* Tab soundwave: each bar grows from its midline in a quick left-to-right sweep
    when its tab is shown, the stagger set inline per bar. Held full and still
    under reduced motion, which never opts into the animation below. */
