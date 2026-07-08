@@ -7,7 +7,7 @@
     draws itself when the panel is shown; under reduced motion it renders complete.
 --}}
 <figure class="anim-when-visible my-10 rounded-2xl border border-white/8 bg-white/[0.02] p-6">
-    <svg viewBox="0 0 640 250" class="w-full" role="img" aria-labelledby="shape-title shape-desc">
+    <svg viewBox="0 0 640 200" class="w-full" role="img" aria-labelledby="shape-title shape-desc">
         <title id="shape-title">The shape of a Humm session</title>
         <desc id="shape-desc">The beat holds briefly at the entry frequency, glides down to a long dwell at the target, then either rises back toward waking or, for sleep programs, sinks below the dwell and fades out. Only the dwell is grounded in research.</desc>
 
@@ -55,18 +55,23 @@
             <circle cx="544" cy="64" r="3.5" fill="#A99BFF" />
         </g>
 
-        {{-- Labels; the dwell is lifted to cream as the one evidenced part, and the
-             two end branches are named where they land. --}}
-        <g class="shape-fade" font-family="Inter, sans-serif" text-anchor="middle">
-            <text x="68" y="210" font-size="11" fill="#8B84B0">Enter</text>
-            <text x="142" y="210" font-size="11" fill="#8B84B0">Glide</text>
-            <text x="302" y="210" font-size="11" fill="#EFE7D8">Dwell</text>
-            <text x="302" y="226" font-size="9" fill="#8B84B0">the evidenced part</text>
-            <text x="572" y="50" font-size="10" fill="#8B84B0">End rise</text>
-            <text x="548" y="212" font-size="10" fill="#E5906A">or sinks and stays</text>
-        </g>
     </svg>
-    <figcaption class="mt-2 text-center text-sm text-muted">
+
+    {{-- Phase labels live in HTML, not baked into the SVG, so they stay legible at
+         any width. Positioned by percentage to sit under each phase of the curve. --}}
+    <div class="relative mt-2 h-11 text-xs">
+        <div class="absolute top-0 -translate-x-1/2 text-muted" style="left: 10.6%">Enter</div>
+        <div class="absolute top-0 -translate-x-1/2 text-muted" style="left: 22.2%">Glide</div>
+        <div class="absolute top-0 -translate-x-1/2 text-center" style="left: 47.2%">
+            <div class="text-cream">Dwell</div>
+            <div class="text-[11px] text-muted">the evidenced part</div>
+        </div>
+        <div class="absolute right-0 top-0 text-right">
+            <div class="text-muted">End rise</div>
+            <div class="text-[11px] text-coral">or sinks and stays</div>
+        </div>
+    </div>
+    <figcaption class="mt-6 text-center text-sm text-muted">
         A session glides down to its target and holds. Then it either rises back toward waking or, for sleep, sinks and stays. Only the dwell is grounded in research; the rest is careful design.
     </figcaption>
 </figure>

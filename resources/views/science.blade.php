@@ -8,37 +8,35 @@
     <div id="sci-top" class="sci-top mx-auto max-w-5xl px-6 pb-24 pt-6 lg:pt-10">
         <div class="md:grid md:grid-cols-[230px_minmax(0,1fr)] md:gap-12 lg:gap-14">
 
-            {{-- Intro lede: content column, top row --}}
-            <div class="md:col-start-2 md:row-start-1">
-                <p class="mb-4 text-sm uppercase tracking-[0.2em] text-violet-soft/70">The long version</p>
-                <h1 class="font-display text-5xl font-extralight leading-[1.05] text-cream sm:text-[3.25rem]">The science behind Humm.</h1>
-                <div class="prose mt-7 text-[17px] leading-relaxed text-muted">
-                    <p>Humm plays binaural programs inside a soundscape that is mixed fresh every session. The programs are built on published research, and we grade that research honestly, program by program. This page is the long version: what binaural beats are, what science can actually show, what is still debated, and exactly how each program is grounded, with every claim traced to a source.</p>
-                    <p>We keep two commitments here. Where the evidence is genuinely strong, we say so plainly. Where it is weak, indirect, or purely traditional, we say that too. Humm supports focus, rest, and relaxation. It does not diagnose or treat any condition, and nothing on this page should be read as a medical claim.</p>
-                </div>
-                <div class="mt-10 hidden border-t border-white/8 md:block"></div>
-            </div>
-
-            {{-- Sidebar / secondary nav: left gutter, spans both rows, sticky --}}
-            <aside class="mt-8 md:mt-0 md:col-start-1 md:row-start-1 md:row-span-2 md:sticky md:top-8 md:self-start">
+            {{-- Sidebar / secondary nav: left gutter, sticky --}}
+            <aside class="mt-8 md:mt-0 md:col-start-1 md:row-start-1 md:sticky md:top-8 md:self-start">
                 <nav id="sci-nav" role="tablist" aria-label="Science page sections"
                      class="flex gap-1 overflow-x-auto border-b border-white/8 pb-3 md:flex-col md:overflow-visible md:border-b-0 md:pb-0">
                     <button class="sci-tab" role="tab" data-tab="beats"><span class="idx">01</span> Binaural beats</button>
-                    <button class="sci-tab" role="tab" data-tab="carrier"><span class="idx">02</span> The carrier</button>
-                    <button class="sci-tab" role="tab" data-tab="evidence"><span class="idx">03</span> Measurable vs debated</button>
+                    <button class="sci-tab" role="tab" data-tab="evidence"><span class="idx">02</span> Measurable vs debated</button>
+                    <button class="sci-tab" role="tab" data-tab="carrier"><span class="idx">03</span> The carrier</button>
                     <button class="sci-tab" role="tab" data-tab="programs"><span class="idx">04</span> Program grounding</button>
                     <button class="sci-tab" role="tab" data-tab="shape"><span class="idx">05</span> Session shape</button>
                     <button class="sci-tab" role="tab" data-tab="citations"><span class="idx">06</span> Citations</button>
                 </nav>
             </aside>
 
-            {{-- Panels: content column, second row --}}
-            <div id="sci-panels" class="scroll-mt-6 pt-8 md:col-start-2 md:row-start-2 md:pt-6">
+            {{-- Panels: content column --}}
+            <div id="sci-panels" class="scroll-mt-6 pt-8 md:col-start-2 md:row-start-1 md:pt-1">
 
-                {{-- 01 What binaural beats are --}}
+                {{-- 01 Binaural beats. Carries the page intro too, so "The science
+                     behind Humm." shows above the first section only, not every tab. --}}
                 <div class="sci-panel" id="panel-beats" role="tabpanel">
 
-                    <h2 class="font-display text-3xl font-extralight text-cream">What binaural beats actually are</h2>
+                    <p class="mb-4 text-sm uppercase tracking-[0.2em] text-violet-soft/70">The long version</p>
+                    <h1 class="font-display text-5xl font-extralight leading-[1.05] text-cream sm:text-[3.25rem]">The science behind Humm.</h1>
+                    <div class="prose mt-7 text-[17px] leading-relaxed text-muted">
+                        <p>Humm plays binaural programs inside a soundscape that is mixed fresh every session. The programs are built on published research, and we grade that research honestly, program by program. This page is the long version: what binaural beats are, what science can actually show, what is still debated, and exactly how each program is grounded, with every claim traced to a source.</p>
+                        <p>We keep two commitments here. Where the evidence is genuinely strong, we say so plainly. Where it is weak, indirect, or purely traditional, we say that too. Humm supports focus, rest, and relaxation. It does not diagnose or treat any condition, and nothing on this page should be read as a medical claim.</p>
+                    </div>
+                    <div class="mt-10 border-t border-white/8"></div>
+
+                    <h2 class="mt-10 font-display text-3xl font-extralight text-cream">What binaural beats actually are</h2>
                     <div class="prose max-w-2xl text-[17px] leading-relaxed text-muted">
                         <p>Play a steady tone at one frequency into your left ear and a slightly different one into your right, and your brain does not hear two tones. It hears a single tone that seems to pulse at the difference between them. Feed 247.5 Hz to one ear and 252.5 Hz to the other, and you perceive a 5 Hz throb that is not present in either signal. That throb is the binaural beat. It is created inside the auditory system, not in the air, which is why binaural beats need stereo headphones: each ear has to receive its own tone.</p>
                         <p>The two tones sit close together around a shared center called the carrier. In Humm the split is symmetric: the left channel plays the carrier minus half the beat, the right channel plays the carrier plus half the beat. The two average back to the carrier, so the pitch you perceive stays put while the beat rides underneath it.</p>
@@ -47,13 +45,27 @@
                     <x-science.binaural />
 
                     <div class="prose max-w-2xl text-[17px] leading-relaxed text-muted">
-                        <p>The idea the whole category rests on is called <strong>entrainment</strong>: the notion that if you present a rhythmic beat, the brain's own electrical rhythm will fall into step with it and shift your state along with it. That is the promise, and we weigh how well it holds up shortly. First, the piece of the mechanism we have only named so far: the carrier those two tones straddle.</p>
+                        <p>The idea the whole category rests on is called <strong>entrainment</strong>: the notion that if you present a rhythmic beat, the brain's own electrical rhythm will fall into step with it and shift your state along with it. That is the promise. The honest picture of how well it holds up is the next section.</p>
+                    </div>
+
+                    <x-science.next hash="evidence" label="Measurable vs debated" />
+                </div>
+
+                {{-- 02 Measurable vs debated --}}
+                <div class="sci-panel" id="panel-evidence" role="tabpanel" hidden>
+                    <h2 class="font-display text-3xl font-extralight text-cream">What is measurable, and what is still debated</h2>
+                    <div class="prose max-w-2xl text-[17px] leading-relaxed text-muted">
+                        <p>Two things are worth separating, because they are often blurred together and only one of them is solid.</p>
+                        <p><strong>The neural response is real and measurable.</strong> When you listen to a binaural beat, the brain produces a matching electrical response that can be recorded on EEG, the auditory steady-state response. The signal has been traced along the auditory pathway from the brainstem up to the cortex (eNeuro 2020). This is not in dispute. The brain registers the beat, and it does so specifically.</p>
+                        <p><strong>Whether that response reliably drives the outcome is still debated.</strong> The measurable response is one thing; whether it reliably produces the subjective or cognitive result you were after (sharper focus, deeper calm, easier sleep) is another, and the literature has not settled it. The best current synthesis, Ingendoh, Posny and Heine (2023, PLOS ONE, 14 EEG studies), found 5 studies supporting entrainment, 8 contradicting it, 1 mixed, and concluded the question "cannot be settled." No study demonstrated entrainment in the fast beta band, and every study that embedded the beat in noise found none. Effects, where they appear, are modest and vary a lot between individuals.</p>
+                        <p>So the picture is neither "this is proven" nor "this is nothing." It is specific. The one meta-analysis showing a real aggregate effect (Garcia-Argibay 2019, g ≈ 0.45) is driven mostly by anxiety and relaxation, the calmer theta and delta states, not by arousal or cognition. That is why the best-grounded programs in Humm are the calming and meditative ones, and why we are more cautious about the alertness and cognition programs. We picked, for each program, the least-unsupported band the research points to, and we tell you where on that spectrum each one sits.</p>
+                        <p>This is also why Humm never asks you to choose a frequency. The defaults are the research. The number is not a dial for you to turn; it is a conclusion we reached from the sources, and the program name is the only interface you need.</p>
                     </div>
 
                     <x-science.next hash="carrier" label="The carrier" />
                 </div>
 
-                {{-- 02 The carrier --}}
+                {{-- 03 The carrier --}}
                 <div class="sci-panel" id="panel-carrier" role="tabpanel" hidden>
                     <h2 class="font-display text-3xl font-extralight text-cream">The constant carrier and its variants</h2>
                     <div class="prose max-w-2xl text-[17px] leading-relaxed text-muted">
@@ -84,20 +96,6 @@
                         </div>
                     </div>
                     <p class="mt-6 max-w-2xl text-[17px] text-muted">In every case the rule is the same: fix the carrier, schedule only the beat.</p>
-
-                    <x-science.next hash="evidence" label="Measurable vs debated" />
-                </div>
-
-                {{-- 03 Measurable vs debated --}}
-                <div class="sci-panel" id="panel-evidence" role="tabpanel" hidden>
-                    <h2 class="font-display text-3xl font-extralight text-cream">What is measurable, and what is still debated</h2>
-                    <div class="prose max-w-2xl text-[17px] leading-relaxed text-muted">
-                        <p>Two things are worth separating, because they are often blurred together and only one of them is solid.</p>
-                        <p><strong>The neural response is real and measurable.</strong> When you listen to a binaural beat, the brain produces a matching electrical response that can be recorded on EEG, the auditory steady-state response. The signal has been traced along the auditory pathway from the brainstem up to the cortex (eNeuro 2020). This is not in dispute. The brain registers the beat, and it does so specifically.</p>
-                        <p><strong>Whether that response reliably drives the outcome is still debated.</strong> The measurable response is one thing; whether it reliably produces the subjective or cognitive result you were after (sharper focus, deeper calm, easier sleep) is another, and the literature has not settled it. The best current synthesis, Ingendoh, Posny and Heine (2023, PLOS ONE, 14 EEG studies), found 5 studies supporting entrainment, 8 contradicting it, 1 mixed, and concluded the question "cannot be settled." No study demonstrated entrainment in the fast beta band, and every study that embedded the beat in noise found none. Effects, where they appear, are modest and vary a lot between individuals.</p>
-                        <p>So the picture is neither "this is proven" nor "this is nothing." It is specific. The one meta-analysis showing a real aggregate effect (Garcia-Argibay 2019, g ≈ 0.45) is driven mostly by anxiety and relaxation, the calmer theta and delta states, not by arousal or cognition. That is why the best-grounded programs in Humm are the calming and meditative ones, and why we are more cautious about the alertness and cognition programs. We picked, for each program, the least-unsupported band the research points to, and we tell you where on that spectrum each one sits.</p>
-                        <p>This is also why Humm never asks you to choose a frequency. The defaults are the research. The number is not a dial for you to turn; it is a conclusion we reached from the sources, and the program name is the only interface you need.</p>
-                    </div>
 
                     <x-science.next hash="programs" label="Program grounding" />
                 </div>

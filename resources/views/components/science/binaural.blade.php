@@ -58,7 +58,7 @@
     meet; under reduced motion it renders complete and still.
 --}}
 <figure class="anim-when-visible my-10 rounded-2xl border border-white/8 bg-white/[0.02] p-6">
-    <svg viewBox="0 0 640 210" class="w-full" role="img" aria-labelledby="bina-title bina-desc">
+    <svg viewBox="0 0 640 165" class="w-full" role="img" aria-labelledby="bina-title bina-desc">
         <title id="bina-title">How a binaural beat is made</title>
         <desc id="bina-desc">A 247.5 Hz tone in the left ear and a 252.5 Hz tone in the right, steady on each side. Where they meet, the brain makes a 5 Hz beat at the shared pitch of 250 Hz, inside the auditory system rather than in the air.</desc>
 
@@ -96,19 +96,26 @@
             <path class="shape-path" pathLength="1" d="{{ $right }}" fill="none" stroke="url(#bina-line)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#bina-glow)" />
         </g>
 
-        {{-- Labels under each zone. --}}
-        <g class="shape-fade" font-family="Inter, sans-serif" text-anchor="middle">
-            <text x="112" y="176" font-size="11" fill="#8B84B0">Left ear</text>
-            <text x="112" y="192" font-size="11" fill="#B7ABF2">247.5 Hz</text>
-
-            <text x="320" y="176" font-size="11" fill="#EFE7D8">The beat <tspan fill="#E5906A">· 5 Hz</tspan></text>
-            <text x="320" y="192" font-size="9" fill="#8B84B0">carrier 250 Hz</text>
-
-            <text x="528" y="176" font-size="11" fill="#8B84B0">Right ear</text>
-            <text x="528" y="192" font-size="11" fill="#B7ABF2">252.5 Hz</text>
-        </g>
     </svg>
-    <figcaption class="mt-2 text-center text-sm text-muted">
+
+    {{-- Zone labels live in HTML, not baked into the SVG, so they stay legible at
+         any width instead of shrinking with the graphic. Three columns line up
+         under the left channel, the centre beat, and the right channel. --}}
+    <div class="mt-4 grid grid-cols-3 text-center">
+        <div>
+            <div class="text-xs text-muted sm:text-sm">Left ear</div>
+            <div class="text-sm text-violet-soft sm:text-base">247.5 Hz</div>
+        </div>
+        <div>
+            <div class="text-xs text-cream sm:text-sm">The beat <span class="text-coral">· 5 Hz</span></div>
+            <div class="text-[11px] text-muted sm:text-xs">carrier 250 Hz</div>
+        </div>
+        <div>
+            <div class="text-xs text-muted sm:text-sm">Right ear</div>
+            <div class="text-sm text-violet-soft sm:text-base">252.5 Hz</div>
+        </div>
+    </div>
+    <figcaption class="mt-6 text-center text-sm text-muted">
         A steady tone in each ear, a few hertz apart. Where they meet, your brain makes the beat: 5 Hz, at the shared pitch of 250 Hz, and in your head, not the air.
     </figcaption>
 </figure>
