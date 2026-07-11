@@ -1,13 +1,12 @@
 # Sound Credits
 
-Humm's ambient sounds are sourced from [Freesound.org](https://freesound.org) under Creative Commons licenses. The library uses 380 sounds. The 208 released under CC0 (public domain) require no attribution; the sounds below are credited per their license terms.
+Humm's ambient sounds are sourced from [Freesound.org](https://freesound.org) under Creative Commons licenses. The library uses 348 sounds. The 193 released under CC0 (public domain) require no attribution; the sounds below are credited per their license terms.
 
 
-## Attribution — Creative Commons Attribution (CC BY)  ·  161 sounds
+## Attribution — Creative Commons Attribution (CC BY)  ·  145 sounds
 
 - "underwater ambience" by akemov — CC BY 4.0 — https://freesound.org/people/akemov/sounds/255597/
 - "SadAtmosphericGuitarSoundTrack" by Akkaittou — CC BY 4.0 — https://freesound.org/people/Akkaittou/sounds/831757/
-- "underwater ambience.wav" by AlienXXX — CC BY 4.0 — https://freesound.org/people/AlienXXX/sounds/218276/
 - "Horizon" by Andrewkn — CC BY 4.0 — https://freesound.org/people/Andrewkn/sounds/509740/
 - "Ambient, Pad Piano - Event Horizon" by Andrewkn — CC BY 4.0 — https://freesound.org/people/Andrewkn/sounds/827922/
 - "In Silence" by Andrewkn — CC BY 4.0 — https://freesound.org/people/Andrewkn/sounds/547044/
@@ -25,7 +24,6 @@ Humm's ambient sounds are sourced from [Freesound.org](https://freesound.org) un
 - "Native American Flute Canyon Loopable Cm 120 bpm" by CarlosCarty — CC BY 4.0 — https://freesound.org/people/CarlosCarty/sounds/474984/
 - "Cow bell" by cdrk — CC BY 4.0 — https://freesound.org/people/cdrk/sounds/556150/
 - "Singing Bowl Hit" by Clearwavsound — CC BY 3.0 — https://freesound.org/people/Clearwavsound/sounds/541036/
-- "Crystal Glass Clink" by Clearwavsound — CC BY 3.0 — https://freesound.org/people/Clearwavsound/sounds/541032/
 - "Good Luck" by crokomoko — CC BY 4.0 — https://freesound.org/people/crokomoko/sounds/833505/
 - "Fluttering Leaf" by crokomoko — CC BY 4.0 — https://freesound.org/people/crokomoko/sounds/833503/
 - "Animals Eat At Grass" by crokomoko — CC BY 4.0 — https://freesound.org/people/crokomoko/sounds/833500/
@@ -45,11 +43,9 @@ Humm's ambient sounds are sourced from [Freesound.org](https://freesound.org) un
 - "Erdies-voice.wav" by Erdie — CC BY 4.0 — https://freesound.org/people/Erdie/sounds/29630/
 - "creepy 1.wav" by ERH — CC BY 4.0 — https://freesound.org/people/ERH/sounds/29869/
 - "KerriFlute.wav" by ethang — CC BY 4.0 — https://freesound.org/people/ethang/sounds/88795/
-- "Sacred Bell at Byodo-In Temple 1" by Filmscore — CC BY 4.0 — https://freesound.org/people/Filmscore/sounds/516051/
 - "pad chords 001-loop mode" by frankum — CC BY 4.0 — https://freesound.org/people/frankum/sounds/426471/
 - "Rain Camping Tent Thunder" by Geoff-Bremner-Audio — CC BY 4.0 — https://freesound.org/people/Geoff-Bremner-Audio/sounds/759514/
 - "Dripping Water in Cave Sewer" by Geoff-Bremner-Audio — CC BY 4.0 — https://freesound.org/people/Geoff-Bremner-Audio/sounds/732036/
-- "Ding 4.wav" by gkillhour — CC BY 4.0 — https://freesound.org/people/gkillhour/sounds/267337/
 - "Ding 1.wav" by gkillhour — CC BY 4.0 — https://freesound.org/people/gkillhour/sounds/267332/
 - "Deep Space Ambience.wav" by GregorQuendel — CC BY 4.0 — https://freesound.org/people/GregorQuendel/sounds/516479/
 - "Dive Deep preview.mp3" by hisoul — CC BY 4.0 — https://freesound.org/people/hisoul/sounds/365659/
@@ -60,21 +56,15 @@ Humm's ambient sounds are sourced from [Freesound.org](https://freesound.org) un
 - "Hand Bells, Low-C, Single.wav" by InspectorJ — CC BY 4.0 — https://freesound.org/people/InspectorJ/sounds/339815/
 - "Wind Chime, Gamelan Gong, A.wav" by InspectorJ — CC BY 4.0 — https://freesound.org/people/InspectorJ/sounds/411090/
 - "Wonderful - Calm Beautiful Piano Loop" by ispeakwaves — CC BY 4.0 — https://freesound.org/people/ispeakwaves/sounds/439877/
-- "Gong - percussion 03" by Jagadamba — CC BY 4.0 — https://freesound.org/people/Jagadamba/sounds/257198/
-- "Steam Hiss.wav" by jesabat — CC BY 3.0 — https://freesound.org/people/jesabat/sounds/119741/
 - "mark_tree_low_up.wav" by joedeshon — CC BY 4.0 — https://freesound.org/people/joedeshon/sounds/78209/
 - "hand_bell" by John_Sauter — CC BY 4.0 — https://freesound.org/people/John_Sauter/sounds/148609/
 - "somber guitar music run through an old tape deck - no drums" by Johnmode — CC BY 4.0 — https://freesound.org/people/Johnmode/sounds/824143/
 - "Snake.wav" by Julian_Eftei — CC BY 4.0 — https://freesound.org/people/Julian_Eftei/sounds/553366/
-- "Quartz crystal singing bowl.wav" by juskiddink — CC BY 4.0 — https://freesound.org/people/juskiddink/sounds/129219/
 - "Duduk 2.wav" by juskiddink — CC BY 4.0 — https://freesound.org/people/juskiddink/sounds/183454/
 - "Duduk 3.wav" by juskiddink — CC BY 4.0 — https://freesound.org/people/juskiddink/sounds/184267/
 - "Duduk.wav" by juskiddink — CC BY 4.0 — https://freesound.org/people/juskiddink/sounds/180004/
 - "Metallophone hit.wav" by juskiddink — CC BY 4.0 — https://freesound.org/people/juskiddink/sounds/131978/
 - "bell4.wav" by juskiddink — CC BY 4.0 — https://freesound.org/people/juskiddink/sounds/68261/
-- "Metallic gong.wav" by juskiddink — CC BY 4.0 — https://freesound.org/people/juskiddink/sounds/57625/
-- "bell3.wav" by juskiddink — CC BY 4.0 — https://freesound.org/people/juskiddink/sounds/59536/
-- "Freshwater pond submerged" by kangaroovindaloo — CC BY 4.0 — https://freesound.org/people/kangaroovindaloo/sounds/138289/
 - "eagle_feather.mp3" by kerri — CC BY 3.0 — https://freesound.org/people/kerri/sounds/27257/
 - "flutedance.mp3" by kerri — CC BY 3.0 — https://freesound.org/people/kerri/sounds/15778/
 - "overblow_echo.mp3" by kerri — CC BY 3.0 — https://freesound.org/people/kerri/sounds/37145/
@@ -102,7 +92,6 @@ Humm's ambient sounds are sourced from [Freesound.org](https://freesound.org) un
 - "Guzhen_stereo_1.wav" by leonseptavaux — CC BY 4.0 — https://freesound.org/people/leonseptavaux/sounds/411211/
 - "Matt's Emotional Ambient Synthscape (100 bpm)" by Mattc90 — CC BY 4.0 — https://freesound.org/people/Mattc90/sounds/336858/
 - "Bell Glocke" by MatthiasFlowers — CC BY 4.0 — https://freesound.org/people/MatthiasFlowers/sounds/578422/
-- "Match box manipulation, shake, rattle, match stick, sticks, wood, wooden, single tap_96Khz_Mono_ZoomH4n_NT5-002.wav" by MattRuthSound — CC BY 4.0 — https://freesound.org/people/MattRuthSound/sounds/561913/
 - "campfire_01.wav" by matucha — CC BY 4.0 — https://freesound.org/people/matucha/sounds/170247/
 - "distant_storm_08.wav" by matucha — CC BY 4.0 — https://freesound.org/people/matucha/sounds/115253/
 - "distant_storm_07.wav" by matucha — CC BY 4.0 — https://freesound.org/people/matucha/sounds/115252/
@@ -120,9 +109,7 @@ Humm's ambient sounds are sourced from [Freesound.org](https://freesound.org) un
 - "Glitch sweep tonal hoover stop_1(mltprcssng).wav" by newlocknew — CC BY 4.0 — https://freesound.org/people/newlocknew/sounds/563404/
 - "Wine Glass 2 - Struck" by nlux — CC BY 4.0 — https://freesound.org/people/nlux/sounds/636732/
 - "Earthquake" by NoahBangs — CC BY 4.0 — https://freesound.org/people/NoahBangs/sounds/636092/
-- "SprayPaint_Shake_Single_bip.wav" by passAirmangrace — CC BY 3.0 — https://freesound.org/people/passAirmangrace/sounds/340895/
 - "Dark Ambient Drone" by PatrickLieberkind — CC BY 4.0 — https://freesound.org/people/PatrickLieberkind/sounds/396457/
-- "bells.WAV" by phantastonia — CC BY 4.0 — https://freesound.org/people/phantastonia/sounds/270604/
 - "Orchestral_Concert_TamTam_Gong_14.wav" by pjcohen — CC BY 4.0 — https://freesound.org/people/pjcohen/sounds/413612/
 - "Orchestral_Concert_TamTam_Gong_06.wav" by pjcohen — CC BY 4.0 — https://freesound.org/people/pjcohen/sounds/413614/
 - "Bar_Chimes_Sweep_Down.wav" by pjcohen — CC BY 4.0 — https://freesound.org/people/pjcohen/sounds/414558/
@@ -132,9 +119,6 @@ Humm's ambient sounds are sourced from [Freesound.org](https://freesound.org) un
 - "Tibetan Chant reversed.wav" by Razzvio — CC BY 3.0 — https://freesound.org/people/Razzvio/sounds/79648/
 - "gong.wav" by reinsamba — CC BY 4.0 — https://freesound.org/people/reinsamba/sounds/46062/
 - "Richcraft - chime D 20181219.wav" by richcraftstudios — CC BY 4.0 — https://freesound.org/people/richcraftstudios/sounds/454609/
-- "OBJWhled-Caster Wheel, Spin, SIngle_04" by Riley_Garinger — CC BY 4.0 — https://freesound.org/people/Riley_Garinger/sounds/720865/
-- "OBJWhled-Caster Wheel, Spin, SIngle_03" by Riley_Garinger — CC BY 4.0 — https://freesound.org/people/Riley_Garinger/sounds/720863/
-- "OBJWhled-Caster Wheel, Spin, SIngle_02" by Riley_Garinger — CC BY 4.0 — https://freesound.org/people/Riley_Garinger/sounds/720862/
 - "Various Bamboo Chimes" by Sabacky — CC BY 4.0 — https://freesound.org/people/Sabacky/sounds/767812/
 - "REMIX OF 15488 AND 26722 - SPOOKY VOCAL ATMOSPHERE 01.wav" by sandyrb — CC BY 4.0 — https://freesound.org/people/sandyrb/sounds/82982/
 - "NATIVE RATTLE 03.wav" by sandyrb — CC BY 4.0 — https://freesound.org/people/sandyrb/sounds/86656/
@@ -146,9 +130,9 @@ Humm's ambient sounds are sourced from [Freesound.org](https://freesound.org) un
 - "Acoustic Tanpura 7" by sankalp — CC BY 4.0 — https://freesound.org/people/sankalp/sounds/153267/
 - "Acoustic Tanpura 12" by sankalp — CC BY 4.0 — https://freesound.org/people/sankalp/sounds/155274/
 - "Light Rain Camping Ambient" by Santi_SF — CC BY 4.0 — https://freesound.org/people/Santi_SF/sounds/546036/
-- "chimes_g3_pp_1.wav" by sgossner — CC BY 4.0 — https://freesound.org/people/sgossner/sounds/192642/
 - "chimes_c3_pp_1.wav" by sgossner — CC BY 4.0 — https://freesound.org/people/sgossner/sounds/192634/
 - "chimes_f3_p_1.wav" by sgossner — CC BY 4.0 — https://freesound.org/people/sgossner/sounds/192643/
+- "chimes_g3_pp_1.wav" by sgossner — CC BY 4.0 — https://freesound.org/people/sgossner/sounds/192642/
 - "Fairytale (Harp & Chimes)" by Slaking_97 — CC BY 4.0 — https://freesound.org/people/Slaking_97/sounds/332024/
 - "Resonance.wav" by starinatwalls — CC BY 4.0 — https://freesound.org/people/starinatwalls/sounds/331658/
 - "Wall Clock Ticking.wav" by straget — CC BY 4.0 — https://freesound.org/people/straget/sounds/405423/
@@ -167,7 +151,7 @@ Humm's ambient sounds are sourced from [Freesound.org](https://freesound.org) un
 - "Ney.wav" by xserra — CC BY 4.0 — https://freesound.org/people/xserra/sounds/115222/
 - "Metalliputket, helähdys / Small metal tubes, chimes, a short tinkle, like fairy dust, magic, sparkle" by YleArkisto — CC BY 4.0 — https://freesound.org/people/YleArkisto/sounds/369610/
 
-## Attribution — Sampling Plus  ·  11 sounds
+## Attribution — Sampling Plus  ·  10 sounds
 
 - "native_american_flute.wav" by ChromeLibrarian — Sampling Plus 1.0 — https://freesound.org/people/ChromeLibrarian/sounds/59484/
 - "Tibetan Chant by Falsalama 1.wav" by Falsalama — Sampling Plus 1.0 — https://freesound.org/people/Falsalama/sounds/64603/
@@ -177,10 +161,9 @@ Humm's ambient sounds are sourced from [Freesound.org](https://freesound.org) un
 - "tibetan chant falsalama 3 med wet.wav" by Falsalama — Sampling Plus 1.0 — https://freesound.org/people/Falsalama/sounds/64622/
 - "gourd_rattle_long_shake.wav" by medialint — Sampling Plus 1.0 — https://freesound.org/people/medialint/sounds/11872/
 - "Wind Chimes - PLF.wav" by Patrick6410 — Sampling Plus 1.0 — https://freesound.org/people/Patrick6410/sounds/83512/
-- "Pizza Cutter Cymbal.wav" by pearldivers — Sampling Plus 1.0 — https://freesound.org/people/pearldivers/sounds/90657/
 - "FIRE.wav" by samsmyname — Sampling Plus 1.0 — https://freesound.org/people/samsmyname/sounds/51364/
 - "bowl_struck.wav" by suburban grilla — Sampling Plus 1.0 — https://freesound.org/people/suburban%20grilla/sounds/2166/
 
-## Public Domain (CC0)  ·  208 sounds
+## Public Domain (CC0)  ·  193 sounds
 
 Released under CC0 1.0 — no attribution required. We thank the contributors nonetheless. Full list available in the project manifest.
