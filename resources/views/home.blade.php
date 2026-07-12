@@ -26,11 +26,11 @@
             <div class="mt-14 lg:mt-0 phone w-[300px] rounded-[2.75rem] p-2.5">
                 <video
                     class="aspect-[108/234] w-full rounded-[2.25rem] object-cover"
-                    poster="{{ asset('assets/hero-poster.webp') }}"
+                    poster="{{ asset('assets/hero-poster.webp') }}?v={{ filemtime(public_path('assets/hero-poster.webp')) }}"
                     autoplay muted loop playsinline
                 >
-                    <source src="{{ asset('assets/hero-session.webm') }}" type="video/webm" />
-                    <source src="{{ asset('assets/hero-session.mp4') }}" type="video/mp4" />
+                    <source src="{{ asset('assets/hero-session.webm') }}?v={{ filemtime(public_path('assets/hero-session.webm')) }}" type="video/webm" />
+                    <source src="{{ asset('assets/hero-session.mp4') }}?v={{ filemtime(public_path('assets/hero-session.mp4')) }}" type="video/mp4" />
                 </video>
             </div>
         </div>
