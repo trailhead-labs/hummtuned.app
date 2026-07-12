@@ -1,10 +1,11 @@
 @props(['title', 'description' => null])
 
 <!doctype html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="scroll-smooth bg-field">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0c0a1e" />
 
     {{-- Flag JS synchronously, before first paint, so collapsibles start closed
          with no open-to-closed flash. Without JS the class never lands and the
@@ -24,7 +25,7 @@
     @fonts
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-field font-body text-cream/90 antialiased">
+<body class="font-body text-cream/90 antialiased">
     {{ $slot }}
 </body>
 </html>

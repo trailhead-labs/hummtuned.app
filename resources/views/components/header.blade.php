@@ -1,6 +1,6 @@
 @props(['back' => false, 'width' => 'max-w-6xl'])
 
-<header class="mx-auto flex {{ $width }} items-center justify-between px-6 py-6">
+<header class="mx-auto flex {{ $width }} items-center justify-between px-6 pb-6 pt-[calc(1.5rem+env(safe-area-inset-top))]">
     <a href="{{ route('home') }}" class="flex items-center gap-2.5">
         <x-mark />
         <span class="font-display text-xl font-medium tracking-tight text-cream">Humm</span>

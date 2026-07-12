@@ -27,7 +27,10 @@ body {
     background-color: #0b0918;
 }
 
-/* The shared page field: a violet crown, a warm coral floor, and the indigo gradient. */
+/* The shared page field: a violet crown, a warm coral floor, and the indigo gradient.
+   Applied to <html> so it fills the iOS safe areas (under the status bar / home
+   indicator) edge-to-edge with viewport-fit=cover — one continuous gradient, crown
+   at the true top, no seam at the safe-area boundary. */
 .bg-field {
     background:
         radial-gradient(120% 80% at 50% -10%, rgba(139, 124, 240, 0.16), transparent 60%),
