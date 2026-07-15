@@ -1,5 +1,5 @@
 <x-layout
-    title="Terms — Humm"
+    title="Terms · Humm"
     description="The terms for buying and using Humm: a personal, per-device license, honest about payment, the sound library, safe use, and the usual disclaimers."
 >
     <x-header back />

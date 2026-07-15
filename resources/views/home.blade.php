@@ -1,5 +1,5 @@
 <x-layout
-    title="Humm - Focus, sleep, wake, dream. One dial."
+    title="Humm · Focus, sleep, wake, dream. One dial."
     description="A soothing soundscape, mixed fresh every session, over binaural programs your brain measurably responds to. One dial. No ads, no tracking, one lifetime price."
 >
     <x-header />

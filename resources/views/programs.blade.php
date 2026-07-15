@@ -1,5 +1,5 @@
 <x-layout
-    title="Programs — Humm"
+    title="Programs · Humm"
     description="Seventeen programs across four purposes, each graded honestly for how strong the evidence is."
 >
     <x-header back />

@@ -1,5 +1,5 @@
 <x-layout
-    title="Privacy — Humm"
+    title="Privacy · Humm"
     description="Humm collects no personal data, needs no account, and asks for no special permissions. This website counts aggregate visits and nothing more. The plain-words version."
 >
     <x-header back />
