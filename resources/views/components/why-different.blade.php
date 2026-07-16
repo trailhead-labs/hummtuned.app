@@ -40,7 +40,7 @@
                             </p>
                             <p class="mt-5 font-display text-lg text-violet-soft">This is the part a playlist can't copy.</p>
                         </div>
-                        <div class="mx-auto w-full max-w-xs sm:max-w-sm md:mx-0 md:max-w-none"><x-why-stage tone="fresh" /></div>
+                        <div class="mx-auto w-full max-w-xs sm:max-w-sm md:mx-0 md:max-w-none"><x-scene-player /></div>
                     </div>
                 </div>
 
