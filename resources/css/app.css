@@ -262,6 +262,37 @@ body {
     background: rgba(139, 124, 240, 0.35);
 }
 
+/* Scene player (the "Mixed fresh" demo): the selected scene chip, and the play
+   control that swaps to a pause glyph and gains a violet ring while playing. */
+.scene-chip.is-active {
+    background: rgba(139, 124, 240, 0.92);
+    border-color: transparent;
+    color: #0c0a1e;
+}
+
+/* h-13 / w-13 aren't in the default scale; pin the play control to 52px. */
+.scene-play {
+    height: 3.25rem;
+    width: 3.25rem;
+}
+
+.scene-play .scene-icon-pause {
+    display: none;
+}
+
+.scene-player.is-playing .scene-play .scene-icon-play {
+    display: none;
+}
+
+.scene-player.is-playing .scene-play .scene-icon-pause {
+    display: block;
+}
+
+.scene-player.is-playing .scene-play {
+    border-color: #8b7cf0;
+    box-shadow: 0 0 0 4px rgba(139, 124, 240, 0.12);
+}
+
 /* Respect a reduced-motion preference: no reveal transitions, no smooth scroll. */
 @media (prefers-reduced-motion: reduce) {
     .reveal {
