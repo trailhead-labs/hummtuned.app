@@ -16,7 +16,8 @@
     "original": "background/cave-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1684791
   },
   {
     "file": "background/cave-3.opus",
@@ -35,7 +36,8 @@
     "original": "background/cave-3.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 561276
   },
   {
     "file": "background/cave-4.opus",
@@ -54,7 +56,8 @@
     "original": "background/cave-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 648538
   },
   {
     "file": "background/crackling-fire-1.opus",
@@ -73,7 +76,8 @@
     "original": "background/crackling-fire-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1012285
   },
   {
     "file": "background/crackling-fire-2.opus",
@@ -92,7 +96,8 @@
     "original": "background/crackling-fire-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1044013
   },
   {
     "file": "background/crackling-fire-3.opus",
@@ -111,7 +116,8 @@
     "original": "background/crackling-fire-3.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 302381
   },
   {
     "file": "background/crackling-fire-4.opus",
@@ -130,7 +136,8 @@
     "original": "background/crackling-fire-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1429225
   },
   {
     "file": "background/deep-rumble-1.opus",
@@ -149,7 +156,8 @@
     "original": "background/deep-rumble-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 647353
   },
   {
     "file": "background/deep-rumble-2.opus",
@@ -168,7 +176,8 @@
     "original": "background/deep-rumble-2.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 890430
   },
   {
     "file": "background/deep-rumble-3.opus",
@@ -187,7 +196,8 @@
     "original": "background/deep-rumble-3.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 2279014
   },
   {
     "file": "background/deep-rumble-4.opus",
@@ -206,7 +216,8 @@
     "original": "background/deep-rumble-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1146019
   },
   {
     "file": "background/ebullient-ocean-1.opus",
@@ -225,7 +236,8 @@
     "original": "background/ebullient-ocean-1.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 449243
   },
   {
     "file": "background/ebullient-ocean-2.opus",
@@ -244,7 +256,8 @@
     "original": "background/ebullient-ocean-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 740712
   },
   {
     "file": "background/ebullient-ocean-3.opus",
@@ -263,7 +276,8 @@
     "original": "background/ebullient-ocean-3.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1205896
   },
   {
     "file": "background/ebullient-ocean-4.opus",
@@ -282,7 +296,8 @@
     "original": "background/ebullient-ocean-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1438777
   },
   {
     "file": "background/ebullient-ocean-5.opus",
@@ -301,7 +316,8 @@
     "original": "background/ebullient-ocean-5.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 711036
   },
   {
     "file": "background/forest-morning-1.opus",
@@ -320,7 +336,8 @@
     "original": "background/forest-morning-1.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 527859
   },
   {
     "file": "background/forest-morning-2.opus",
@@ -339,7 +356,8 @@
     "original": "background/forest-morning-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 640157
   },
   {
     "file": "background/forest-morning-3.opus",
@@ -358,7 +376,8 @@
     "original": "background/forest-morning-3.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1323869
   },
   {
     "file": "background/forest-morning-4.opus",
@@ -377,7 +396,8 @@
     "original": "background/forest-morning-4.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1456592
   },
   {
     "file": "background/forest-morning-5.opus",
@@ -396,7 +416,8 @@
     "original": "background/forest-morning-5.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 900457
   },
   {
     "file": "background/gentle-waves-1.opus",
@@ -415,7 +436,8 @@
     "original": "background/gentle-waves-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 932900
   },
   {
     "file": "background/gentle-waves-2.opus",
@@ -434,7 +456,8 @@
     "original": "background/gentle-waves-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 832862
   },
   {
     "file": "background/gentle-waves-3.opus",
@@ -453,7 +476,8 @@
     "original": "background/gentle-waves-3.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 371137
   },
   {
     "file": "background/gentle-waves-4.opus",
@@ -472,7 +496,8 @@
     "original": "background/gentle-waves-4.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 526246
   },
   {
     "file": "background/night-ambience-1.opus",
@@ -491,7 +516,8 @@
     "original": "background/night-ambience-1.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 2166621
   },
   {
     "file": "background/night-ambience-2.opus",
@@ -510,7 +536,8 @@
     "original": "background/night-ambience-2.aiff",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "aiff"
+    "source_type": "aiff",
+    "bytes": 848408
   },
   {
     "file": "background/night-ambience-3.opus",
@@ -529,7 +556,8 @@
     "original": "background/night-ambience-3.aiff",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "aiff"
+    "source_type": "aiff",
+    "bytes": 2082587
   },
   {
     "file": "background/night-ambience-4.opus",
@@ -548,7 +576,8 @@
     "original": "background/night-ambience-4.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 2037902
   },
   {
     "file": "background/night-ambience-5.opus",
@@ -567,7 +596,8 @@
     "original": "background/night-ambience-5.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 503194
   },
   {
     "file": "background/night-ambience-6.opus",
@@ -586,7 +616,8 @@
     "original": "background/night-ambience-6.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 2123368
   },
   {
     "file": "background/deepscape-1.opus",
@@ -605,7 +636,8 @@
     "original": "background/deepscape-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1660260
   },
   {
     "file": "textures/deepscape-2.opus",
@@ -624,7 +656,8 @@
     "original": "textures/deepscape-2.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 570105
   },
   {
     "file": "textures/deepscape-3.opus",
@@ -643,7 +676,8 @@
     "original": "textures/deepscape-3.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 479502
   },
   {
     "file": "background/pulse-soft-11.opus",
@@ -662,7 +696,9 @@
     "original": "background/pulse-soft-11.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 570774
   },
   {
     "file": "background/deepscape-5.opus",
@@ -681,7 +717,8 @@
     "original": "background/deepscape-5.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 875237
   },
   {
     "file": "background/pulse-soft-1.opus",
@@ -700,7 +737,8 @@
     "original": "background/pulse-soft-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 2371411
   },
   {
     "file": "background/pulse-soft-2.opus",
@@ -719,7 +757,8 @@
     "original": "background/pulse-soft-2.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1623991
   },
   {
     "file": "background/pulse-soft-3.opus",
@@ -738,7 +777,8 @@
     "original": "background/pulse-soft-3.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 4424864
   },
   {
     "file": "background/pulse-soft-4.opus",
@@ -757,7 +797,8 @@
     "original": "background/pulse-soft-4.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 968176
   },
   {
     "file": "background/pulse-soft-5.opus",
@@ -776,7 +817,9 @@
     "original": "background/pulse-soft-5.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 622018
   },
   {
     "file": "background/pulse-soft-6.opus",
@@ -795,7 +838,9 @@
     "original": "background/pulse-soft-6.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 453421
   },
   {
     "file": "background/rain-1.opus",
@@ -814,7 +859,8 @@
     "original": "background/rain-1.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 697083
   },
   {
     "file": "background/rain-2.opus",
@@ -833,7 +879,9 @@
     "original": "background/rain-2.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 632833
   },
   {
     "file": "background/rain-3.opus",
@@ -852,7 +900,9 @@
     "original": "background/rain-3.mp3",
     "source_samplerate": 48000.0,
     "source_bitdepth": 0,
-    "source_type": "mp3"
+    "source_type": "mp3",
+    "bundled": true,
+    "bytes": 299399
   },
   {
     "file": "background/rain-4.opus",
@@ -871,7 +921,9 @@
     "original": "background/rain-4.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 402051
   },
   {
     "file": "background/rain-5.opus",
@@ -890,7 +942,8 @@
     "original": "background/rain-5.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 862365
   },
   {
     "file": "background/rain-6.opus",
@@ -909,7 +962,8 @@
     "original": "background/rain-6.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1085716
   },
   {
     "file": "background/rain-7.opus",
@@ -928,7 +982,8 @@
     "original": "background/rain-7.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1500580
   },
   {
     "file": "background/rain-on-tent-1.opus",
@@ -947,7 +1002,8 @@
     "original": "background/rain-on-tent-1.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1665607
   },
   {
     "file": "background/rain-on-tent-2.opus",
@@ -966,7 +1022,8 @@
     "original": "background/rain-on-tent-2.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1298654
   },
   {
     "file": "background/rain-on-tent-3.opus",
@@ -985,7 +1042,8 @@
     "original": "background/rain-on-tent-3.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 2631477
   },
   {
     "file": "background/rain-on-tent-4.opus",
@@ -1004,7 +1062,8 @@
     "original": "background/rain-on-tent-4.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 949823
   },
   {
     "file": "background/rhythmic-1.opus",
@@ -1023,7 +1082,8 @@
     "original": "background/rhythmic-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 480429
   },
   {
     "file": "background/rhythmic-2.opus",
@@ -1042,7 +1102,8 @@
     "original": "background/rhythmic-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 749493
   },
   {
     "file": "background/rhythmic-3.opus",
@@ -1061,7 +1122,8 @@
     "original": "background/rhythmic-3.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1839020
   },
   {
     "file": "background/rhythmic-4.opus",
@@ -1080,7 +1142,8 @@
     "original": "background/rhythmic-4.ogg",
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
-    "source_type": "ogg"
+    "source_type": "ogg",
+    "bytes": 1116334
   },
   {
     "file": "melodies/handpan-1.opus",
@@ -1099,7 +1162,9 @@
     "original": "melodies/handpan-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 1153903
   },
   {
     "file": "background/stream-1.opus",
@@ -1118,7 +1183,8 @@
     "original": "background/stream-1.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 249191
   },
   {
     "file": "background/stream-2.opus",
@@ -1137,7 +1203,8 @@
     "original": "background/stream-2.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 281541
   },
   {
     "file": "background/stream-3.opus",
@@ -1156,7 +1223,8 @@
     "original": "background/stream-3.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 656447
   },
   {
     "file": "background/stream-4.opus",
@@ -1175,7 +1243,8 @@
     "original": "background/stream-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 478706
   },
   {
     "file": "background/stream-5.opus",
@@ -1194,7 +1263,8 @@
     "original": "background/stream-5.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 406910
   },
   {
     "file": "background/stream-6.opus",
@@ -1213,7 +1283,8 @@
     "original": "background/stream-6.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 457117
   },
   {
     "file": "background/deep-rumble-18.opus",
@@ -1232,7 +1303,8 @@
     "original": "background/deep-rumble-18.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 2576578
   },
   {
     "file": "background/deepscape-52.opus",
@@ -1251,7 +1323,8 @@
     "original": "background/deepscape-52.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 2515495
   },
   {
     "file": "background/deep-rumble-12.opus",
@@ -1270,7 +1343,8 @@
     "original": "background/deep-rumble-12.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 862881
   },
   {
     "file": "background/drift-1.opus",
@@ -1289,7 +1363,8 @@
     "original": "background/drift-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 3381197
   },
   {
     "file": "background/drift-2.opus",
@@ -1308,7 +1383,8 @@
     "original": "background/drift-2.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 2811671
   },
   {
     "file": "background/drift-3.opus",
@@ -1327,7 +1403,9 @@
     "original": "background/drift-3.aiff",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "aiff"
+    "source_type": "aiff",
+    "bundled": true,
+    "bytes": 744192
   },
   {
     "file": "background/drift-4.opus",
@@ -1346,7 +1424,8 @@
     "original": "background/drift-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 2842304
   },
   {
     "file": "background/drift-5.opus",
@@ -1365,7 +1444,9 @@
     "original": "background/drift-5.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 959825
   },
   {
     "file": "background/thunderstorm-1.opus",
@@ -1384,7 +1465,8 @@
     "original": "background/thunderstorm-1.wav",
     "source_samplerate": 88200.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 258617
   },
   {
     "file": "background/thunderstorm-2.opus",
@@ -1403,7 +1485,8 @@
     "original": "background/thunderstorm-2.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 292116
   },
   {
     "file": "background/thunderstorm-3.opus",
@@ -1422,7 +1505,8 @@
     "original": "background/thunderstorm-3.wav",
     "source_samplerate": 88200.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 284781
   },
   {
     "file": "background/thunderstorm-4.opus",
@@ -1441,7 +1525,8 @@
     "original": "background/thunderstorm-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 876505
   },
   {
     "file": "background/thunderstorm-5.opus",
@@ -1460,7 +1545,8 @@
     "original": "background/thunderstorm-5.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1057123
   },
   {
     "file": "background/thunderstorm-6.opus",
@@ -1479,7 +1565,8 @@
     "original": "background/thunderstorm-6.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 690590
   },
   {
     "file": "background/thunderstorm-7.opus",
@@ -1498,7 +1585,8 @@
     "original": "background/thunderstorm-7.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 716045
   },
   {
     "file": "background/thunderstorm-8.opus",
@@ -1517,7 +1605,8 @@
     "original": "background/thunderstorm-8.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 974129
   },
   {
     "file": "background/thunderstorm-9.opus",
@@ -1536,7 +1625,8 @@
     "original": "background/thunderstorm-9.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1220574
   },
   {
     "file": "background/underwater-1.opus",
@@ -1555,7 +1645,8 @@
     "original": "background/underwater-1.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 403281
   },
   {
     "file": "background/underwater-2.opus",
@@ -1574,7 +1665,8 @@
     "original": "background/underwater-2.flac",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "flac"
+    "source_type": "flac",
+    "bytes": 1667024
   },
   {
     "file": "background/underwater-3.opus",
@@ -1593,7 +1685,8 @@
     "original": "background/underwater-3.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 805398
   },
   {
     "file": "background/underwater-4.opus",
@@ -1612,7 +1705,8 @@
     "original": "background/underwater-4.mp3",
     "source_samplerate": 48000.0,
     "source_bitdepth": 0,
-    "source_type": "mp3"
+    "source_type": "mp3",
+    "bytes": 1191442
   },
   {
     "file": "background/underwater-5.opus",
@@ -1631,7 +1725,8 @@
     "original": "background/underwater-5.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 430583
   },
   {
     "file": "background/warm-drone-2.opus",
@@ -1650,7 +1745,9 @@
     "original": "background/warm-drone-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 874301
   },
   {
     "file": "background/warm-drone-3.opus",
@@ -1669,7 +1766,8 @@
     "original": "background/warm-drone-3.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 4725828
   },
   {
     "file": "background/warm-drone-4.opus",
@@ -1688,7 +1786,9 @@
     "original": "background/warm-drone-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 575163
   },
   {
     "file": "background/warm-drone-5.opus",
@@ -1707,7 +1807,9 @@
     "original": "background/warm-drone-5.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 910484
   },
   {
     "file": "background/warm-drone-6.opus",
@@ -1726,7 +1828,8 @@
     "original": "background/warm-drone-6.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 2145174
   },
   {
     "file": "background/warm-drone-7.opus",
@@ -1745,7 +1848,8 @@
     "original": "background/warm-drone-7.mp3",
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
-    "source_type": "mp3"
+    "source_type": "mp3",
+    "bytes": 1357153
   },
   {
     "file": "background/wind-1.opus",
@@ -1764,7 +1868,8 @@
     "original": "background/wind-1.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 842324
   },
   {
     "file": "background/wind-2.opus",
@@ -1783,7 +1888,8 @@
     "original": "background/wind-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 770330
   },
   {
     "file": "background/wind-3.opus",
@@ -1802,7 +1908,8 @@
     "original": "background/wind-3.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1060850
   },
   {
     "file": "background/wind-4.opus",
@@ -1821,7 +1928,8 @@
     "original": "background/wind-4.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1329613
   },
   {
     "file": "background/wind-5.opus",
@@ -1840,7 +1948,8 @@
     "original": "background/wind-5.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1061402
   },
   {
     "file": "background/wind-6.opus",
@@ -1859,7 +1968,8 @@
     "original": "background/wind-6.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1064340
   },
   {
     "file": "background/wind-7.opus",
@@ -1878,7 +1988,8 @@
     "original": "background/wind-7.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1040799
   },
   {
     "file": "background/wind-8.opus",
@@ -1897,7 +2008,8 @@
     "original": "background/wind-8.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 644541
   },
   {
     "file": "textures/deepscape-6.opus",
@@ -1916,7 +2028,8 @@
     "original": "textures/deepscape-6.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1124190
   },
   {
     "file": "background/drift-10.opus",
@@ -1935,7 +2048,9 @@
     "original": "background/drift-10.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 1291605
   },
   {
     "file": "background/deepscape-8.opus",
@@ -1954,7 +2069,8 @@
     "original": "background/deepscape-8.aiff",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "aiff"
+    "source_type": "aiff",
+    "bytes": 1528169
   },
   {
     "file": "background/deepscape-9.opus",
@@ -1973,7 +2089,8 @@
     "original": "background/deepscape-9.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 669638
   },
   {
     "file": "melodies/monk-chant-7.opus",
@@ -1992,7 +2109,8 @@
     "original": "melodies/monk-chant-7.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 414300
   },
   {
     "file": "melodies/monk-chant-8.opus",
@@ -2011,7 +2129,8 @@
     "original": "melodies/monk-chant-8.mp3",
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
-    "source_type": "mp3"
+    "source_type": "mp3",
+    "bytes": 938900
   },
   {
     "file": "textures/bamboo-wind-1.opus",
@@ -2030,7 +2149,9 @@
     "original": "textures/bamboo-wind-1.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 462679
   },
   {
     "file": "textures/bamboo-wind-2.opus",
@@ -2049,7 +2170,9 @@
     "original": "textures/bamboo-wind-2.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 423362
   },
   {
     "file": "textures/bamboo-wind-3.opus",
@@ -2068,7 +2191,9 @@
     "original": "textures/bamboo-wind-3.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 263756
   },
   {
     "file": "textures/bamboo-wind-4.opus",
@@ -2087,7 +2212,8 @@
     "original": "textures/bamboo-wind-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 903903
   },
   {
     "file": "textures/birdsong-1.opus",
@@ -2106,7 +2232,9 @@
     "original": "textures/birdsong-1.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 544088
   },
   {
     "file": "textures/birdsong-2.opus",
@@ -2125,7 +2253,9 @@
     "original": "textures/birdsong-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 324929
   },
   {
     "file": "textures/birdsong-3.opus",
@@ -2144,7 +2274,9 @@
     "original": "textures/birdsong-3.mp3",
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
-    "source_type": "mp3"
+    "source_type": "mp3",
+    "bundled": true,
+    "bytes": 293059
   },
   {
     "file": "textures/birdsong-4.opus",
@@ -2163,7 +2295,8 @@
     "original": "textures/birdsong-4.flac",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "flac"
+    "source_type": "flac",
+    "bytes": 482063
   },
   {
     "file": "textures/birdsong-5.opus",
@@ -2182,7 +2315,8 @@
     "original": "textures/birdsong-5.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 775468
   },
   {
     "file": "textures/birdsong-6.opus",
@@ -2201,7 +2335,8 @@
     "original": "textures/birdsong-6.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1056644
   },
   {
     "file": "textures/book-1.opus",
@@ -2220,7 +2355,8 @@
     "original": "textures/book-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 237921
   },
   {
     "file": "textures/book-2.opus",
@@ -2239,7 +2375,8 @@
     "original": "textures/book-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 302903
   },
   {
     "file": "textures/book-3.opus",
@@ -2258,7 +2395,8 @@
     "original": "textures/book-3.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 580609
   },
   {
     "file": "textures/book-4.opus",
@@ -2277,7 +2415,8 @@
     "original": "textures/book-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 678566
   },
   {
     "file": "textures/book-5.opus",
@@ -2296,7 +2435,8 @@
     "original": "textures/book-5.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 201152
   },
   {
     "file": "textures/chimes-1.opus",
@@ -2315,7 +2455,9 @@
     "original": "textures/chimes-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 403929
   },
   {
     "file": "textures/chimes-2.opus",
@@ -2334,7 +2476,9 @@
     "original": "textures/chimes-2.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 445139
   },
   {
     "file": "textures/chimes-3.opus",
@@ -2353,7 +2497,9 @@
     "original": "textures/chimes-3.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 491835
   },
   {
     "file": "textures/church-bells-1.opus",
@@ -2372,7 +2518,8 @@
     "original": "textures/church-bells-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 432166
   },
   {
     "file": "textures/church-bells-2.opus",
@@ -2391,7 +2538,8 @@
     "original": "textures/church-bells-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 430056
   },
   {
     "file": "textures/church-bells-3.opus",
@@ -2410,7 +2558,8 @@
     "original": "textures/church-bells-3.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1177618
   },
   {
     "file": "textures/clock-1.opus",
@@ -2429,7 +2578,8 @@
     "original": "textures/clock-1.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 633525
   },
   {
     "file": "textures/clock-2.opus",
@@ -2448,7 +2598,8 @@
     "original": "textures/clock-2.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 341461
   },
   {
     "file": "textures/clock-3.opus",
@@ -2467,7 +2618,8 @@
     "original": "textures/clock-3.mp3",
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
-    "source_type": "mp3"
+    "source_type": "mp3",
+    "bytes": 540527
   },
   {
     "file": "textures/cowbell-1.opus",
@@ -2486,7 +2638,8 @@
     "original": "textures/cowbell-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 826868
   },
   {
     "file": "textures/cowbell-2.opus",
@@ -2505,7 +2658,8 @@
     "original": "textures/cowbell-2.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 775604
   },
   {
     "file": "textures/cowbell-3.opus",
@@ -2524,7 +2678,8 @@
     "original": "textures/cowbell-3.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 343050
   },
   {
     "file": "textures/cowbell-4.opus",
@@ -2543,7 +2698,8 @@
     "original": "textures/cowbell-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 855721
   },
   {
     "file": "textures/cowbell-5.opus",
@@ -2562,7 +2718,8 @@
     "original": "textures/cowbell-5.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 707886
   },
   {
     "file": "textures/cowbell-6.opus",
@@ -2581,7 +2738,8 @@
     "original": "textures/cowbell-6.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 536266
   },
   {
     "file": "textures/crackling-fire-5.opus",
@@ -2600,7 +2758,9 @@
     "original": "textures/crackling-fire-5.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 254413
   },
   {
     "file": "textures/crackling-fire-6.opus",
@@ -2619,7 +2779,9 @@
     "original": "textures/crackling-fire-6.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 213427
   },
   {
     "file": "textures/crickets-1.opus",
@@ -2638,7 +2800,8 @@
     "original": "textures/crickets-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 945433
   },
   {
     "file": "textures/crickets-2.opus",
@@ -2657,7 +2820,8 @@
     "original": "textures/crickets-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 867607
   },
   {
     "file": "textures/crickets-3.opus",
@@ -2676,7 +2840,8 @@
     "original": "textures/crickets-3.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1130481
   },
   {
     "file": "textures/crickets-4.opus",
@@ -2695,7 +2860,8 @@
     "original": "textures/crickets-4.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 255738
   },
   {
     "file": "textures/crickets-5.opus",
@@ -2714,7 +2880,8 @@
     "original": "textures/crickets-5.aiff",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "aiff"
+    "source_type": "aiff",
+    "bytes": 410586
   },
   {
     "file": "textures/crickets-6.opus",
@@ -2733,7 +2900,8 @@
     "original": "textures/crickets-6.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 199805
   },
   {
     "file": "textures/crickets-7.opus",
@@ -2752,7 +2920,8 @@
     "original": "textures/crickets-7.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 738091
   },
   {
     "file": "textures/crickets-8.opus",
@@ -2771,7 +2940,8 @@
     "original": "textures/crickets-8.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 439041
   },
   {
     "file": "textures/crickets-9.opus",
@@ -2790,7 +2960,8 @@
     "original": "textures/crickets-9.aiff",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "aiff"
+    "source_type": "aiff",
+    "bytes": 1061640
   },
   {
     "file": "textures/crickets-10.opus",
@@ -2809,7 +2980,8 @@
     "original": "textures/crickets-10.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 441859
   },
   {
     "file": "textures/ebullient-ocean-6.opus",
@@ -2828,7 +3000,8 @@
     "original": "textures/ebullient-ocean-6.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 251183
   },
   {
     "file": "textures/ebullient-ocean-7.opus",
@@ -2847,7 +3020,8 @@
     "original": "textures/ebullient-ocean-7.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 735275
   },
   {
     "file": "textures/gentle-waves-5.opus",
@@ -2866,7 +3040,8 @@
     "original": "textures/gentle-waves-5.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 237930
   },
   {
     "file": "textures/gentle-waves-6.opus",
@@ -2885,7 +3060,8 @@
     "original": "textures/gentle-waves-6.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 220667
   },
   {
     "file": "textures/handpan-6.opus",
@@ -2904,7 +3080,8 @@
     "original": "textures/handpan-6.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 372977
   },
   {
     "file": "textures/handpan-7.opus",
@@ -2923,7 +3100,8 @@
     "original": "textures/handpan-7.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 715703
   },
   {
     "file": "textures/handpan-8.opus",
@@ -2942,7 +3120,8 @@
     "original": "textures/handpan-8.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 716163
   },
   {
     "file": "background/deepscape-15.opus",
@@ -2961,7 +3140,8 @@
     "original": "background/deepscape-15.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 453282
   },
   {
     "file": "melodies/throat-singing-12.opus",
@@ -2980,7 +3160,8 @@
     "original": "melodies/throat-singing-12.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 319735
   },
   {
     "file": "textures/stream-7.opus",
@@ -2999,7 +3180,8 @@
     "original": "textures/stream-7.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 405684
   },
   {
     "file": "textures/stream-8.opus",
@@ -3018,7 +3200,8 @@
     "original": "textures/stream-8.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 107807
   },
   {
     "file": "melodies/tanpura-1.opus",
@@ -3037,7 +3220,8 @@
     "original": "melodies/tanpura-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 343066
   },
   {
     "file": "melodies/tanpura-2.opus",
@@ -3056,7 +3240,8 @@
     "original": "melodies/tanpura-2.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 247904
   },
   {
     "file": "melodies/tanpura-3.opus",
@@ -3075,7 +3260,8 @@
     "original": "melodies/tanpura-3.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 248145
   },
   {
     "file": "melodies/tanpura-4.opus",
@@ -3094,7 +3280,8 @@
     "original": "melodies/tanpura-4.wav",
     "source_samplerate": 88200.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 776664
   },
   {
     "file": "melodies/tanpura-5.opus",
@@ -3113,7 +3300,8 @@
     "original": "melodies/tanpura-5.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 379252
   },
   {
     "file": "melodies/tanpura-6.opus",
@@ -3132,7 +3320,8 @@
     "original": "melodies/tanpura-6.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 380311
   },
   {
     "file": "melodies/tanpura-7.opus",
@@ -3151,7 +3340,8 @@
     "original": "melodies/tanpura-7.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 356386
   },
   {
     "file": "accents/singing-bowl-14.opus",
@@ -3170,7 +3360,9 @@
     "original": "accents/singing-bowl-14.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 532569
   },
   {
     "file": "accents/singing-bowl-deep-14.opus",
@@ -3189,7 +3381,9 @@
     "original": "accents/singing-bowl-deep-14.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 682264
   },
   {
     "file": "accents/singing-bowl-deep-11.opus",
@@ -3208,7 +3402,9 @@
     "original": "accents/singing-bowl-deep-11.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 421836
   },
   {
     "file": "textures/thunderstorm-11.opus",
@@ -3227,7 +3423,8 @@
     "original": "textures/thunderstorm-11.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 228214
   },
   {
     "file": "textures/thunderstorm-12.opus",
@@ -3246,7 +3443,8 @@
     "original": "textures/thunderstorm-12.wav",
     "source_samplerate": 88200.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 159610
   },
   {
     "file": "textures/vinyl-1.opus",
@@ -3265,7 +3463,8 @@
     "original": "textures/vinyl-1.flac",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "flac"
+    "source_type": "flac",
+    "bytes": 893740
   },
   {
     "file": "textures/vinyl-2.opus",
@@ -3284,7 +3483,9 @@
     "original": "textures/vinyl-2.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 527773
   },
   {
     "file": "textures/vinyl-3.opus",
@@ -3303,7 +3504,8 @@
     "original": "textures/vinyl-3.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1112363
   },
   {
     "file": "textures/vinyl-4.opus",
@@ -3322,7 +3524,9 @@
     "original": "textures/vinyl-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 155421
   },
   {
     "file": "textures/vinyl-5.opus",
@@ -3341,7 +3545,9 @@
     "original": "textures/vinyl-5.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 144888
   },
   {
     "file": "textures/waterdrops-1.opus",
@@ -3360,7 +3566,9 @@
     "original": "textures/waterdrops-1.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 2358086
   },
   {
     "file": "textures/waterdrops-2.opus",
@@ -3379,7 +3587,9 @@
     "original": "textures/waterdrops-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 953780
   },
   {
     "file": "textures/waterdrops-3.opus",
@@ -3398,7 +3608,9 @@
     "original": "textures/waterdrops-3.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 524546
   },
   {
     "file": "textures/wind-9.opus",
@@ -3417,7 +3629,8 @@
     "original": "textures/wind-9.mp3",
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
-    "source_type": "mp3"
+    "source_type": "mp3",
+    "bytes": 246542
   },
   {
     "file": "textures/wind-10.opus",
@@ -3436,7 +3649,8 @@
     "original": "textures/wind-10.aiff",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "aiff"
+    "source_type": "aiff",
+    "bytes": 1188322
   },
   {
     "file": "textures/wind-11.opus",
@@ -3455,7 +3669,8 @@
     "original": "textures/wind-11.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 214457
   },
   {
     "file": "textures/windchime-bed-1.opus",
@@ -3474,7 +3689,9 @@
     "original": "textures/windchime-bed-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 577643
   },
   {
     "file": "textures/windchime-bed-2.opus",
@@ -3493,7 +3710,9 @@
     "original": "textures/windchime-bed-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 444546
   },
   {
     "file": "textures/windchime-bed-3.opus",
@@ -3512,7 +3731,8 @@
     "original": "textures/windchime-bed-3.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1597791
   },
   {
     "file": "textures/windchime-bed-4.opus",
@@ -3531,7 +3751,9 @@
     "original": "textures/windchime-bed-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 891039
   },
   {
     "file": "accents/zen-gong-6.opus",
@@ -3550,7 +3772,9 @@
     "original": "accents/zen-gong-6.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 135083
   },
   {
     "file": "accents/zen-gong-7.opus",
@@ -3569,7 +3793,9 @@
     "original": "accents/zen-gong-7.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 210887
   },
   {
     "file": "accents/singing-bowl-deep-12.opus",
@@ -3588,7 +3814,9 @@
     "original": "accents/singing-bowl-deep-12.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 527054
   },
   {
     "file": "accents/zen-gong-9.opus",
@@ -3607,7 +3835,9 @@
     "original": "accents/zen-gong-9.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 112737
   },
   {
     "file": "accents/zen-gong-10.opus",
@@ -3626,7 +3856,9 @@
     "original": "accents/zen-gong-10.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 165825
   },
   {
     "file": "melodies/acoustic-guitar-1.opus",
@@ -3645,7 +3877,8 @@
     "original": "melodies/acoustic-guitar-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 256110
   },
   {
     "file": "melodies/acoustic-guitar-2.opus",
@@ -3664,7 +3897,8 @@
     "original": "melodies/acoustic-guitar-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1284674
   },
   {
     "file": "melodies/acoustic-guitar-3.opus",
@@ -3683,7 +3917,8 @@
     "original": "melodies/acoustic-guitar-3.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1143261
   },
   {
     "file": "melodies/acoustic-guitar-4.opus",
@@ -3702,7 +3937,8 @@
     "original": "melodies/acoustic-guitar-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 757230
   },
   {
     "file": "melodies/duduk-1.opus",
@@ -3721,7 +3957,8 @@
     "original": "melodies/duduk-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 356879
   },
   {
     "file": "melodies/duduk-2.opus",
@@ -3740,7 +3977,8 @@
     "original": "melodies/duduk-2.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 694913
   },
   {
     "file": "melodies/duduk-3.opus",
@@ -3759,7 +3997,8 @@
     "original": "melodies/duduk-3.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 537635
   },
   {
     "file": "melodies/duduk-4.opus",
@@ -3778,7 +4017,8 @@
     "original": "melodies/duduk-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1735897
   },
   {
     "file": "melodies/duduk-5.opus",
@@ -3797,7 +4037,8 @@
     "original": "melodies/duduk-5.mp3",
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
-    "source_type": "mp3"
+    "source_type": "mp3",
+    "bytes": 929116
   },
   {
     "file": "melodies/duduk-6.opus",
@@ -3816,7 +4057,8 @@
     "original": "melodies/duduk-6.mp3",
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
-    "source_type": "mp3"
+    "source_type": "mp3",
+    "bytes": 2203062
   },
   {
     "file": "melodies/electric-guitar-1.opus",
@@ -3835,7 +4077,9 @@
     "original": "melodies/electric-guitar-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 941974
   },
   {
     "file": "melodies/electric-guitar-2.opus",
@@ -3854,7 +4098,8 @@
     "original": "melodies/electric-guitar-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 944160
   },
   {
     "file": "melodies/electric-guitar-3.opus",
@@ -3873,7 +4118,8 @@
     "original": "melodies/electric-guitar-3.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 915911
   },
   {
     "file": "melodies/electric-guitar-4.opus",
@@ -3892,7 +4138,9 @@
     "original": "melodies/electric-guitar-4.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 830311
   },
   {
     "file": "melodies/electric-guitar-5.opus",
@@ -3911,7 +4159,9 @@
     "original": "melodies/electric-guitar-5.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 508921
   },
   {
     "file": "melodies/flute-1.opus",
@@ -3930,7 +4180,8 @@
     "original": "melodies/flute-1.mp3",
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
-    "source_type": "mp3"
+    "source_type": "mp3",
+    "bytes": 384959
   },
   {
     "file": "melodies/flute-2.opus",
@@ -3949,7 +4200,8 @@
     "original": "melodies/flute-2.mp3",
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
-    "source_type": "mp3"
+    "source_type": "mp3",
+    "bytes": 682910
   },
   {
     "file": "melodies/flute-3.opus",
@@ -3968,7 +4220,8 @@
     "original": "melodies/flute-3.mp3",
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
-    "source_type": "mp3"
+    "source_type": "mp3",
+    "bytes": 436016
   },
   {
     "file": "melodies/flute-4.opus",
@@ -3987,7 +4240,8 @@
     "original": "melodies/flute-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 2073688
   },
   {
     "file": "melodies/flute-5.opus",
@@ -4006,7 +4260,8 @@
     "original": "melodies/flute-5.mp3",
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
-    "source_type": "mp3"
+    "source_type": "mp3",
+    "bytes": 751632
   },
   {
     "file": "melodies/flute-6.opus",
@@ -4025,7 +4280,8 @@
     "original": "melodies/flute-6.mp3",
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
-    "source_type": "mp3"
+    "source_type": "mp3",
+    "bytes": 375740
   },
   {
     "file": "melodies/flute-7.opus",
@@ -4044,7 +4300,8 @@
     "original": "melodies/flute-7.mp3",
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
-    "source_type": "mp3"
+    "source_type": "mp3",
+    "bytes": 557002
   },
   {
     "file": "melodies/harp-1.opus",
@@ -4063,7 +4320,8 @@
     "original": "melodies/harp-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 266289
   },
   {
     "file": "melodies/harp-2.opus",
@@ -4082,7 +4340,8 @@
     "original": "melodies/harp-2.flac",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "flac"
+    "source_type": "flac",
+    "bytes": 1106931
   },
   {
     "file": "melodies/harp-3.opus",
@@ -4101,7 +4360,8 @@
     "original": "melodies/harp-3.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 311128
   },
   {
     "file": "melodies/harp-4.opus",
@@ -4120,7 +4380,8 @@
     "original": "melodies/harp-4.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1147033
   },
   {
     "file": "melodies/instruments-1.opus",
@@ -4139,7 +4400,8 @@
     "original": "melodies/instruments-1.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1100749
   },
   {
     "file": "melodies/instruments-2.opus",
@@ -4158,7 +4420,8 @@
     "original": "melodies/instruments-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1448161
   },
   {
     "file": "melodies/instruments-3.opus",
@@ -4177,7 +4440,8 @@
     "original": "melodies/instruments-3.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 820691
   },
   {
     "file": "melodies/instruments-4.opus",
@@ -4196,7 +4460,8 @@
     "original": "melodies/instruments-4.mp3",
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
-    "source_type": "mp3"
+    "source_type": "mp3",
+    "bytes": 726547
   },
   {
     "file": "melodies/koshi-1.opus",
@@ -4215,7 +4480,8 @@
     "original": "melodies/koshi-1.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1393246
   },
   {
     "file": "melodies/koshi-2.opus",
@@ -4234,7 +4500,8 @@
     "original": "melodies/koshi-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 735844
   },
   {
     "file": "melodies/koshi-3.opus",
@@ -4253,7 +4520,8 @@
     "original": "melodies/koshi-3.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 610264
   },
   {
     "file": "melodies/koshi-4.opus",
@@ -4272,7 +4540,8 @@
     "original": "melodies/koshi-4.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 643145
   },
   {
     "file": "melodies/koshi-5.opus",
@@ -4291,7 +4560,8 @@
     "original": "melodies/koshi-5.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1304677
   },
   {
     "file": "melodies/monk-chant-2.opus",
@@ -4310,7 +4580,8 @@
     "original": "melodies/monk-chant-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 742840
   },
   {
     "file": "melodies/monk-chant-3.opus",
@@ -4329,7 +4600,8 @@
     "original": "melodies/monk-chant-3.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 811705
   },
   {
     "file": "melodies/throat-singing-13.opus",
@@ -4348,7 +4620,8 @@
     "original": "melodies/throat-singing-13.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 307887
   },
   {
     "file": "melodies/throat-singing-14.opus",
@@ -4367,7 +4640,8 @@
     "original": "melodies/throat-singing-14.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 455559
   },
   {
     "file": "melodies/monk-chant-6.opus",
@@ -4386,7 +4660,8 @@
     "original": "melodies/monk-chant-6.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 876353
   },
   {
     "file": "melodies/native-flute-1.opus",
@@ -4405,7 +4680,8 @@
     "original": "melodies/native-flute-1.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 322208
   },
   {
     "file": "melodies/native-flute-2.opus",
@@ -4424,7 +4700,8 @@
     "original": "melodies/native-flute-2.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1112132
   },
   {
     "file": "melodies/native-flute-3.opus",
@@ -4443,7 +4720,8 @@
     "original": "melodies/native-flute-3.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 260684
   },
   {
     "file": "melodies/native-flute-4.opus",
@@ -4462,7 +4740,8 @@
     "original": "melodies/native-flute-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 521180
   },
   {
     "file": "melodies/native-flute-5.opus",
@@ -4481,7 +4760,8 @@
     "original": "melodies/native-flute-5.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 245372
   },
   {
     "file": "melodies/piano-1.opus",
@@ -4500,7 +4780,9 @@
     "original": "melodies/piano-1.aiff",
     "source_samplerate": 44100.0,
     "source_bitdepth": 32,
-    "source_type": "aiff"
+    "source_type": "aiff",
+    "bundled": true,
+    "bytes": 454132
   },
   {
     "file": "melodies/piano-2.opus",
@@ -4519,7 +4801,9 @@
     "original": "melodies/piano-2.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 443277
   },
   {
     "file": "melodies/piano-3.opus",
@@ -4538,7 +4822,8 @@
     "original": "melodies/piano-3.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 2186713
   },
   {
     "file": "melodies/piano-4.opus",
@@ -4557,7 +4842,8 @@
     "original": "melodies/piano-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 922228
   },
   {
     "file": "melodies/piano-5.opus",
@@ -4576,7 +4862,8 @@
     "original": "melodies/piano-5.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 585924
   },
   {
     "file": "melodies/piano-6.opus",
@@ -4595,7 +4882,8 @@
     "original": "melodies/piano-6.mp3",
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
-    "source_type": "mp3"
+    "source_type": "mp3",
+    "bytes": 493802
   },
   {
     "file": "melodies/piano-7.opus",
@@ -4614,7 +4902,9 @@
     "original": "melodies/piano-7.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 503425
   },
   {
     "file": "melodies/synth-melody-1.opus",
@@ -4633,7 +4923,8 @@
     "original": "melodies/synth-melody-1.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1587321
   },
   {
     "file": "melodies/synth-melody-2.opus",
@@ -4652,7 +4943,9 @@
     "original": "melodies/synth-melody-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 653246
   },
   {
     "file": "melodies/synth-melody-3.opus",
@@ -4671,7 +4964,9 @@
     "original": "melodies/synth-melody-3.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 840619
   },
   {
     "file": "melodies/synth-melody-4.opus",
@@ -4690,7 +4985,9 @@
     "original": "melodies/synth-melody-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 716678
   },
   {
     "file": "melodies/synth-melody-5.opus",
@@ -4709,7 +5006,8 @@
     "original": "melodies/synth-melody-5.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1627888
   },
   {
     "file": "melodies/synth-melody-6.opus",
@@ -4728,7 +5026,8 @@
     "original": "melodies/synth-melody-6.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 4293752
   },
   {
     "file": "melodies/synth-melody-7.opus",
@@ -4747,7 +5046,8 @@
     "original": "melodies/synth-melody-7.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1156079
   },
   {
     "file": "melodies/synth-melody-8.opus",
@@ -4766,7 +5066,8 @@
     "original": "melodies/synth-melody-8.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 1692569
   },
   {
     "file": "melodies/throat-singing-1.opus",
@@ -4785,7 +5086,8 @@
     "original": "melodies/throat-singing-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 284003
   },
   {
     "file": "melodies/throat-singing-2.opus",
@@ -4804,7 +5106,8 @@
     "original": "melodies/throat-singing-2.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 2264224
   },
   {
     "file": "melodies/throat-singing-3.opus",
@@ -4823,7 +5126,8 @@
     "original": "melodies/throat-singing-3.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 808271
   },
   {
     "file": "melodies/throat-singing-4.opus",
@@ -4842,7 +5146,8 @@
     "original": "melodies/throat-singing-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 588188
   },
   {
     "file": "melodies/throat-singing-5.opus",
@@ -4861,7 +5166,8 @@
     "original": "melodies/throat-singing-5.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 309276
   },
   {
     "file": "melodies/throat-singing-6.opus",
@@ -4880,7 +5186,8 @@
     "original": "melodies/throat-singing-6.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 325868
   },
   {
     "file": "melodies/throat-singing-7.opus",
@@ -4899,7 +5206,8 @@
     "original": "melodies/throat-singing-7.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 360373
   },
   {
     "file": "melodies/throat-singing-8.opus",
@@ -4918,7 +5226,8 @@
     "original": "melodies/throat-singing-8.aiff",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "aiff"
+    "source_type": "aiff",
+    "bytes": 414029
   },
   {
     "file": "melodies/throat-singing-9.opus",
@@ -4937,7 +5246,8 @@
     "original": "melodies/throat-singing-9.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 373688
   },
   {
     "file": "melodies/throat-singing-10.opus",
@@ -4956,7 +5266,8 @@
     "original": "melodies/throat-singing-10.mp3",
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
-    "source_type": "mp3"
+    "source_type": "mp3",
+    "bytes": 311399
   },
   {
     "file": "melodies/throat-singing-11.opus",
@@ -4975,7 +5286,8 @@
     "original": "melodies/throat-singing-11.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bytes": 390573
   },
   {
     "file": "accents/electronic-fx-4.opus",
@@ -4994,7 +5306,9 @@
     "original": "accents/electronic-fx-4.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 52042
   },
   {
     "file": "accents/bar-chimes-2.opus",
@@ -5013,7 +5327,9 @@
     "original": "accents/bar-chimes-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 81854
   },
   {
     "file": "accents/bar-chimes-3.opus",
@@ -5032,7 +5348,9 @@
     "original": "accents/bar-chimes-3.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 50066
   },
   {
     "file": "accents/bar-chimes-4.opus",
@@ -5051,7 +5369,9 @@
     "original": "accents/bar-chimes-4.aiff",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "aiff"
+    "source_type": "aiff",
+    "bundled": true,
+    "bytes": 92328
   },
   {
     "file": "accents/bar-chimes-5.opus",
@@ -5070,7 +5390,9 @@
     "original": "accents/bar-chimes-5.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 141456
   },
   {
     "file": "accents/tingsha-6.opus",
@@ -5089,7 +5411,9 @@
     "original": "accents/tingsha-6.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 45982
   },
   {
     "file": "accents/bells-2.opus",
@@ -5108,7 +5432,9 @@
     "original": "accents/bells-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 111634
   },
   {
     "file": "accents/tingsha-8.opus",
@@ -5127,7 +5453,9 @@
     "original": "accents/tingsha-8.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 86235
   },
   {
     "file": "accents/cowbell-9.opus",
@@ -5146,7 +5474,9 @@
     "original": "accents/cowbell-9.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 141937
   },
   {
     "file": "accents/tingsha-7.opus",
@@ -5165,7 +5495,9 @@
     "original": "accents/tingsha-7.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 233314
   },
   {
     "file": "accents/bells-6.opus",
@@ -5184,7 +5516,9 @@
     "original": "accents/bells-6.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 58522
   },
   {
     "file": "accents/bells-7.opus",
@@ -5203,7 +5537,9 @@
     "original": "accents/bells-7.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 52602
   },
   {
     "file": "accents/bells-8.opus",
@@ -5222,7 +5558,9 @@
     "original": "accents/bells-8.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 110323
   },
   {
     "file": "accents/bells-9.opus",
@@ -5241,7 +5579,9 @@
     "original": "accents/bells-9.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 147086
   },
   {
     "file": "accents/bells-10.opus",
@@ -5260,7 +5600,9 @@
     "original": "accents/bells-10.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 160123
   },
   {
     "file": "accents/tingsha-3.opus",
@@ -5279,7 +5621,9 @@
     "original": "accents/tingsha-3.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 43653
   },
   {
     "file": "accents/tingsha-4.opus",
@@ -5298,7 +5642,9 @@
     "original": "accents/tingsha-4.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 88898
   },
   {
     "file": "accents/tingsha-5.opus",
@@ -5317,7 +5663,9 @@
     "original": "accents/tingsha-5.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 39564
   },
   {
     "file": "accents/bar-chimes-6.opus",
@@ -5336,7 +5684,9 @@
     "original": "accents/bar-chimes-6.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 164436
   },
   {
     "file": "accents/cowbell-7.opus",
@@ -5355,7 +5705,9 @@
     "original": "accents/cowbell-7.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 44863
   },
   {
     "file": "accents/cowbell-8.opus",
@@ -5374,7 +5726,9 @@
     "original": "accents/cowbell-8.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 84660
   },
   {
     "file": "accents/singing-bowl-1.opus",
@@ -5393,7 +5747,9 @@
     "original": "accents/singing-bowl-1.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 55175
   },
   {
     "file": "accents/singing-bowl-deep-9.opus",
@@ -5412,7 +5768,9 @@
     "original": "accents/singing-bowl-deep-9.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 322554
   },
   {
     "file": "accents/singing-bowl-12.opus",
@@ -5431,7 +5789,9 @@
     "original": "accents/singing-bowl-12.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 370079
   },
   {
     "file": "accents/singing-bowl-11.opus",
@@ -5450,7 +5810,9 @@
     "original": "accents/singing-bowl-11.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 347015
   },
   {
     "file": "accents/singing-bowl-6.opus",
@@ -5469,7 +5831,9 @@
     "original": "accents/singing-bowl-6.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 121184
   },
   {
     "file": "accents/electronic-fx-1.opus",
@@ -5488,7 +5852,9 @@
     "original": "accents/electronic-fx-1.aiff",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "aiff"
+    "source_type": "aiff",
+    "bundled": true,
+    "bytes": 91968
   },
   {
     "file": "accents/electronic-fx-2.opus",
@@ -5507,7 +5873,9 @@
     "original": "accents/electronic-fx-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 126409
   },
   {
     "file": "accents/electronic-fx-3.opus",
@@ -5526,7 +5894,9 @@
     "original": "accents/electronic-fx-3.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 102740
   },
   {
     "file": "accents/singing-bowl-deep-5.opus",
@@ -5545,7 +5915,9 @@
     "original": "accents/singing-bowl-deep-5.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 179826
   },
   {
     "file": "accents/singing-bowl-deep-13.opus",
@@ -5564,7 +5936,9 @@
     "original": "accents/singing-bowl-deep-13.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 441741
   },
   {
     "file": "accents/zen-gong-2.opus",
@@ -5583,7 +5957,9 @@
     "original": "accents/zen-gong-2.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 94467
   },
   {
     "file": "accents/singing-bowl-4.opus",
@@ -5602,7 +5978,9 @@
     "original": "accents/singing-bowl-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 55178
   },
   {
     "file": "accents/zen-gong-3.opus",
@@ -5621,7 +5999,9 @@
     "original": "accents/zen-gong-3.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 59186
   },
   {
     "file": "accents/kalimba-2.opus",
@@ -5640,7 +6020,9 @@
     "original": "accents/kalimba-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 32691
   },
   {
     "file": "accents/kalimba-3.opus",
@@ -5659,7 +6041,9 @@
     "original": "accents/kalimba-3.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 99412
   },
   {
     "file": "accents/kalimba-4.opus",
@@ -5678,7 +6062,9 @@
     "original": "accents/kalimba-4.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 38975
   },
   {
     "file": "accents/kalimba-5.opus",
@@ -5697,7 +6083,9 @@
     "original": "accents/kalimba-5.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 44166
   },
   {
     "file": "accents/kalimba-6.opus",
@@ -5716,7 +6104,9 @@
     "original": "accents/kalimba-6.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 33378
   },
   {
     "file": "accents/kalimba-7.opus",
@@ -5735,7 +6125,9 @@
     "original": "accents/kalimba-7.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 59207
   },
   {
     "file": "accents/rattle-1.opus",
@@ -5754,7 +6146,9 @@
     "original": "accents/rattle-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 51742
   },
   {
     "file": "accents/rattle-2.opus",
@@ -5773,7 +6167,9 @@
     "original": "accents/rattle-2.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 16301
   },
   {
     "file": "accents/rattle-3.opus",
@@ -5792,7 +6188,9 @@
     "original": "accents/rattle-3.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 61634
   },
   {
     "file": "accents/rattle-4.opus",
@@ -5811,7 +6209,9 @@
     "original": "accents/rattle-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 63834
   },
   {
     "file": "accents/rattle-5.opus",
@@ -5830,7 +6230,9 @@
     "original": "accents/rattle-5.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 52118
   },
   {
     "file": "accents/rattle-6.opus",
@@ -5849,7 +6251,9 @@
     "original": "accents/rattle-6.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 262310
   },
   {
     "file": "accents/rattle-7.opus",
@@ -5868,7 +6272,9 @@
     "original": "accents/rattle-7.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 53148
   },
   {
     "file": "accents/rattle-8.opus",
@@ -5887,7 +6293,9 @@
     "original": "accents/rattle-8.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 62006
   },
   {
     "file": "accents/singing-bowl-deep-8.opus",
@@ -5906,7 +6314,9 @@
     "original": "accents/singing-bowl-deep-8.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 200802
   },
   {
     "file": "accents/singing-bowl-deep-3.opus",
@@ -5925,7 +6335,9 @@
     "original": "accents/singing-bowl-deep-3.flac",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "flac"
+    "source_type": "flac",
+    "bundled": true,
+    "bytes": 188982
   },
   {
     "file": "accents/singing-bowl-deep-6.opus",
@@ -5944,7 +6356,9 @@
     "original": "accents/singing-bowl-deep-6.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 209240
   },
   {
     "file": "accents/singing-bowl-5.opus",
@@ -5963,7 +6377,9 @@
     "original": "accents/singing-bowl-5.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 92907
   },
   {
     "file": "accents/singing-bowl-deep-7.opus",
@@ -5982,7 +6398,9 @@
     "original": "accents/singing-bowl-deep-7.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 177569
   },
   {
     "file": "accents/singing-bowl-13.opus",
@@ -6001,7 +6419,9 @@
     "original": "accents/singing-bowl-13.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 282674
   },
   {
     "file": "accents/singing-bowl-deep-2.opus",
@@ -6020,7 +6440,9 @@
     "original": "accents/singing-bowl-deep-2.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 124265
   },
   {
     "file": "accents/singing-bowl-3.opus",
@@ -6039,7 +6461,9 @@
     "original": "accents/singing-bowl-3.mp3",
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
-    "source_type": "mp3"
+    "source_type": "mp3",
+    "bundled": true,
+    "bytes": 80566
   },
   {
     "file": "accents/singing-bowl-9.opus",
@@ -6058,7 +6482,9 @@
     "original": "accents/singing-bowl-9.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 32,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 116439
   },
   {
     "file": "accents/singing-bowl-deep-4.opus",
@@ -6077,7 +6503,9 @@
     "original": "accents/singing-bowl-deep-4.wav",
     "source_samplerate": 96000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 155019
   },
   {
     "file": "accents/singing-bowl-8.opus",
@@ -6096,7 +6524,9 @@
     "original": "accents/singing-bowl-8.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 93278
   },
   {
     "file": "accents/rattle-9.opus",
@@ -6115,7 +6545,9 @@
     "original": "accents/rattle-9.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 45581
   },
   {
     "file": "accents/bells-11.opus",
@@ -6134,7 +6566,9 @@
     "original": "accents/bells-11.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 94366
   },
   {
     "file": "accents/singing-bowl-2.opus",
@@ -6153,7 +6587,9 @@
     "original": "accents/singing-bowl-2.aiff",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "aiff"
+    "source_type": "aiff",
+    "bundled": true,
+    "bytes": 105650
   },
   {
     "file": "accents/singing-bowl-10.opus",
@@ -6172,7 +6608,9 @@
     "original": "accents/singing-bowl-10.aiff",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "aiff"
+    "source_type": "aiff",
+    "bundled": true,
+    "bytes": 158660
   },
   {
     "file": "accents/singing-bowl-7.opus",
@@ -6191,7 +6629,9 @@
     "original": "accents/singing-bowl-7.aiff",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "aiff"
+    "source_type": "aiff",
+    "bundled": true,
+    "bytes": 133825
   },
   {
     "file": "accents/tingsha-1.opus",
@@ -6210,7 +6650,9 @@
     "original": "accents/tingsha-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 68010
   },
   {
     "file": "accents/tingsha-2.opus",
@@ -6229,7 +6671,9 @@
     "original": "accents/tingsha-2.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 54110
   },
   {
     "file": "accents/tingsha-9.opus",
@@ -6248,7 +6692,9 @@
     "original": "accents/tingsha-9.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 46192
   },
   {
     "file": "accents/tingsha-10.opus",
@@ -6267,7 +6713,9 @@
     "original": "accents/tingsha-10.aiff",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "aiff"
+    "source_type": "aiff",
+    "bundled": true,
+    "bytes": 123316
   },
   {
     "file": "accents/woodblock-1.opus",
@@ -6286,7 +6734,9 @@
     "original": "accents/woodblock-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 4513
   },
   {
     "file": "accents/woodblock-2.opus",
@@ -6305,7 +6755,9 @@
     "original": "accents/woodblock-2.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 5442
   },
   {
     "file": "accents/woodblock-3.opus",
@@ -6324,7 +6776,9 @@
     "original": "accents/woodblock-3.aiff",
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
-    "source_type": "aiff"
+    "source_type": "aiff",
+    "bundled": true,
+    "bytes": 99941
   },
   {
     "file": "accents/woodblock-5.opus",
@@ -6343,7 +6797,9 @@
     "original": "accents/woodblock-5.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 5384
   },
   {
     "file": "accents/woodblock-6.opus",
@@ -6362,7 +6818,9 @@
     "original": "accents/woodblock-6.mp3",
     "source_samplerate": 48000.0,
     "source_bitdepth": 0,
-    "source_type": "mp3"
+    "source_type": "mp3",
+    "bundled": true,
+    "bytes": 243012
   },
   {
     "file": "accents/zen-gong-4.opus",
@@ -6381,7 +6839,9 @@
     "original": "accents/zen-gong-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 85467
   },
   {
     "file": "accents/singing-bowl-deep-10.opus",
@@ -6400,7 +6860,9 @@
     "original": "accents/singing-bowl-deep-10.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 267321
   },
   {
     "file": "accents/zen-gong-5.opus",
@@ -6419,7 +6881,9 @@
     "original": "accents/zen-gong-5.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
-    "source_type": "wav"
+    "source_type": "wav",
+    "bundled": true,
+    "bytes": 72393
   },
   {
     "file": "melodies/handpan-2.opus",
@@ -6439,7 +6903,9 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bundled": true,
+    "bytes": 1427567
   },
   {
     "file": "melodies/handpan-3.opus",
@@ -6459,7 +6925,9 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bundled": true,
+    "bytes": 884143
   },
   {
     "file": "melodies/handpan-4.opus",
@@ -6479,7 +6947,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 1581965
   },
   {
     "file": "melodies/handpan-5.opus",
@@ -6499,7 +6968,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3536950
   },
   {
     "file": "background/drift-11.opus",
@@ -6519,7 +6989,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 4117361
   },
   {
     "file": "textures/deepscape-17.opus",
@@ -6539,7 +7010,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3257340
   },
   {
     "file": "background/drift-7.opus",
@@ -6559,7 +7031,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3761510
   },
   {
     "file": "background/deepscape-19.opus",
@@ -6579,7 +7052,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 4068629
   },
   {
     "file": "background/deepscape-20.opus",
@@ -6599,7 +7073,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3596854
   },
   {
     "file": "background/drift-6.opus",
@@ -6619,7 +7094,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3140364
   },
   {
     "file": "textures/handpan-9.opus",
@@ -6639,7 +7115,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3405822
   },
   {
     "file": "background/deepscape-23.opus",
@@ -6659,7 +7136,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3019754
   },
   {
     "file": "background/rhythmic-5.opus",
@@ -6679,7 +7157,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3041311
   },
   {
     "file": "textures/deepscape-25.opus",
@@ -6699,7 +7178,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3124894
   },
   {
     "file": "background/drift-12.opus",
@@ -6719,7 +7199,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3377763
   },
   {
     "file": "background/drift-13.opus",
@@ -6739,7 +7220,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3306124
   },
   {
     "file": "background/drift-9.opus",
@@ -6759,7 +7241,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3766160
   },
   {
     "file": "textures/deepscape-29.opus",
@@ -6779,7 +7262,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 2955780
   },
   {
     "file": "background/pulse-soft-12.opus",
@@ -6799,7 +7283,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3475623
   },
   {
     "file": "textures/deepscape-31.opus",
@@ -6819,7 +7304,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3284637
   },
   {
     "file": "textures/warm-drone-8.opus",
@@ -6839,7 +7325,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3148552
   },
   {
     "file": "textures/warm-drone-9.opus",
@@ -6859,7 +7346,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3294654
   },
   {
     "file": "textures/warm-drone-10.opus",
@@ -6879,7 +7367,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 4159785
   },
   {
     "file": "textures/warm-drone-11.opus",
@@ -6899,7 +7388,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3208544
   },
   {
     "file": "textures/warm-drone-12.opus",
@@ -6919,7 +7409,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3427269
   },
   {
     "file": "textures/warm-drone-13.opus",
@@ -6939,7 +7430,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3021662
   },
   {
     "file": "textures/warm-drone-14.opus",
@@ -6959,7 +7451,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3183209
   },
   {
     "file": "textures/warm-drone-15.opus",
@@ -6979,7 +7472,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 2845465
   },
   {
     "file": "textures/warm-drone-16.opus",
@@ -6999,7 +7493,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 2690308
   },
   {
     "file": "textures/warm-drone-17.opus",
@@ -7019,7 +7514,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3927178
   },
   {
     "file": "textures/singing-bowl-27.opus",
@@ -7039,7 +7535,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3706750
   },
   {
     "file": "textures/singing-bowl-28.opus",
@@ -7059,7 +7556,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3282544
   },
   {
     "file": "textures/singing-bowl-29.opus",
@@ -7079,7 +7577,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 2984828
   },
   {
     "file": "textures/singing-bowl-30.opus",
@@ -7099,7 +7598,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 4007716
   },
   {
     "file": "textures/singing-bowl-31.opus",
@@ -7119,7 +7619,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3981452
   },
   {
     "file": "textures/singing-bowl-32.opus",
@@ -7139,7 +7640,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3426088
   },
   {
     "file": "textures/singing-bowl-33.opus",
@@ -7159,7 +7661,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3393942
   },
   {
     "file": "textures/pulse-soft-7.opus",
@@ -7179,7 +7682,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 2782920
   },
   {
     "file": "textures/pulse-soft-8.opus",
@@ -7199,7 +7703,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3287566
   },
   {
     "file": "textures/pulse-soft-9.opus",
@@ -7219,7 +7724,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 2958075
   },
   {
     "file": "textures/pulse-soft-10.opus",
@@ -7239,7 +7745,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 4093903
   },
   {
     "file": "textures/echoes-1.opus",
@@ -7259,7 +7766,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3151888
   },
   {
     "file": "textures/echoes-2.opus",
@@ -7279,7 +7787,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 2744218
   },
   {
     "file": "textures/echoes-3.opus",
@@ -7299,7 +7808,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 2579154
   },
   {
     "file": "textures/echoes-4.opus",
@@ -7319,7 +7829,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 2673212
   },
   {
     "file": "background/deepscape-32.opus",
@@ -7339,7 +7850,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 1406081
   },
   {
     "file": "background/deepscape-33.opus",
@@ -7359,7 +7871,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 1272638
   },
   {
     "file": "background/deepscape-34.opus",
@@ -7379,7 +7892,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 1397648
   },
   {
     "file": "background/deepscape-35.opus",
@@ -7399,7 +7913,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 4104834
   },
   {
     "file": "background/deepscape-36.opus",
@@ -7419,7 +7934,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 1283737
   },
   {
     "file": "background/deepscape-37.opus",
@@ -7439,7 +7955,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 2995393
   },
   {
     "file": "background/drift-8.opus",
@@ -7459,7 +7976,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 2538636
   },
   {
     "file": "background/deepscape-39.opus",
@@ -7479,7 +7997,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 2126913
   },
   {
     "file": "background/deepscape-40.opus",
@@ -7499,7 +8018,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 1740646
   },
   {
     "file": "background/deepscape-41.opus",
@@ -7519,7 +8039,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 1105565
   },
   {
     "file": "background/deepscape-42.opus",
@@ -7539,7 +8060,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3303735
   },
   {
     "file": "background/deepscape-43.opus",
@@ -7559,7 +8081,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 2178827
   },
   {
     "file": "background/deepscape-44.opus",
@@ -7579,7 +8102,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 4627504
   },
   {
     "file": "background/deepscape-45.opus",
@@ -7599,7 +8123,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 1389011
   },
   {
     "file": "background/deepscape-46.opus",
@@ -7619,7 +8144,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 1241518
   },
   {
     "file": "background/deepscape-47.opus",
@@ -7639,7 +8165,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3883170
   },
   {
     "file": "background/deepscape-48.opus",
@@ -7659,7 +8186,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 2333134
   },
   {
     "file": "background/deepscape-53.opus",
@@ -7679,7 +8207,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 2283724
   },
   {
     "file": "background/warm-drone-19.opus",
@@ -7699,7 +8228,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 8193968
   },
   {
     "file": "textures/singing-bowl-34.opus",
@@ -7719,7 +8249,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 6344146
   },
   {
     "file": "melodies/gregorian-1.opus",
@@ -7739,7 +8270,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 3871352
   },
   {
     "file": "melodies/gregorian-2.opus",
@@ -7759,7 +8291,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "mp3",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 1223197
   },
   {
     "file": "background/deepscape-49.opus",
@@ -7779,7 +8312,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "freesound-original",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 879910
   },
   {
     "file": "textures/deepscape-50.opus",
@@ -7799,7 +8333,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "freesound-original",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 670717
   },
   {
     "file": "melodies/gregorian-3.opus",
@@ -7819,7 +8354,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "freesound-original",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 206429
   },
   {
     "file": "melodies/plucked-strings-1.opus",
@@ -7839,7 +8375,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "freesound-original",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 960866
   },
   {
     "file": "melodies/plucked-strings-2.opus",
@@ -7859,7 +8396,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "freesound-original",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 777892
   },
   {
     "file": "melodies/plucked-strings-3.opus",
@@ -7879,7 +8417,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
     "source_type": "freesound-original",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 964490
   },
   {
     "file": "melodies/flute-8.opus",
@@ -7899,7 +8438,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": null,
     "source_type": "freesound-original",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 1432986
   },
   {
     "file": "melodies/flute-9.opus",
@@ -7919,7 +8459,8 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "freesound-original",
-    "merge_batch": "2026-07-12"
+    "merge_batch": "2026-07-12",
+    "bytes": 315105
   },
   {
     "file": "accents/singing-bowl-deep-1.opus",
@@ -7939,7 +8480,9 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
     "source_type": "flac",
-    "recovered_orphan": true
+    "recovered_orphan": true,
+    "bundled": true,
+    "bytes": 155745
   },
   {
     "file": "background/forest-morning-6.opus",
@@ -7959,7 +8502,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
     "source_type": "wav",
-    "recovered_orphan": true
+    "recovered_orphan": true,
+    "bytes": 1065703
   },
   {
     "file": "background/gentle-waves-7.opus",
@@ -7979,7 +8523,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
     "source_type": "flac",
-    "recovered_orphan": true
+    "recovered_orphan": true,
+    "bytes": 1510494
   },
   {
     "file": "background/gentle-waves-8.opus",
@@ -7999,7 +8544,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "wav",
-    "recovered_orphan": true
+    "recovered_orphan": true,
+    "bytes": 523323
   },
   {
     "file": "melodies/gregorian-4.opus",
@@ -8019,7 +8565,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": null,
     "source_type": "wav",
-    "recovered_orphan": true
+    "recovered_orphan": true,
+    "bytes": 600921
   },
   {
     "file": "background/crackling-fire-7.opus",
@@ -8040,7 +8587,8 @@
     "source_bitdepth": null,
     "source_type": "mp3",
     "recovered_orphan": true,
-    "cc0_needs_provenance": true
+    "cc0_needs_provenance": true,
+    "bytes": 1455367
   },
   {
     "file": "background/deep-rumble-14.opus",
@@ -8061,7 +8609,8 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "recovered_orphan": true,
-    "cc0_needs_provenance": true
+    "cc0_needs_provenance": true,
+    "bytes": 1088985
   },
   {
     "file": "background/deep-rumble-15.opus",
@@ -8082,7 +8631,8 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "recovered_orphan": true,
-    "cc0_needs_provenance": true
+    "cc0_needs_provenance": true,
+    "bytes": 1883070
   },
   {
     "file": "background/deep-rumble-17.opus",
@@ -8103,7 +8653,8 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "recovered_orphan": true,
-    "cc0_needs_provenance": true
+    "cc0_needs_provenance": true,
+    "bytes": 1123561
   },
   {
     "file": "background/forest-morning-7.opus",
@@ -8124,7 +8675,8 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "recovered_orphan": true,
-    "cc0_needs_provenance": true
+    "cc0_needs_provenance": true,
+    "bytes": 594605
   },
   {
     "file": "textures/singing-bowl-38.opus",
@@ -8145,7 +8697,8 @@
     "source_bitdepth": null,
     "source_type": "aiff",
     "recovered_orphan": true,
-    "cc0_needs_provenance": true
+    "cc0_needs_provenance": true,
+    "bytes": 3433884
   },
   {
     "file": "background/forest-morning-8.opus",
@@ -8166,6 +8719,7 @@
     "source_bitdepth": null,
     "source_type": "wav",
     "recovered_orphan": true,
-    "cc0_needs_provenance": true
+    "cc0_needs_provenance": true,
+    "bytes": 793148
   }
 ]
