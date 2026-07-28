@@ -587,7 +587,7 @@
 .font-inter {
   font-family: var(--font-inter);
 }
-</style>    <link rel="preload" as="style" href="https://hummtuned.app/build/assets/app-OtZqS1rE.css" /><link rel="modulepreload" as="script" href="https://hummtuned.app/build/assets/app-DaC-4urF.js" /><link rel="stylesheet" href="https://hummtuned.app/build/assets/app-OtZqS1rE.css" /><script type="module" src="https://hummtuned.app/build/assets/app-DaC-4urF.js"></script></head>
+</style>    <link rel="preload" as="style" href="https://hummtuned.app/build/assets/app-COS0b7Im.css" /><link rel="modulepreload" as="script" href="https://hummtuned.app/build/assets/app-bZEXhNZy.js" /><link rel="stylesheet" href="https://hummtuned.app/build/assets/app-COS0b7Im.css" /><script type="module" src="https://hummtuned.app/build/assets/app-bZEXhNZy.js"></script></head>
 <body class="font-body text-cream/90 antialiased">
     <header class="mx-auto flex max-w-6xl items-center justify-between px-6 pb-6 pt-[calc(1.5rem+env(safe-area-inset-top))]">
     <a href="https://hummtuned.app" class="flex items-center gap-2.5">
@@ -1371,7 +1371,8 @@
         <section class="mt-16 border-t border-white/8 pt-8">
             <h2 class="text-sm uppercase tracking-[0.2em] text-muted/70">Technical notes</h2>
             <div class="prose mt-4 max-w-2xl text-sm leading-relaxed text-muted/70">
-                <p>425 samples across four layers (continuous ambient beds, enriching textures, foreground melodies, and short accents), roughly 460 MB, bundled entirely in the app: nothing streamed, fully offline.</p>
+                <p>425 samples across four layers (continuous ambient beds, enriching textures, foreground melodies, and short accents), roughly 460 MB in all. 129 of them ship inside the app, about 40 MB; the other 296 are downloaded on request, with the size shown before you agree.</p>
+                <p>Nothing is ever streamed. Every sample is decoded from local storage as it plays, and the samples you download stay on the device until you delete them.</p>
                 <p>Shipped as Opus in an Ogg container at 48 kHz, with bitrate tiered by material: ambient nature beds at 80 kbps, and tonal material (melodic beds, textures, melodies and accents) at 96 kbps. Channels are preserved per source, mostly stereo with some mono point-sources. Decoded natively by the OS on iOS 17+ and Android 5.0+.</p>
                 <p>Most are sourced from lossless masters (WAV, FLAC, or AIFF, up to 24-bit / 96 kHz); a small number were only ever published lossy and are the best available. The set compresses from about 5.7 GB of originals down to roughly 460 MB, with no audible loss on this material.</p>
                 <p>Every sample is silence-trimmed and loudness-normalized asymmetrically. -16 LUFS (EBU R128) acts as a ceiling: louder sources are brought down to it, while naturally quiet recordings keep their softness instead of being amplified into noise. Sounds of the same concept are matched within a few dB of each other, so rotating between variants never jumps in level. Short accents are true-peak normalized, and everything is true-peak limited to between -1 and -1.5 dBTP, so nothing clips and the generative mix stays balanced.</p>
