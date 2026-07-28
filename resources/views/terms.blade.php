@@ -1,6 +1,6 @@
 <x-layout
     title="Terms · Humm"
-    description="The terms for buying and using Humm: a personal, per-device license, honest about payment, the sound library, safe use, and the usual disclaimers."
+    description="The terms for buying and using Humm: a personal license, honest about payment, the sound library, safe use, and the usual disclaimers."
 >
     <x-header back />
 
@@ -15,7 +15,7 @@
         {{-- The short version --}}
         <div class="mt-14">
             <div class="grid gap-x-10 sm:grid-cols-2">
-                <div class="flex items-start gap-3 border-b border-white/5 py-3 text-cream/90"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-coral"></span> Buy it once, per device, and it is yours to keep.</div>
+                <div class="flex items-start gap-3 border-b border-white/5 py-3 text-cream/90"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-coral"></span> Buy it once, and it is yours to keep.</div>
                 <div class="flex items-start gap-3 border-b border-white/5 py-3 text-cream/90"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-coral"></span> A personal license, for your own use, not for resale.</div>
                 <div class="flex items-start gap-3 border-b border-white/5 py-3 text-cream/90"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-coral"></span> The App Store and Google Play handle payment and refunds.</div>
                 <div class="flex items-start gap-3 border-b border-white/5 py-3 text-cream/90"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-coral"></span> Humm is not a medical device, and nothing here is medical advice.</div>
@@ -34,7 +34,7 @@
         <section class="mt-14">
             <h2 class="font-display text-2xl font-extralight text-cream">Your license to use Humm</h2>
             <div class="prose mt-5 max-w-2xl text-[17px] leading-relaxed text-muted">
-                <p>When you buy Humm, we grant you a personal, non-exclusive, non-transferable license to use the app on your own device, for as long as the device and its operating system support it. The license is per device, plainly, as stated at purchase.</p>
+                <p>When you buy Humm, we grant you a personal, non-exclusive, non-transferable license to use the app on the devices signed in to your own App Store or Google Play account, for as long as those devices and their operating systems support it. It is one purchase, held by that store account, so a reinstall or a new phone restores it.</p>
                 <p>You may not resell, rent, or redistribute the app, and you may not copy, reverse-engineer, or extract the sound library for use outside Humm. The app and its design remain ours; the recordings remain under their own licenses, described below.</p>
             </div>
         </section>
@@ -43,8 +43,9 @@
         <section class="mt-14">
             <h2 class="font-display text-2xl font-extralight text-cream">Trial, payment, and refunds</h2>
             <div class="prose mt-5 max-w-2xl text-[17px] leading-relaxed text-muted">
-                <p>Humm is free to try for a week, with full access. After that it is a single purchase, once, per device, with no subscription. All future programs are included.</p>
-                <p>Your trial and your purchase are handled by the App Store or Google Play under their own terms. We do not process payments and never see your card details. Refunds are handled by the store you bought from, under that store's policy, so a refund request goes to Apple or Google rather than to us.</p>
+                <p>Humm is free for seven days of use, with full access. A day counts only when you start a session, and unused days do not expire. After that it is a single purchase, once, with no subscription. It unlocks every program in the app, and updates to the app stay free.</p>
+                <p>If we ever offer something extra, an additional program pack for instance, it will be exactly that: extra, and optional. What you bought stays bought, and nothing you already have moves behind a new price.</p>
+                <p>Your free days are counted on your own phone. Your purchase is handled by the App Store or Google Play under their own terms. We do not process payments and never see your card details. Refunds are handled by the store you bought from, under that store's policy, so a refund request goes to Apple or Google rather than to us.</p>
             </div>
         </section>
 

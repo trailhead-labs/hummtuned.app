@@ -52,7 +52,7 @@
         </div>
 
         <div class="mt-16 border-t border-white/8 pt-24 text-center">
-            <x-cta href="{{ route('home') }}#pricing">Try free for a week</x-cta>
+            <x-cta href="{{ route('home') }}#pricing">Try seven days free</x-cta>
             <p class="mt-4 text-sm text-muted">Every program, full access.</p>
         </div>
     </section>

@@ -39,6 +39,12 @@
         $cc0 = collect($manifest)->where('license', 'CC0')->count();
         $attributed = $attributedList->count();
         $total = count($manifest);
+
+        // The library ships in two parts: the samples flagged as baked into the
+        // app download, and the rest, fetched on request. Sizes are
+        // rounded to the nearest ten MB, in keeping with "roughly".
+        $bundled = collect($manifest)->where('bundled', true);
+        $roughMb = fn ($files) => round(collect($files)->sum('bytes') / 1e6 / 10) * 10;
     @endphp
 
     <article class="mx-auto max-w-3xl px-6 pb-24 pt-6 lg:pt-10">
@@ -77,7 +83,8 @@
         <section class="mt-16 border-t border-white/8 pt-8">
             <h2 class="text-sm uppercase tracking-[0.2em] text-muted/70">Technical notes</h2>
             <div class="prose mt-4 max-w-2xl text-sm leading-relaxed text-muted/70">
-                <p>{{ $total }} samples across four layers (continuous ambient beds, enriching textures, foreground melodies, and short accents), roughly 460 MB, bundled entirely in the app: nothing streamed, fully offline.</p>
+                <p>{{ $total }} samples across four layers (continuous ambient beds, enriching textures, foreground melodies, and short accents), roughly {{ $roughMb($manifest) }} MB in all. {{ $bundled->count() }} of them ship inside the app, about {{ $roughMb($bundled) }} MB; the other {{ $total - $bundled->count() }} are downloaded on request, with the size shown before you agree.</p>
+                <p>Nothing is ever streamed. Every sample is decoded from local storage as it plays, and the samples you download stay on the device until you delete them.</p>
                 <p>Shipped as Opus in an Ogg container at 48 kHz, with bitrate tiered by material: ambient nature beds at 80 kbps, and tonal material (melodic beds, textures, melodies and accents) at 96 kbps. Channels are preserved per source, mostly stereo with some mono point-sources. Decoded natively by the OS on iOS 17+ and Android 5.0+.</p>
                 <p>Most are sourced from lossless masters (WAV, FLAC, or AIFF, up to 24-bit / 96 kHz); a small number were only ever published lossy and are the best available. The set compresses from about 5.7 GB of originals down to roughly 460 MB, with no audible loss on this material.</p>
                 <p>Every sample is silence-trimmed and loudness-normalized asymmetrically. -16 LUFS (EBU R128) acts as a ceiling: louder sources are brought down to it, while naturally quiet recordings keep their softness instead of being amplified into noise. Sounds of the same concept are matched within a few dB of each other, so rotating between variants never jumps in level. Short accents are true-peak normalized, and everything is true-peak limited to between -1 and -1.5 dBTP, so nothing clips and the generative mix stays balanced.</p>

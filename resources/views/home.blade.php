@@ -195,27 +195,33 @@
 
         <h2 class="reveal font-display text-4xl text-center font-extralight text-cream sm:text-5xl">Buy it once. Own it for life.</h2>
 
+        {{-- The anchor sits above the card on purpose: the yearly figure has to
+             land before ours, so the price reads as relief rather than a number
+             the reader has to weigh on its own. --}}
+        <p class="reveal mx-auto mt-6 max-w-3xl px-6 text-center text-lg leading-relaxed text-balance text-muted">Comparable apps charge <span class="text-cream">$40 to $100 a year</span>, every year. You do the math.</p>
+
         <div class="mx-auto max-w-xl px-6 text-center">
 
             <div class="reveal mt-12 rounded-3xl border border-white/10 bg-white/[0.03] p-6 text-left sm:p-8">
                 <div class="flex items-start justify-between border-b border-white/8 pb-6">
                     <div>
-                        <p class="font-display text-xl text-cream">Free for a week</p>
+                        <p class="font-display text-xl text-cream">Free for seven days</p>
                         <p class="mt-1 text-sm text-muted">Every program, full access.</p>
+                        <p class="mt-1 text-sm text-muted">A day counts only when you play, and they never expire.</p>
                     </div>
                 </div>
                 <div class="pt-6 border-b border-white/8 pb-6">
-                    <p class="font-display text-xl text-cream">Then one price, once, per device</p>
-                    <p class="mt-1 text-sm text-muted">Lifetime, all future programs included.</p>
-                    <p class="mt-1 text-sm text-muted">The license is per device, plain and up front.</p>
+                    <p class="font-display text-xl text-cream">Then one price, once</p>
+                    <p class="mt-2 font-display text-2xl font-extralight text-cream">$12.99 <span class="text-muted/50">/</span> €14.99</p>
+                    <p class="mt-2 text-sm text-muted">It follows your store account, so a new phone just restores it.</p>
+                    <p class="mt-3 text-xs leading-relaxed text-muted/70">Store prices vary a little by country. The app shows yours.</p>
                 </div>
-                <p class="mt-8 text-center text-sm text-muted">Start your free week on</p>
+                <p class="mt-8 text-center text-sm text-muted">Start free on</p>
                 <x-store-badges size="compact" class="mt-3" />
                 <p class="mt-6 text-center text-xs leading-relaxed text-muted/70">By downloading, you agree to our <a href="{{ route('terms') }}" class="text-muted underline decoration-white/20 underline-offset-2 transition hover:text-cream">Terms</a> and <a href="{{ route('privacy') }}" class="text-muted underline decoration-white/20 underline-offset-2 transition hover:text-cream">Privacy Policy</a>.</p>
             </div>
 
         </div>
-        <p class="reveal mt-8 text-muted text-center px-4">Comparable apps charge <span class="text-cream">$40 to $100 a year</span>, every year. You do the math.</p>
     </section>
 
     {{-- 9. FAQ --}}
@@ -252,7 +258,7 @@
                     <button type="button" aria-expanded="false" aria-controls="faq-answer-sounds" class="flex w-full cursor-pointer items-center justify-between gap-4 py-5 text-left font-display text-lg text-cream">Where do the sounds come from?<span class="shrink-0 text-muted transition group-[.is-open]:rotate-45">+</span></button>
                     <div id="faq-answer-sounds" class="faq-answer">
                         <div>
-                            <p class="text-muted">From a curated library of studio-quality recordings: rain, wind, fire, ocean, bells, bowls, flutes, chants, and more. They start as high-resolution masters and are transparently compressed with a modern codec, so they stay high fidelity at a fraction of the size, and each one is leveled so the generative mix always sits right. The whole library is bundled in the app, so nothing is ever streamed and everything works offline. The recordings are license-free and cleared for a paid app: just over half are public domain, and the rest ask only for a credit. No royalties ride on your session.</p>
+                            <p class="text-muted">From a curated library of studio-quality recordings: rain, wind, fire, ocean, bells, bowls, flutes, chants, and more. They start as high-resolution masters and are transparently compressed with a modern codec, so they stay high fidelity at a fraction of the size, and each one is leveled so the generative mix always sits right. A starter set ships inside the app, and the rest downloads on-demand, only when you ask and never during a session. Nothing is ever streamed: everything plays from your phone, and what you download stays there, offline, until you delete it. The recordings are license-free and cleared for commercial use: just over half are public domain, and the rest ask only for a credit. No royalties ride on your session.</p>
                             <a href="{{ route('credits') }}" class="mb-5 mt-4 inline-flex items-center gap-2 font-medium text-violet-soft transition hover:text-violet-bright">
                                 See the sound credits
                                 <svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current stroke-2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -280,7 +286,7 @@
                     <button type="button" aria-expanded="false" aria-controls="faq-answer-6" class="flex w-full cursor-pointer items-center justify-between gap-4 py-5 text-left font-display text-lg text-cream">Does it work offline?<span class="shrink-0 text-muted transition group-[.is-open]:rotate-45">+</span></button>
                     <div id="faq-answer-6" class="faq-answer">
                         <div>
-                            <p class="pb-5 text-muted">Yes. Everything runs on your device. Nothing is sent anywhere.</p>
+                            <p class="pb-5 text-muted">Yes. Sessions run on your phone and nothing is sent anywhere. A connection is only needed if you choose to download more sounds.</p>
                         </div>
                     </div>
                 </div>
@@ -310,7 +316,7 @@
             <h2 class="reveal font-display text-4xl font-extralight leading-tight text-cream sm:text-5xl">Focus, sleep, wake, dream.<br><span class="text-violet-soft">One dial.</span></h2>
             <x-cta href="#pricing" size="lg" class="reveal mt-9">Coming soon!</x-cta>
             {{-- TODO: Restore at launch
-            <x-cta href="#pricing" size="lg" class="reveal mt-9">Try free for a week</x-cta>
+            <x-cta href="#pricing" size="lg" class="reveal mt-9">Try seven days free</x-cta>
             <p class="reveal mt-4 text-sm text-muted">No account required. Works offline.</p>
             --}}
         </div>
