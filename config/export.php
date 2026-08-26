@@ -25,6 +25,9 @@ return [
         '/',
         'programs',
         'science',
+        'privacy',
+        'terms',
+        'credits',
     ],
 
     /*

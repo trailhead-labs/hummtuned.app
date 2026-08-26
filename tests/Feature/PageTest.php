@@ -13,8 +13,8 @@ it('renders the landing page', function () {
 it('renders the FAQ as accessible button disclosures', function () {
     $html = $this->get(route('home'))->assertOk()->getContent();
 
-    expect(substr_count($html, 'aria-controls="faq-answer-'))->toBe(7)
-        ->and(substr_count($html, 'class="faq-answer"'))->toBe(7)
+    expect(substr_count($html, 'aria-controls="faq-answer-'))->toBe(9)
+        ->and(substr_count($html, 'class="faq-answer"'))->toBe(9)
         ->and(substr_count($html, 'aria-expanded="true"'))->toBe(1);
 });
 
