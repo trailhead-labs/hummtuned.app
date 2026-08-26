@@ -140,26 +140,6 @@
     "bytes": 1429225
   },
   {
-    "file": "background/deep-rumble-1.opus",
-    "layer": "background",
-    "concept": "deep-rumble",
-    "duration": 59.7,
-    "channels": 2,
-    "bitrate": "80k",
-    "gain": 0.0,
-    "license": "CC0",
-    "source_id": 638914,
-    "source": "https://freesound.org/people/lennartgreen/sounds/638914/",
-    "author": "lennartgreen",
-    "name": "Low Rumble - loopable ambiance",
-    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
-    "original": "background/deep-rumble-1.wav",
-    "source_samplerate": 44100.0,
-    "source_bitdepth": 16,
-    "source_type": "wav",
-    "bytes": 647353
-  },
-  {
     "file": "background/deep-rumble-2.opus",
     "layer": "background",
     "concept": "deep-rumble",
@@ -721,26 +701,6 @@
     "bytes": 875237
   },
   {
-    "file": "background/pulse-soft-1.opus",
-    "layer": "background",
-    "concept": "pulse-soft",
-    "duration": 253.4,
-    "channels": 2,
-    "bitrate": "80k",
-    "gain": 0.0,
-    "license": "CC0",
-    "source_id": 513610,
-    "source": "https://freesound.org/people/Nielsvdb/sounds/513610/",
-    "author": "Nielsvdb",
-    "name": "Pulsing Analog Drone",
-    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
-    "original": "background/pulse-soft-1.wav",
-    "source_samplerate": 44100.0,
-    "source_bitdepth": 16,
-    "source_type": "wav",
-    "bytes": 2371411
-  },
-  {
     "file": "background/pulse-soft-2.opus",
     "layer": "background",
     "concept": "pulse-soft",
@@ -1164,7 +1124,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 1153903
+    "bytes": 1152968
   },
   {
     "file": "background/stream-1.opus",
@@ -1287,9 +1247,9 @@
     "bytes": 457117
   },
   {
-    "file": "background/deep-rumble-18.opus",
+    "file": "background/drift-14.opus",
     "layer": "background",
-    "concept": "deep-rumble",
+    "concept": "drift",
     "duration": 185.5,
     "channels": 2,
     "bitrate": "96k",
@@ -1300,7 +1260,7 @@
     "author": "xkeril",
     "name": "Lost memories - ambiant soundscape",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
-    "original": "background/deep-rumble-18.wav",
+    "original": "background/drift-14.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
     "source_type": "wav",
@@ -2110,7 +2070,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
     "source_type": "wav",
-    "bytes": 414300
+    "bytes": 409156
   },
   {
     "file": "melodies/monk-chant-8.opus",
@@ -2130,7 +2090,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
     "source_type": "mp3",
-    "bytes": 938900
+    "bytes": 937312
   },
   {
     "file": "textures/bamboo-wind-1.opus",
@@ -2234,28 +2194,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 544088
-  },
-  {
-    "file": "textures/birdsong-2.opus",
-    "layer": "textures",
-    "concept": "birdsong",
-    "duration": 28.6,
-    "channels": 2,
-    "bitrate": "96k",
-    "gain": 0.0,
-    "license": "CC-BY",
-    "source_id": 656507,
-    "source": "https://freesound.org/people/klankbeeld/sounds/656507/",
-    "author": "klankbeeld",
-    "name": "Eurasian Nuthatch boomklever zegenwerp 1403 221029_0537.wav",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "original": "textures/birdsong-2.wav",
-    "source_samplerate": 48000.0,
-    "source_bitdepth": 24,
-    "source_type": "wav",
-    "bundled": true,
-    "bytes": 324929
+    "bytes": 543860
   },
   {
     "file": "textures/birdsong-3.opus",
@@ -2296,7 +2235,8 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
     "source_type": "flac",
-    "bytes": 482063
+    "bundled": true,
+    "bytes": 482097
   },
   {
     "file": "textures/birdsong-5.opus",
@@ -2339,109 +2279,9 @@
     "bytes": 1056644
   },
   {
-    "file": "textures/book-1.opus",
+    "file": "textures/windchimes-1.opus",
     "layer": "textures",
-    "concept": "book",
-    "duration": 26.2,
-    "channels": 2,
-    "bitrate": "96k",
-    "gain": 0.0,
-    "license": "CC0",
-    "source_id": 164806,
-    "source": "https://freesound.org/people/exterminat/sounds/164806/",
-    "author": "exterminat",
-    "name": "Page turns and book close/open",
-    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
-    "original": "textures/book-1.wav",
-    "source_samplerate": 44100.0,
-    "source_bitdepth": 16,
-    "source_type": "wav",
-    "bytes": 237921
-  },
-  {
-    "file": "textures/book-2.opus",
-    "layer": "textures",
-    "concept": "book",
-    "duration": 29.1,
-    "channels": 2,
-    "bitrate": "96k",
-    "gain": 0.0,
-    "license": "CC-BY",
-    "source_id": 388947,
-    "source": "https://freesound.org/people/Australopithecusman/sounds/388947/",
-    "author": "Australopithecusman",
-    "name": "Very Old Book Page Turns;cracking",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "original": "textures/book-2.wav",
-    "source_samplerate": 48000.0,
-    "source_bitdepth": 16,
-    "source_type": "wav",
-    "bytes": 302903
-  },
-  {
-    "file": "textures/book-3.opus",
-    "layer": "textures",
-    "concept": "book",
-    "duration": 54.5,
-    "channels": 2,
-    "bitrate": "96k",
-    "gain": 0.0,
-    "license": "CC0",
-    "source_id": 418635,
-    "source": "https://freesound.org/people/Mikes-MultiMedia/sounds/418635/",
-    "author": "Mikes-MultiMedia",
-    "name": "Digging through a pile of paper",
-    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
-    "original": "textures/book-3.wav",
-    "source_samplerate": 96000.0,
-    "source_bitdepth": 16,
-    "source_type": "wav",
-    "bytes": 580609
-  },
-  {
-    "file": "textures/book-4.opus",
-    "layer": "textures",
-    "concept": "book",
-    "duration": 57.6,
-    "channels": 2,
-    "bitrate": "96k",
-    "gain": 0.0,
-    "license": "CC0",
-    "source_id": 465254,
-    "source": "https://freesound.org/people/P_Chester/sounds/465254/",
-    "author": "P_Chester",
-    "name": "flipping and turning pages.wav",
-    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
-    "original": "textures/book-4.wav",
-    "source_samplerate": 44100.0,
-    "source_bitdepth": 16,
-    "source_type": "wav",
-    "bytes": 678566
-  },
-  {
-    "file": "textures/book-5.opus",
-    "layer": "textures",
-    "concept": "book",
-    "duration": 16.0,
-    "channels": 2,
-    "bitrate": "96k",
-    "gain": 0.0,
-    "license": "CC0",
-    "source_id": 336374,
-    "source": "https://freesound.org/people/moai15/sounds/336374/",
-    "author": "moai15",
-    "name": "Book_Turning_Pages_01.wav",
-    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
-    "original": "textures/book-5.wav",
-    "source_samplerate": 48000.0,
-    "source_bitdepth": 24,
-    "source_type": "wav",
-    "bytes": 201152
-  },
-  {
-    "file": "textures/chimes-1.opus",
-    "layer": "textures",
-    "concept": "chimes",
+    "concept": "windchimes",
     "duration": 25.5,
     "channels": 2,
     "bitrate": "96k",
@@ -2452,7 +2292,7 @@
     "author": "InspectorJ",
     "name": "Wind Chimes, A.wav",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "original": "textures/chimes-1.wav",
+    "original": "textures/windchimes-1.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
@@ -2460,9 +2300,9 @@
     "bytes": 403929
   },
   {
-    "file": "textures/chimes-2.opus",
+    "file": "textures/windchimes-2.opus",
     "layer": "textures",
-    "concept": "chimes",
+    "concept": "windchimes",
     "duration": 25.6,
     "channels": 2,
     "bitrate": "96k",
@@ -2473,7 +2313,7 @@
     "author": "Patrick6410",
     "name": "Wind Chimes - PLF.wav",
     "license_url": "http://creativecommons.org/licenses/sampling+/1.0/",
-    "original": "textures/chimes-2.wav",
+    "original": "textures/windchimes-2.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
@@ -2481,9 +2321,9 @@
     "bytes": 445139
   },
   {
-    "file": "textures/chimes-3.opus",
+    "file": "textures/windchimes-3.opus",
     "layer": "textures",
-    "concept": "chimes",
+    "concept": "windchimes",
     "duration": 27.4,
     "channels": 2,
     "bitrate": "96k",
@@ -2494,11 +2334,10 @@
     "author": "Vendarro",
     "name": "Windchime soft",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
-    "original": "textures/chimes-3.wav",
+    "original": "textures/windchimes-3.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bundled": true,
     "bytes": 491835
   },
   {
@@ -3161,7 +3000,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 319735
+    "bytes": 317898
   },
   {
     "file": "textures/stream-7.opus",
@@ -3221,27 +3060,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 343066
-  },
-  {
-    "file": "melodies/tanpura-2.opus",
-    "layer": "melodies",
-    "concept": "tanpura",
-    "duration": 17.8,
-    "channels": 2,
-    "bitrate": "96k",
-    "gain": 0.0,
-    "license": "CC-BY",
-    "source_id": 153267,
-    "source": "https://freesound.org/people/sankalp/sounds/153267/",
-    "author": "sankalp",
-    "name": "Acoustic Tanpura 7",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "original": "melodies/tanpura-2.wav",
-    "source_samplerate": 44100.0,
-    "source_bitdepth": 16,
-    "source_type": "wav",
-    "bytes": 247904
+    "bytes": 341413
   },
   {
     "file": "melodies/tanpura-3.opus",
@@ -3261,27 +3080,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 248145
-  },
-  {
-    "file": "melodies/tanpura-4.opus",
-    "layer": "melodies",
-    "concept": "tanpura",
-    "duration": 46.4,
-    "channels": 2,
-    "bitrate": "96k",
-    "gain": 0.0,
-    "license": "CC-BY",
-    "source_id": 155274,
-    "source": "https://freesound.org/people/sankalp/sounds/155274/",
-    "author": "sankalp",
-    "name": "Acoustic Tanpura 12",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "original": "melodies/tanpura-4.wav",
-    "source_samplerate": 88200.0,
-    "source_bitdepth": 24,
-    "source_type": "wav",
-    "bytes": 776664
+    "bytes": 248370
   },
   {
     "file": "melodies/tanpura-5.opus",
@@ -3301,7 +3100,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 379252
+    "bytes": 379122
   },
   {
     "file": "melodies/tanpura-6.opus",
@@ -3321,7 +3120,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 380311
+    "bytes": 380012
   },
   {
     "file": "melodies/tanpura-7.opus",
@@ -3341,7 +3140,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 356386
+    "bytes": 356070
   },
   {
     "file": "accents/singing-bowl-14.opus",
@@ -3362,7 +3161,7 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 532569
+    "bytes": 530401
   },
   {
     "file": "accents/singing-bowl-deep-14.opus",
@@ -3383,7 +3182,7 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 682264
+    "bytes": 660363
   },
   {
     "file": "accents/singing-bowl-deep-11.opus",
@@ -3404,7 +3203,7 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 421836
+    "bytes": 403671
   },
   {
     "file": "textures/thunderstorm-11.opus",
@@ -3673,9 +3472,9 @@
     "bytes": 214457
   },
   {
-    "file": "textures/windchime-bed-1.opus",
+    "file": "textures/windchimes-4.opus",
     "layer": "textures",
-    "concept": "windchime-bed",
+    "concept": "windchimes",
     "duration": 26.6,
     "channels": 2,
     "bitrate": "96k",
@@ -3686,17 +3485,16 @@
     "author": "giddster",
     "name": "Wind chimes 2 (loud)",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
-    "original": "textures/windchime-bed-1.wav",
+    "original": "textures/windchimes-4.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 32,
     "source_type": "wav",
-    "bundled": true,
     "bytes": 577643
   },
   {
-    "file": "textures/windchime-bed-2.opus",
+    "file": "textures/windchimes-5.opus",
     "layer": "textures",
-    "concept": "windchime-bed",
+    "concept": "windchimes",
     "duration": 25.8,
     "channels": 2,
     "bitrate": "96k",
@@ -3707,7 +3505,7 @@
     "author": "Anthousai",
     "name": "wind chimes - rough.wav",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
-    "original": "textures/windchime-bed-2.wav",
+    "original": "textures/windchimes-5.wav",
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
     "source_type": "wav",
@@ -3715,9 +3513,9 @@
     "bytes": 444546
   },
   {
-    "file": "textures/windchime-bed-3.opus",
+    "file": "textures/windchimes-6.opus",
     "layer": "textures",
-    "concept": "windchime-bed",
+    "concept": "windchimes",
     "duration": 86.6,
     "channels": 2,
     "bitrate": "96k",
@@ -3728,16 +3526,16 @@
     "author": "giddster",
     "name": "Wind chimes 1",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
-    "original": "textures/windchime-bed-3.wav",
+    "original": "textures/windchimes-6.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 32,
     "source_type": "wav",
     "bytes": 1597791
   },
   {
-    "file": "textures/windchime-bed-4.opus",
+    "file": "textures/windchimes-7.opus",
     "layer": "textures",
-    "concept": "windchime-bed",
+    "concept": "windchimes",
     "duration": 53.3,
     "channels": 2,
     "bitrate": "96k",
@@ -3748,11 +3546,10 @@
     "author": "giddster",
     "name": "Wind chimes 3 (quiet)",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
-    "original": "textures/windchime-bed-4.wav",
+    "original": "textures/windchimes-7.wav",
     "source_samplerate": 44100.0,
     "source_bitdepth": 32,
     "source_type": "wav",
-    "bundled": true,
     "bytes": 891039
   },
   {
@@ -3774,7 +3571,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 135083
+    "bytes": 125241
   },
   {
     "file": "accents/zen-gong-7.opus",
@@ -3795,7 +3592,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 210887
+    "bytes": 210442
   },
   {
     "file": "accents/singing-bowl-deep-12.opus",
@@ -3816,7 +3613,7 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 527054
+    "bytes": 488358
   },
   {
     "file": "accents/zen-gong-9.opus",
@@ -3837,7 +3634,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 112737
+    "bytes": 89183
   },
   {
     "file": "accents/zen-gong-10.opus",
@@ -3858,7 +3655,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 165825
+    "bytes": 155215
   },
   {
     "file": "melodies/acoustic-guitar-1.opus",
@@ -3878,7 +3675,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
     "source_type": "wav",
-    "bytes": 256110
+    "bytes": 238364
   },
   {
     "file": "melodies/acoustic-guitar-2.opus",
@@ -3898,7 +3695,7 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 1284674
+    "bytes": 1254925
   },
   {
     "file": "melodies/acoustic-guitar-3.opus",
@@ -3918,7 +3715,7 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
     "source_type": "wav",
-    "bytes": 1143261
+    "bytes": 1145489
   },
   {
     "file": "melodies/acoustic-guitar-4.opus",
@@ -3938,7 +3735,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
     "source_type": "wav",
-    "bytes": 757230
+    "bytes": 749886
   },
   {
     "file": "melodies/duduk-1.opus",
@@ -3958,7 +3755,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 356879
+    "bytes": 356785
   },
   {
     "file": "melodies/duduk-2.opus",
@@ -3978,7 +3775,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 694913
+    "bytes": 692237
   },
   {
     "file": "melodies/duduk-3.opus",
@@ -3998,7 +3795,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 537635
+    "bytes": 538489
   },
   {
     "file": "melodies/duduk-4.opus",
@@ -4018,27 +3815,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 1735897
-  },
-  {
-    "file": "melodies/duduk-5.opus",
-    "layer": "melodies",
-    "concept": "duduk",
-    "duration": 66.8,
-    "channels": 2,
-    "bitrate": "96k",
-    "gain": 0.0,
-    "license": "CC-BY",
-    "source_id": 380476,
-    "source": "https://freesound.org/people/arakedikian/sounds/380476/",
-    "author": "arakedikian",
-    "name": "verunka.mp3",
-    "license_url": "http://creativecommons.org/licenses/by/3.0/",
-    "original": "melodies/duduk-5.mp3",
-    "source_samplerate": 44100.0,
-    "source_bitdepth": 0,
-    "source_type": "mp3",
-    "bytes": 929116
+    "bytes": 1734866
   },
   {
     "file": "melodies/duduk-6.opus",
@@ -4058,7 +3835,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
     "source_type": "mp3",
-    "bytes": 2203062
+    "bytes": 2160639
   },
   {
     "file": "melodies/electric-guitar-1.opus",
@@ -4079,7 +3856,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 941974
+    "bytes": 941870
   },
   {
     "file": "melodies/electric-guitar-2.opus",
@@ -4099,7 +3876,7 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
     "source_type": "wav",
-    "bytes": 944160
+    "bytes": 935889
   },
   {
     "file": "melodies/electric-guitar-3.opus",
@@ -4119,7 +3896,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 915911
+    "bytes": 908846
   },
   {
     "file": "melodies/electric-guitar-4.opus",
@@ -4140,7 +3917,7 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 830311
+    "bytes": 832195
   },
   {
     "file": "melodies/electric-guitar-5.opus",
@@ -4161,7 +3938,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 508921
+    "bytes": 507182
   },
   {
     "file": "melodies/flute-1.opus",
@@ -4181,7 +3958,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
     "source_type": "mp3",
-    "bytes": 384959
+    "bytes": 374909
   },
   {
     "file": "melodies/flute-2.opus",
@@ -4201,7 +3978,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
     "source_type": "mp3",
-    "bytes": 682910
+    "bytes": 676579
   },
   {
     "file": "melodies/flute-3.opus",
@@ -4221,7 +3998,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
     "source_type": "mp3",
-    "bytes": 436016
+    "bytes": 436974
   },
   {
     "file": "melodies/flute-4.opus",
@@ -4241,7 +4018,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 2073688
+    "bytes": 2065205
   },
   {
     "file": "melodies/flute-5.opus",
@@ -4261,7 +4038,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
     "source_type": "mp3",
-    "bytes": 751632
+    "bytes": 751208
   },
   {
     "file": "melodies/flute-6.opus",
@@ -4281,7 +4058,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
     "source_type": "mp3",
-    "bytes": 375740
+    "bytes": 376536
   },
   {
     "file": "melodies/flute-7.opus",
@@ -4301,7 +4078,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
     "source_type": "mp3",
-    "bytes": 557002
+    "bytes": 557393
   },
   {
     "file": "melodies/harp-1.opus",
@@ -4321,7 +4098,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
     "source_type": "wav",
-    "bytes": 266289
+    "bytes": 265679
   },
   {
     "file": "melodies/harp-2.opus",
@@ -4341,7 +4118,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "flac",
-    "bytes": 1106931
+    "bytes": 1106378
   },
   {
     "file": "melodies/harp-3.opus",
@@ -4361,7 +4138,7 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 311128
+    "bytes": 312467
   },
   {
     "file": "melodies/harp-4.opus",
@@ -4381,7 +4158,7 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
     "source_type": "wav",
-    "bytes": 1147033
+    "bytes": 1142713
   },
   {
     "file": "melodies/instruments-1.opus",
@@ -4401,7 +4178,7 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
     "source_type": "wav",
-    "bytes": 1100749
+    "bytes": 1063456
   },
   {
     "file": "melodies/instruments-2.opus",
@@ -4421,7 +4198,7 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
     "source_type": "wav",
-    "bytes": 1448161
+    "bytes": 1433348
   },
   {
     "file": "melodies/instruments-3.opus",
@@ -4441,7 +4218,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
     "source_type": "wav",
-    "bytes": 820691
+    "bytes": 823713
   },
   {
     "file": "melodies/instruments-4.opus",
@@ -4461,7 +4238,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
     "source_type": "mp3",
-    "bytes": 726547
+    "bytes": 725438
   },
   {
     "file": "melodies/koshi-1.opus",
@@ -4481,7 +4258,7 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
     "source_type": "wav",
-    "bytes": 1393246
+    "bytes": 1382441
   },
   {
     "file": "melodies/koshi-2.opus",
@@ -4501,7 +4278,7 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
     "source_type": "wav",
-    "bytes": 735844
+    "bytes": 715750
   },
   {
     "file": "melodies/koshi-3.opus",
@@ -4521,7 +4298,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 24,
     "source_type": "wav",
-    "bytes": 610264
+    "bytes": 605638
   },
   {
     "file": "melodies/koshi-4.opus",
@@ -4541,7 +4318,7 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
     "source_type": "wav",
-    "bytes": 643145
+    "bytes": 623658
   },
   {
     "file": "melodies/koshi-5.opus",
@@ -4561,7 +4338,7 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
     "source_type": "wav",
-    "bytes": 1304677
+    "bytes": 1238235
   },
   {
     "file": "melodies/monk-chant-2.opus",
@@ -4581,7 +4358,7 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
     "source_type": "wav",
-    "bytes": 742840
+    "bytes": 743017
   },
   {
     "file": "melodies/monk-chant-3.opus",
@@ -4601,7 +4378,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 811705
+    "bytes": 813463
   },
   {
     "file": "melodies/throat-singing-13.opus",
@@ -4621,7 +4398,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 307887
+    "bytes": 307916
   },
   {
     "file": "melodies/throat-singing-14.opus",
@@ -4641,7 +4418,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 455559
+    "bytes": 454671
   },
   {
     "file": "melodies/monk-chant-6.opus",
@@ -4661,7 +4438,7 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
     "source_type": "wav",
-    "bytes": 876353
+    "bytes": 876358
   },
   {
     "file": "melodies/native-flute-1.opus",
@@ -4681,7 +4458,7 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
     "source_type": "wav",
-    "bytes": 322208
+    "bytes": 321918
   },
   {
     "file": "melodies/native-flute-2.opus",
@@ -4701,7 +4478,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 1112132
+    "bytes": 1096078
   },
   {
     "file": "melodies/native-flute-3.opus",
@@ -4721,7 +4498,7 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
     "source_type": "wav",
-    "bytes": 260684
+    "bytes": 259875
   },
   {
     "file": "melodies/native-flute-4.opus",
@@ -4741,7 +4518,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 521180
+    "bytes": 521092
   },
   {
     "file": "melodies/native-flute-5.opus",
@@ -4761,7 +4538,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 245372
+    "bytes": 246429
   },
   {
     "file": "melodies/piano-1.opus",
@@ -4782,7 +4559,7 @@
     "source_bitdepth": 32,
     "source_type": "aiff",
     "bundled": true,
-    "bytes": 454132
+    "bytes": 439580
   },
   {
     "file": "melodies/piano-2.opus",
@@ -4803,7 +4580,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 443277
+    "bytes": 420189
   },
   {
     "file": "melodies/piano-3.opus",
@@ -4823,7 +4600,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 32,
     "source_type": "wav",
-    "bytes": 2186713
+    "bytes": 2184898
   },
   {
     "file": "melodies/piano-4.opus",
@@ -4843,7 +4620,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 32,
     "source_type": "wav",
-    "bytes": 922228
+    "bytes": 922131
   },
   {
     "file": "melodies/piano-5.opus",
@@ -4863,7 +4640,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 585924
+    "bytes": 589261
   },
   {
     "file": "melodies/piano-6.opus",
@@ -4883,7 +4660,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
     "source_type": "mp3",
-    "bytes": 493802
+    "bytes": 491486
   },
   {
     "file": "melodies/piano-7.opus",
@@ -4904,7 +4681,7 @@
     "source_bitdepth": 32,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 503425
+    "bytes": 500959
   },
   {
     "file": "melodies/synth-melody-1.opus",
@@ -4924,7 +4701,7 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
     "source_type": "wav",
-    "bytes": 1587321
+    "bytes": 1578162
   },
   {
     "file": "melodies/synth-melody-2.opus",
@@ -4945,7 +4722,7 @@
     "source_bitdepth": 32,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 653246
+    "bytes": 653925
   },
   {
     "file": "melodies/synth-melody-3.opus",
@@ -4966,7 +4743,7 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 840619
+    "bytes": 839459
   },
   {
     "file": "melodies/synth-melody-4.opus",
@@ -4987,7 +4764,7 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 716678
+    "bytes": 695334
   },
   {
     "file": "melodies/synth-melody-5.opus",
@@ -5007,7 +4784,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 1627888
+    "bytes": 1622162
   },
   {
     "file": "melodies/synth-melody-6.opus",
@@ -5027,7 +4804,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 4293752
+    "bytes": 4317572
   },
   {
     "file": "melodies/synth-melody-7.opus",
@@ -5047,7 +4824,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 1156079
+    "bytes": 1154543
   },
   {
     "file": "melodies/synth-melody-8.opus",
@@ -5067,7 +4844,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 1692569
+    "bytes": 1693630
   },
   {
     "file": "melodies/throat-singing-1.opus",
@@ -5087,7 +4864,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 284003
+    "bytes": 284261
   },
   {
     "file": "melodies/throat-singing-2.opus",
@@ -5107,7 +4884,7 @@
     "source_samplerate": 96000.0,
     "source_bitdepth": 32,
     "source_type": "wav",
-    "bytes": 2264224
+    "bytes": 2264878
   },
   {
     "file": "melodies/throat-singing-3.opus",
@@ -5127,7 +4904,7 @@
     "source_samplerate": 48000.0,
     "source_bitdepth": 24,
     "source_type": "wav",
-    "bytes": 808271
+    "bytes": 808972
   },
   {
     "file": "melodies/throat-singing-4.opus",
@@ -5147,7 +4924,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 588188
+    "bytes": 587771
   },
   {
     "file": "melodies/throat-singing-5.opus",
@@ -5167,7 +4944,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 309276
+    "bytes": 308806
   },
   {
     "file": "melodies/throat-singing-6.opus",
@@ -5187,7 +4964,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 325868
+    "bytes": 326501
   },
   {
     "file": "melodies/throat-singing-7.opus",
@@ -5207,7 +4984,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 360373
+    "bytes": 359568
   },
   {
     "file": "melodies/throat-singing-8.opus",
@@ -5227,7 +5004,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "aiff",
-    "bytes": 414029
+    "bytes": 411931
   },
   {
     "file": "melodies/throat-singing-9.opus",
@@ -5247,7 +5024,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 373688
+    "bytes": 373968
   },
   {
     "file": "melodies/throat-singing-10.opus",
@@ -5267,7 +5044,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 0,
     "source_type": "mp3",
-    "bytes": 311399
+    "bytes": 311061
   },
   {
     "file": "melodies/throat-singing-11.opus",
@@ -5287,28 +5064,7 @@
     "source_samplerate": 44100.0,
     "source_bitdepth": 16,
     "source_type": "wav",
-    "bytes": 390573
-  },
-  {
-    "file": "accents/electronic-fx-4.opus",
-    "layer": "accents",
-    "concept": "electronic-fx",
-    "duration": 4.5,
-    "channels": 2,
-    "bitrate": "96k",
-    "gain": 0.0,
-    "license": "CC0",
-    "source_id": 683323,
-    "source": "https://freesound.org/people/zazz.sound.design/sounds/683323/",
-    "author": "zazz.sound.design",
-    "name": "Magic Spell Fairy Dust",
-    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
-    "original": "accents/electronic-fx-4.wav",
-    "source_samplerate": 96000.0,
-    "source_bitdepth": 24,
-    "source_type": "wav",
-    "bundled": true,
-    "bytes": 52042
+    "bytes": 389711
   },
   {
     "file": "accents/bar-chimes-2.opus",
@@ -5329,7 +5085,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 81854
+    "bytes": 78696
   },
   {
     "file": "accents/bar-chimes-3.opus",
@@ -5392,7 +5148,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 141456
+    "bytes": 135877
   },
   {
     "file": "accents/tingsha-6.opus",
@@ -5413,7 +5169,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 45982
+    "bytes": 41739
   },
   {
     "file": "accents/bells-2.opus",
@@ -5434,7 +5190,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 111634
+    "bytes": 107515
   },
   {
     "file": "accents/tingsha-8.opus",
@@ -5455,7 +5211,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 86235
+    "bytes": 83830
   },
   {
     "file": "accents/cowbell-9.opus",
@@ -5518,7 +5274,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 58522
+    "bytes": 58264
   },
   {
     "file": "accents/bells-7.opus",
@@ -5623,7 +5379,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 43653
+    "bytes": 43407
   },
   {
     "file": "accents/tingsha-4.opus",
@@ -5644,7 +5400,7 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 88898
+    "bytes": 80092
   },
   {
     "file": "accents/tingsha-5.opus",
@@ -5686,7 +5442,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 164436
+    "bytes": 162249
   },
   {
     "file": "accents/cowbell-7.opus",
@@ -5731,27 +5487,6 @@
     "bytes": 84660
   },
   {
-    "file": "accents/singing-bowl-1.opus",
-    "layer": "accents",
-    "concept": "singing-bowl",
-    "duration": 3.0,
-    "channels": 2,
-    "bitrate": "96k",
-    "gain": 0.0,
-    "license": "CC0",
-    "source_id": 198403,
-    "source": "https://freesound.org/people/ani_music/sounds/198403/",
-    "author": "ani_music",
-    "name": "ANI - Wine glass - Rubbing 1a",
-    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
-    "original": "accents/singing-bowl-1.wav",
-    "source_samplerate": 48000.0,
-    "source_bitdepth": 16,
-    "source_type": "wav",
-    "bundled": true,
-    "bytes": 55175
-  },
-  {
     "file": "accents/singing-bowl-deep-9.opus",
     "layer": "accents",
     "concept": "singing-bowl-deep",
@@ -5770,7 +5505,7 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 322554
+    "bytes": 277345
   },
   {
     "file": "accents/singing-bowl-12.opus",
@@ -5791,7 +5526,7 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 370079
+    "bytes": 313014
   },
   {
     "file": "accents/singing-bowl-11.opus",
@@ -5812,7 +5547,7 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 347015
+    "bytes": 297183
   },
   {
     "file": "accents/singing-bowl-6.opus",
@@ -5836,69 +5571,6 @@
     "bytes": 121184
   },
   {
-    "file": "accents/electronic-fx-1.opus",
-    "layer": "accents",
-    "concept": "electronic-fx",
-    "duration": 8.9,
-    "channels": 2,
-    "bitrate": "96k",
-    "gain": 0.0,
-    "license": "CC-BY",
-    "source_id": 69065,
-    "source": "https://freesound.org/people/tim.kahn/sounds/69065/",
-    "author": "tim.kahn",
-    "name": "klissle.aiff",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "original": "accents/electronic-fx-1.aiff",
-    "source_samplerate": 44100.0,
-    "source_bitdepth": 16,
-    "source_type": "aiff",
-    "bundled": true,
-    "bytes": 91968
-  },
-  {
-    "file": "accents/electronic-fx-2.opus",
-    "layer": "accents",
-    "concept": "electronic-fx",
-    "duration": 7.6,
-    "channels": 2,
-    "bitrate": "96k",
-    "gain": 0.0,
-    "license": "CC-BY",
-    "source_id": 568785,
-    "source": "https://freesound.org/people/newlocknew/sounds/568785/",
-    "author": "newlocknew",
-    "name": "UI_Seatbelt signal similar(Sytrus,Eq,chrs,flngr,xctr,rvrb).wav",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "original": "accents/electronic-fx-2.wav",
-    "source_samplerate": 48000.0,
-    "source_bitdepth": 32,
-    "source_type": "wav",
-    "bundled": true,
-    "bytes": 126409
-  },
-  {
-    "file": "accents/electronic-fx-3.opus",
-    "layer": "accents",
-    "concept": "electronic-fx",
-    "duration": 6.8,
-    "channels": 2,
-    "bitrate": "96k",
-    "gain": 0.0,
-    "license": "CC-BY",
-    "source_id": 563404,
-    "source": "https://freesound.org/people/newlocknew/sounds/563404/",
-    "author": "newlocknew",
-    "name": "Glitch sweep tonal hoover stop_1(mltprcssng).wav",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "original": "accents/electronic-fx-3.wav",
-    "source_samplerate": 48000.0,
-    "source_bitdepth": 32,
-    "source_type": "wav",
-    "bundled": true,
-    "bytes": 102740
-  },
-  {
     "file": "accents/singing-bowl-deep-5.opus",
     "layer": "accents",
     "concept": "singing-bowl-deep",
@@ -5917,7 +5589,7 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 179826
+    "bytes": 163730
   },
   {
     "file": "accents/singing-bowl-deep-13.opus",
@@ -5959,7 +5631,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 94467
+    "bytes": 89238
   },
   {
     "file": "accents/singing-bowl-4.opus",
@@ -5980,7 +5652,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 55178
+    "bytes": 47079
   },
   {
     "file": "accents/zen-gong-3.opus",
@@ -6001,7 +5673,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 59186
+    "bytes": 55100
   },
   {
     "file": "accents/kalimba-2.opus",
@@ -6043,7 +5715,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 99412
+    "bytes": 99128
   },
   {
     "file": "accents/kalimba-4.opus",
@@ -6064,7 +5736,7 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 38975
+    "bytes": 36380
   },
   {
     "file": "accents/kalimba-5.opus",
@@ -6085,7 +5757,7 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 44166
+    "bytes": 40941
   },
   {
     "file": "accents/kalimba-6.opus",
@@ -6106,7 +5778,7 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 33378
+    "bytes": 31687
   },
   {
     "file": "accents/kalimba-7.opus",
@@ -6127,7 +5799,7 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 59207
+    "bytes": 53565
   },
   {
     "file": "accents/rattle-1.opus",
@@ -6337,7 +6009,7 @@
     "source_bitdepth": 24,
     "source_type": "flac",
     "bundled": true,
-    "bytes": 188982
+    "bytes": 178531
   },
   {
     "file": "accents/singing-bowl-deep-6.opus",
@@ -6358,7 +6030,7 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 209240
+    "bytes": 187781
   },
   {
     "file": "accents/singing-bowl-5.opus",
@@ -6379,7 +6051,7 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 92907
+    "bytes": 81276
   },
   {
     "file": "accents/singing-bowl-deep-7.opus",
@@ -6442,7 +6114,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 124265
+    "bytes": 124408
   },
   {
     "file": "accents/singing-bowl-3.opus",
@@ -6484,7 +6156,7 @@
     "source_bitdepth": 32,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 116439
+    "bytes": 116269
   },
   {
     "file": "accents/singing-bowl-deep-4.opus",
@@ -6505,7 +6177,7 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 155019
+    "bytes": 151089
   },
   {
     "file": "accents/singing-bowl-8.opus",
@@ -6526,7 +6198,7 @@
     "source_bitdepth": 24,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 93278
+    "bytes": 76391
   },
   {
     "file": "accents/rattle-9.opus",
@@ -6568,7 +6240,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 94366
+    "bytes": 94363
   },
   {
     "file": "accents/singing-bowl-2.opus",
@@ -6589,7 +6261,7 @@
     "source_bitdepth": 16,
     "source_type": "aiff",
     "bundled": true,
-    "bytes": 105650
+    "bytes": 105747
   },
   {
     "file": "accents/singing-bowl-10.opus",
@@ -6694,7 +6366,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 46192
+    "bytes": 45927
   },
   {
     "file": "accents/tingsha-10.opus",
@@ -6715,112 +6387,7 @@
     "source_bitdepth": 16,
     "source_type": "aiff",
     "bundled": true,
-    "bytes": 123316
-  },
-  {
-    "file": "accents/woodblock-1.opus",
-    "layer": "accents",
-    "concept": "woodblock",
-    "duration": 0.2,
-    "channels": 1,
-    "bitrate": "96k",
-    "gain": 0.0,
-    "license": "CC0",
-    "source_id": 126481,
-    "source": "https://freesound.org/people/Ayavaron/sounds/126481/",
-    "author": "Ayavaron",
-    "name": "pbr_can 12 woodblock.wav",
-    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
-    "original": "accents/woodblock-1.wav",
-    "source_samplerate": 44100.0,
-    "source_bitdepth": 24,
-    "source_type": "wav",
-    "bundled": true,
-    "bytes": 4513
-  },
-  {
-    "file": "accents/woodblock-2.opus",
-    "layer": "accents",
-    "concept": "woodblock",
-    "duration": 0.1,
-    "channels": 2,
-    "bitrate": "96k",
-    "gain": 0.0,
-    "license": "CC0",
-    "source_id": 692828,
-    "source": "https://freesound.org/people/hollandm/sounds/692828/",
-    "author": "hollandm",
-    "name": "Woodblock-soft.wav",
-    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
-    "original": "accents/woodblock-2.wav",
-    "source_samplerate": 44100.0,
-    "source_bitdepth": 16,
-    "source_type": "wav",
-    "bundled": true,
-    "bytes": 5442
-  },
-  {
-    "file": "accents/woodblock-3.opus",
-    "layer": "accents",
-    "concept": "woodblock",
-    "duration": 8.1,
-    "channels": 1,
-    "bitrate": "96k",
-    "gain": 0.0,
-    "license": "CC0",
-    "source_id": 175417,
-    "source": "https://freesound.org/people/Housed1J/sounds/175417/",
-    "author": "Housed1J",
-    "name": "Modulation with Wood.aif",
-    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
-    "original": "accents/woodblock-3.aiff",
-    "source_samplerate": 44100.0,
-    "source_bitdepth": 24,
-    "source_type": "aiff",
-    "bundled": true,
-    "bytes": 99941
-  },
-  {
-    "file": "accents/woodblock-5.opus",
-    "layer": "accents",
-    "concept": "woodblock",
-    "duration": 0.1,
-    "channels": 2,
-    "bitrate": "96k",
-    "gain": 0.0,
-    "license": "CC0",
-    "source_id": 692819,
-    "source": "https://freesound.org/people/hollandm/sounds/692819/",
-    "author": "hollandm",
-    "name": "Woodblock-med.wav",
-    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
-    "original": "accents/woodblock-5.wav",
-    "source_samplerate": 44100.0,
-    "source_bitdepth": 16,
-    "source_type": "wav",
-    "bundled": true,
-    "bytes": 5384
-  },
-  {
-    "file": "accents/woodblock-6.opus",
-    "layer": "accents",
-    "concept": "woodblock",
-    "duration": 24.7,
-    "channels": 2,
-    "bitrate": "96k",
-    "gain": 0.0,
-    "license": "CC-BY",
-    "source_id": 205999,
-    "source": "https://freesound.org/people/the_very_Real_Horst/sounds/205999/",
-    "author": "the_very_Real_Horst",
-    "name": "Fischtrommel_Muyu.mp3",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "original": "accents/woodblock-6.mp3",
-    "source_samplerate": 48000.0,
-    "source_bitdepth": 0,
-    "source_type": "mp3",
-    "bundled": true,
-    "bytes": 243012
+    "bytes": 111929
   },
   {
     "file": "accents/zen-gong-4.opus",
@@ -6841,7 +6408,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 85467
+    "bytes": 85464
   },
   {
     "file": "accents/singing-bowl-deep-10.opus",
@@ -6862,7 +6429,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 267321
+    "bytes": 216210
   },
   {
     "file": "accents/zen-gong-5.opus",
@@ -6883,7 +6450,7 @@
     "source_bitdepth": 16,
     "source_type": "wav",
     "bundled": true,
-    "bytes": 72393
+    "bytes": 72138
   },
   {
     "file": "melodies/handpan-2.opus",
@@ -6905,7 +6472,7 @@
     "source_type": "mp3",
     "merge_batch": "2026-07-12",
     "bundled": true,
-    "bytes": 1427567
+    "bytes": 1419427
   },
   {
     "file": "melodies/handpan-3.opus",
@@ -6927,7 +6494,7 @@
     "source_type": "mp3",
     "merge_batch": "2026-07-12",
     "bundled": true,
-    "bytes": 884143
+    "bytes": 881428
   },
   {
     "file": "melodies/handpan-4.opus",
@@ -6948,7 +6515,7 @@
     "source_bitdepth": null,
     "source_type": "mp3",
     "merge_batch": "2026-07-12",
-    "bytes": 1581965
+    "bytes": 1572994
   },
   {
     "file": "melodies/handpan-5.opus",
@@ -6969,7 +6536,7 @@
     "source_bitdepth": null,
     "source_type": "mp3",
     "merge_batch": "2026-07-12",
-    "bytes": 3536950
+    "bytes": 3530422
   },
   {
     "file": "background/drift-11.opus",
@@ -8271,7 +7838,7 @@
     "source_bitdepth": null,
     "source_type": "mp3",
     "merge_batch": "2026-07-12",
-    "bytes": 3871352
+    "bytes": 3867409
   },
   {
     "file": "melodies/gregorian-2.opus",
@@ -8292,7 +7859,7 @@
     "source_bitdepth": null,
     "source_type": "mp3",
     "merge_batch": "2026-07-12",
-    "bytes": 1223197
+    "bytes": 1219659
   },
   {
     "file": "background/deepscape-49.opus",
@@ -8355,70 +7922,7 @@
     "source_bitdepth": null,
     "source_type": "freesound-original",
     "merge_batch": "2026-07-12",
-    "bytes": 206429
-  },
-  {
-    "file": "melodies/plucked-strings-1.opus",
-    "layer": "melodies",
-    "concept": "plucked-strings",
-    "duration": 75.5,
-    "channels": 2,
-    "bitrate": "96k",
-    "gain": 0.0,
-    "license": "CC-BY",
-    "source_id": 161908,
-    "source": "https://freesound.org/s/161908/",
-    "author": "xserra",
-    "name": "Guqin-1.wav",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "original": "melodies/plucked-strings-1.wav",
-    "source_samplerate": 44100.0,
-    "source_bitdepth": null,
-    "source_type": "freesound-original",
-    "merge_batch": "2026-07-12",
-    "bytes": 960866
-  },
-  {
-    "file": "melodies/plucked-strings-2.opus",
-    "layer": "melodies",
-    "concept": "plucked-strings",
-    "duration": 55.8,
-    "channels": 2,
-    "bitrate": "96k",
-    "gain": 0.0,
-    "license": "CC-BY",
-    "source_id": 115399,
-    "source": "https://freesound.org/s/115399/",
-    "author": "xserra",
-    "name": "oud.wav",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "original": "melodies/plucked-strings-2.wav",
-    "source_samplerate": 44100.0,
-    "source_bitdepth": null,
-    "source_type": "freesound-original",
-    "merge_batch": "2026-07-12",
-    "bytes": 777892
-  },
-  {
-    "file": "melodies/plucked-strings-3.opus",
-    "layer": "melodies",
-    "concept": "plucked-strings",
-    "duration": 81.2,
-    "channels": 2,
-    "bitrate": "96k",
-    "gain": 0.0,
-    "license": "CC0",
-    "source_id": 466485,
-    "source": "https://freesound.org/s/466485/",
-    "author": "Bmangelo",
-    "name": "Charango_improv.wav",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "original": "melodies/plucked-strings-3.wav",
-    "source_samplerate": 44100.0,
-    "source_bitdepth": 24,
-    "source_type": "freesound-original",
-    "merge_batch": "2026-07-12",
-    "bytes": 964490
+    "bytes": 206843
   },
   {
     "file": "melodies/flute-8.opus",
@@ -8439,7 +7943,7 @@
     "source_bitdepth": null,
     "source_type": "freesound-original",
     "merge_batch": "2026-07-12",
-    "bytes": 1432986
+    "bytes": 1431918
   },
   {
     "file": "melodies/flute-9.opus",
@@ -8460,7 +7964,7 @@
     "source_bitdepth": 16,
     "source_type": "freesound-original",
     "merge_batch": "2026-07-12",
-    "bytes": 315105
+    "bytes": 314918
   },
   {
     "file": "accents/singing-bowl-deep-1.opus",
@@ -8482,7 +7986,7 @@
     "source_type": "flac",
     "recovered_orphan": true,
     "bundled": true,
-    "bytes": 155745
+    "bytes": 151497
   },
   {
     "file": "background/forest-morning-6.opus",
@@ -8566,7 +8070,7 @@
     "source_bitdepth": null,
     "source_type": "wav",
     "recovered_orphan": true,
-    "bytes": 600921
+    "bytes": 600485
   },
   {
     "file": "background/crackling-fire-7.opus",
@@ -8633,28 +8137,6 @@
     "recovered_orphan": true,
     "cc0_needs_provenance": true,
     "bytes": 1883070
-  },
-  {
-    "file": "background/deep-rumble-17.opus",
-    "layer": "background",
-    "concept": "deep-rumble",
-    "duration": 117.5,
-    "channels": 2,
-    "bitrate": "80k",
-    "gain": 0.0,
-    "license": "CC0",
-    "source_id": null,
-    "source": "",
-    "author": "Unknown (CC0)",
-    "name": "Deep Rumble 17",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "original": "background/deep-rumble-17.wav",
-    "source_samplerate": 48000.0,
-    "source_bitdepth": 24,
-    "source_type": "wav",
-    "recovered_orphan": true,
-    "cc0_needs_provenance": true,
-    "bytes": 1123561
   },
   {
     "file": "background/forest-morning-7.opus",
