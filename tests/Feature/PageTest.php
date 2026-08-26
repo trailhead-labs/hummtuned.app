@@ -58,3 +58,14 @@ it('exposes the same seventeen programs to both pages in a different order', fun
         ->and($programsOrder->sort()->values())->toEqual($scienceOrder->sort()->values())
         ->and($programsOrder->values())->not->toEqual($scienceOrder->values());
 });
+
+it('links the live App Store listing and marks Google Play as coming soon', function () {
+    $html = $this->get(route('home'))->assertOk()->getContent();
+
+    expect($html)->toContain('href="'.config('store.app_store_url').'"')
+        ->and($html)->toContain('app-id='.config('store.app_store_id'))
+        ->and($html)->toContain('Download on the')
+        ->and($html)->toContain('Coming soon to')
+        ->and($html)->not->toContain('href="#"')
+        ->and($html)->not->toContain('Coming soon!');
+});

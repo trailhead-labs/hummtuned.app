@@ -23,8 +23,12 @@
                     {{--
                     <a href="#" class="transition hover:text-cream">Support</a>
                     --}}
-                    <a href="#" class="transition hover:text-cream">App Store</a>
-                    <a href="#" class="transition hover:text-cream">Google Play</a>
+                    <a href="{{ config('store.app_store_url') }}" class="transition hover:text-cream">App Store</a>
+                    @if (config('store.google_play_url'))
+                        <a href="{{ config('store.google_play_url') }}" class="transition hover:text-cream">Google Play</a>
+                    @else
+                        <span class="text-muted/50">Google Play <span class="text-xs">(soon)</span></span>
+                    @endif
                 </nav>
             </div>
             <x-trailhead icon-class="w-8 h-auto" class="-ml-1 mt-8" />

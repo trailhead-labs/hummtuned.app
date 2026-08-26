@@ -20,6 +20,9 @@
     <link rel="icon" href="{{ asset('favicon.ico') }}?v={{ filemtime(public_path('favicon.ico')) }}" sizes="any" />
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon-32.png') }}?v={{ filemtime(public_path('favicon-32.png')) }}" />
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon-16.png') }}?v={{ filemtime(public_path('favicon-16.png')) }}" />
+    {{-- Safari on iOS shows a Smart App Banner pointing at the live listing. --}}
+    <meta name="apple-itunes-app" content="app-id={{ config('store.app_store_id') }}" />
+
     <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}?v={{ filemtime(public_path('apple-touch-icon.png')) }}" />
 
     @fonts

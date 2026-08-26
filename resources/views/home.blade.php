@@ -17,7 +17,7 @@
 
             <div class="mt-9 flex flex-col gap-4">
                 <x-store-badges size="hero" />
-                <p class="text-sm text-muted">No account required. Works offline.</p>
+                <p class="text-sm text-muted">Now on iPhone, Android coming soon. No account required. Works offline.</p>
             </div>
         </div>
 
@@ -270,7 +270,7 @@
                     <button type="button" aria-expanded="false" aria-controls="faq-answer-4" class="flex w-full cursor-pointer items-center justify-between gap-4 py-5 text-left font-display text-lg text-cream">Which devices does it run on?<span class="shrink-0 text-muted transition group-[.is-open]:rotate-45">+</span></button>
                     <div id="faq-answer-4" class="faq-answer">
                         <div>
-                            <p class="pb-5 text-muted">iPhone and Android phones. Download from the App Store or Google Play.</p>
+                            <p class="pb-5 text-muted">iPhone, from the <a href="{{ config('store.app_store_url') }}" class="text-violet-soft transition hover:text-violet-bright">App Store</a>. Android is coming soon to Google Play.</p>
                         </div>
                     </div>
                 </div>
@@ -314,11 +314,8 @@
     <section class="border-t border-white/5 py-20 sm:py-28">
         <div class="mx-auto max-w-2xl px-6 text-center">
             <h2 class="reveal font-display text-4xl font-extralight leading-tight text-cream sm:text-5xl">Focus, sleep, wake, dream.<br><span class="text-violet-soft">One dial.</span></h2>
-            <x-cta href="#pricing" size="lg" class="reveal mt-9">Coming soon!</x-cta>
-            {{-- TODO: Restore at launch
             <x-cta href="#pricing" size="lg" class="reveal mt-9">Try seven days free</x-cta>
             <p class="reveal mt-4 text-sm text-muted">No account required. Works offline.</p>
-            --}}
         </div>
     </section>
 
