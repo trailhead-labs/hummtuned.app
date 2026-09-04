@@ -146,7 +146,10 @@
     {{-- 6. Why Humm is different (tabbed: the engine, the science, no-config, what it doesn't do) --}}
     <x-why-different />
 
-    {{-- Testimonials (social proof, right before the price) --}}
+    {{-- Testimonials (social proof, right before the price). Parked until real,
+         attributed reviews come in; restore the whole block, placeholder data
+         and all, by closing this comment once the quotes are genuine.
+
     @php
         // Placeholder testimonials and monogram avatars. Swap for real, attributed
         // reviews (and photos, with consent) once TestFlight feedback lands;
@@ -167,9 +170,9 @@
             <p class="-mx-2 reveal mt-4 text-sm tracking-[0.2em] text-violet-soft/70"><sup>*</sup> Placeholder reviews now. These will be real people after launch, promise.</p>
         </div>
 
-        {{-- A slider a little wider than the page container: drag or swipe to move,
-             its sides masked so cards ease off the edges. The max-width lives on the
-             wrapper so the calc padding stays relative to it and never overshoots. --}}
+        A slider a little wider than the page container: drag or swipe to move,
+        its sides masked so cards ease off the edges. The max-width lives on the
+        wrapper so the calc padding stays relative to it and never overshoots.
         <div class="reveal mx-auto mt-14 max-w-7xl">
             <div data-slider
                  class="no-scrollbar flex cursor-grab select-none snap-x snap-mandatory gap-5 overflow-x-auto px-[max(1.5rem,calc((100%-72rem)/2))] pb-4"
@@ -189,6 +192,7 @@
             </div>
         </div>
     </section>
+    --}}
 
     {{-- 8. Pricing --}}
     <section id="pricing" class="border-t border-white/5 py-16 sm:py-24">

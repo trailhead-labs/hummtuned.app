@@ -10,6 +10,14 @@ it('renders the landing page', function () {
         ->assertSee('Buy it once. Own it for life.');
 });
 
+it('keeps the placeholder testimonials off the page until real reviews land', function () {
+    $this->get(route('home'))
+        ->assertOk()
+        ->assertDontSee('In their words')
+        ->assertDontSee("Trusted for what it doesn't do.", false)
+        ->assertDontSee('Placeholder reviews');
+});
+
 it('renders the FAQ as accessible button disclosures', function () {
     $html = $this->get(route('home'))->assertOk()->getContent();
 

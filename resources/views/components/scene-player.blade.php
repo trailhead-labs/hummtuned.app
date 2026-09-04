@@ -58,7 +58,7 @@
         </button>
 
         {{-- Live meter: same visual language as the science-page graphs, cropped to the bars. --}}
-        <div class="relative grid aspect-[240/96] flex-1 place-items-center">
+        <div class="relative grid aspect-[240/96] min-w-0 flex-1 place-items-center">
             <div class="absolute -inset-3" style="background: radial-gradient(58% 62% at 50% 50%, rgba(139,124,240,0.12) 0%, rgba(139,124,240,0.05) 42%, rgba(139,124,240,0.018) 64%, transparent 82%);"></div>
             <svg viewBox="0 22 240 96" class="relative w-full" fill="none" aria-hidden="true">
                 <defs>
